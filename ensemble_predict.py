@@ -32,7 +32,7 @@ class Config:
 
     # 视频窗口设置 (都是16帧，但时间长度不同)
     window_configs = [
-        {"name": "2s", "duration": 2.0, "model_path": "/root/autodl-tmp/nexar-solution/before.pth"}
+        {"name": "2s", "duration": 2.0, "model_path": "/root/autodl-tmp/nexar-solution/best.pth"}
     ]
     
     # 模型参数
