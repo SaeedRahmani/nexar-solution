@@ -111,7 +111,7 @@ The model weights and training logs are available in this repository and also fr
 - **GitHub**: In this repository under the `models/` and `logs/` directories
 - **Hugging Face**: Due to GitHub's file size limits, the full model weights are also available at [Hugging Face Space](https://huggingface.co/spaces/zhiyaowang/VideoMaev2-giant-nexar-solution)
 
-**Note**: The model weights are quite large (~2.7GB). If you're interested in reproducing the results, you can either download the weights or follow the data processing and training scripts with the fixed random seed (`seed=42`).
+**Note**: The model weights are quite large (~12.7GB). If you're interested in reproducing the results, you can either download the weights or follow the data processing and training scripts with the fixed random seed (`seed=42`).
 
 ## Repository Structure
 
@@ -236,7 +236,7 @@ else:
 - **GitHub**：在本仓库的`models/`和`logs/`目录下
 - **Hugging Face**：由于GitHub的文件大小限制，完整的模型权重也可在[Hugging Face Space](https://huggingface.co/spaces/zhiyaowang/VideoMaev2-giant-nexar-solution)获取
 
-**注意**：模型权重相当大（约2.7GB）。如果您有兴趣重现结果，您可以下载权重或使用固定随机种子（`seed=42`）遵循数据处理和训练脚本。
+**注意**：模型权重相当大（约12.7GB）。如果您有兴趣重现结果，您可以下载权重或使用固定随机种子（`seed=42`）遵循数据处理和训练脚本。
 
 ## 仓库结构
 
