@@ -30,10 +30,10 @@ CONFIG = dict(
     # Optimisation
     learning_rate=1e-5,
     weight_decay=1e-4,
-    epochs=10,
+    epochs=3,
     accumulation_steps=8,
-    scheduler_T_max=20,
-    scheduler_eta_min=1e-7,
+    scheduler_T_max=2,
+    scheduler_eta_min=1e-6,
     scheduler_step_size=600,   # LR step every N global batches
 
     # Temperature scaling
