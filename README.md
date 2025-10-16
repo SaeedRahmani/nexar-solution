@@ -4,7 +4,7 @@
 
 ## English
 
-# VideoMAE-based Vehicle Collision Prediction Solution: 4th Place on Kaggle Public Leaderboard (Score 0.886)
+# VideoMAE-based Vehicle Collision Prediction Solution: 2nd Place on Kaggle Public Leaderboard (Score 0.886)
 
 ## Solution Overview
 
