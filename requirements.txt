@@ -1,0 +1,23 @@
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Transformers and Video Models
+transformers>=4.30.0
+
+# Computer Vision
+opencv-python>=4.8.0
+albumentations>=1.3.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+psutil>=5.9.0
+
+# For CUDA support (if you have NVIDIA GPU)
+# Install PyTorch with CUDA from: https://pytorch.org/get-started/locally/
