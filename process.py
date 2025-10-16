@@ -14,9 +14,9 @@ import io
 
 # 配置参数
 class Config:
-    video_dir = "/root/autodl-tmp/dataset/train"
+    video_dir = "dataset/train"
     output_dir = "balanced_dataset_2s"
-    csv_path = "/root/autodl-tmp/dataset/train.csv"
+    csv_path = "dataset/train.csv"
     target_fps = 8
     window_size = 16
     window_stride = 2
