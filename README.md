@@ -12,7 +12,7 @@ Hey everyone,
 
 I'd like to share my approach for the Nexar Safe Driving Video Analysis competition. This solution uses a deep learning method based on the **VideoMAEv2-giant** pre-trained model to predict collision and near-miss risks in driving videos.
 
-The process was relatively straightforward, and it achieved **4th place on the public leaderboard** with a score of **0.886**.
+The process was relatively straightforward, and it achieved **2nd place on the public leaderboard** with a score of **0.886**.
 
 ## Why VideoMAEv2?
 
@@ -129,7 +129,7 @@ Achieving a decent rank with what feels like a somewhat unrefined and insufficie
 
 ## 中文版
 
-# 基于VideoMAE的车辆碰撞预测解决方案：Kaggle公开排行榜第4名（分数0.886）
+# 基于VideoMAE的车辆碰撞预测解决方案：Kaggle公开排行榜第2名（分数0.886）
 
 ## 解决方案概述
 
@@ -137,7 +137,7 @@ Achieving a decent rank with what feels like a somewhat unrefined and insufficie
 
 我想分享一下我在Nexar安全驾驶视频分析比赛中的解决方案。这个方案使用了基于**VideoMAEv2-giant**预训练模型的深度学习方法来预测驾驶视频中的碰撞和险些碰撞风险。
 
-整个过程相对简单，并在公开排行榜上获得了**第4名**，分数为**0.886**。
+整个过程相对简单，并在公开排行榜上获得了**第2名**，分数为**0.886**。
 
 ## 为什么选择VideoMAEv2？
 
