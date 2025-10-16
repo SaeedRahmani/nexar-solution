@@ -12,7 +12,7 @@ import threading
 import queue
 import io
 
-# 配置参数
+# Configuration parameters
 class Config:
     video_dir = "dataset/train"
     output_dir = "balanced_dataset_2s"
@@ -23,12 +23,12 @@ class Config:
     img_size = (320, 320)
     test_size = 0.2
     seed = 42
-    video_format = "avi"  # 改回更广泛支持的avi格式
-    codec = "XVID"        # XVID编码器在大多数系统上都可用
-    num_threads = min(os.cpu_count() * 2, 16)  # 动态线程数
+    video_format = "avi"  # Changed back to the more widely supported avi format
+    codec = "XVID"        # XVID encoder is available on most systems
+    num_threads = min(os.cpu_count() * 2, 16)  # Dynamic thread count
     max_videos = None
-    # 添加内存缓冲区大小配置
-    buffer_size = 48  # 在内存中保存的窗口数量
+    # Add memory buffer size configuration
+    buffer_size = 48  # Number of windows to keep in memory
 
 class VideoProcessor:
     def __init__(self):
@@ -36,9 +36,9 @@ class VideoProcessor:
         if Config.max_videos:
             self.df = self.df.head(Config.max_videos)
         self._init_directories()
-        self.metadata_queue = queue.Queue()  # 异步元数据队列
+        self.metadata_queue = queue.Queue()  # Asynchronous metadata queue
         self.lock = threading.Lock()
-        # 添加全局视频写入器缓存
+        # Add global video writer cache
         self.writer_cache = {}
 
     def _init_directories(self):
@@ -52,7 +52,7 @@ class VideoProcessor:
                         os.remove(file_path)
 
     def _extract_frames(self, video_path):
-        """改为生成器，逐帧生成"""
+        """Changed to generator, generate frame by frame"""
         cap = cv2.VideoCapture(video_path)
         if not cap.isOpened():
             return
@@ -70,20 +70,20 @@ class VideoProcessor:
         cap.release()
 
     def _get_video_writer(self, save_path):
-        """获取或创建视频写入器"""
+        """Get or create video writer"""
         cache_key = os.path.abspath(save_path)
         
-        # 检查缓存中是否已有该路径的writer
+        # Check if writer for this path already exists in cache
         if cache_key in self.writer_cache:
             return self.writer_cache[cache_key], True
         
-        # 创建新的writer
+        # Create new writer
         fourcc = cv2.VideoWriter_fourcc(*Config.codec)
         writer = cv2.VideoWriter(save_path, fourcc, Config.target_fps, Config.img_size)
         
-        # 检查writer是否成功初始化
+        # Check if writer is successfully initialized
         if not writer.isOpened():
-            # 尝试备用编码器
+            # Try backup encoders
             backup_codecs = ["MJPG", "DIVX", "MPEG", "X264"]
             for codec in backup_codecs:
                 fourcc = cv2.VideoWriter_fourcc(*codec)
@@ -91,45 +91,45 @@ class VideoProcessor:
                 if writer.isOpened():
                     break
         
-        # 如果所有编码器都失败，使用未压缩格式
+        # If all encoders fail, use uncompressed format
         if not writer.isOpened():
             writer = cv2.VideoWriter(save_path, 0, Config.target_fps, Config.img_size)
             
-        # 缓存writer
+        # Cache writer
         self.writer_cache[cache_key] = writer
         return writer, False
 
     def _release_writer(self, save_path):
-        """释放指定路径的写入器"""
+        """Release writer for specified path"""
         cache_key = os.path.abspath(save_path)
         if cache_key in self.writer_cache:
             self.writer_cache[cache_key].release()
             del self.writer_cache[cache_key]
 
     def _save_video_window(self, frames, save_path):
-        """使用缓存的 VideoWriter"""
+        """Use cached VideoWriter"""
         try:
             writer, _ = self._get_video_writer(save_path)
             
-            # 批量写入帧以提高效率
+            # Batch write frames to improve efficiency
             for frame in frames:
                 writer.write(frame)
             
-            # 视频写入完成后释放写入器
+            # Release writer after video writing is complete
             self._release_writer(save_path)
             return True
         except Exception as e:
-            print(f"保存视频时发生错误: {str(e)}")
+            print(f"Error occurred while saving video: {str(e)}")
             return False
 
     def _process_buffer(self, buffer):
-        """处理缓冲区中的窗口数据"""
+        """Process window data in buffer"""
         processed_count = 0
         for item in buffer:
-            # 保存为视频文件
+            # Save as video file
             save_success = self._save_video_window(item["frames"], item["save_path"])
             
-            # 只有保存成功才记录元数据
+            # Only record metadata if save is successful
             if save_success:
                 self.metadata_queue.put(item["metadata"])
                 processed_count += 1
@@ -145,7 +145,7 @@ class VideoProcessor:
             frames = []
             timestamps = []
             
-            # 先加载初始帧
+            # Load initial frames first
             for _ in range(Config.window_size):
                 try:
                     frame, ts = next(frame_gen)
@@ -162,18 +162,18 @@ class VideoProcessor:
             alert_time = row['time_of_alert']
             is_positive_video = (row['target'] == 1)
 
-            # 使用内存缓冲区存储窗口数据
+            # Use memory buffer to store window data
             buffer = []
             window_count = 0
             i = 0
             
             while True:
-                # 获取当前窗口的帧和时间
+                # Get frames and times for current window
                 window_frames = frames[i:i + Config.window_size]
                 window_times = timestamps[i:i + Config.window_size]
                 last_time = window_times[-1]
 
-                # 根据时间标记正负样本
+                # Label positive/negative samples based on time
                 if is_positive_video:
                     if last_time >= event_time:
                         break
@@ -185,7 +185,7 @@ class VideoProcessor:
                 save_name = f"{base_name}_win{i:03d}_l{label}.{Config.video_format}"
                 save_path = os.path.join(Config.output_dir, split, label_dir, save_name)
                 
-                # 将窗口数据添加到缓冲区
+                # Add window data to buffer
                 buffer.append({
                     "frames": window_frames.copy(),
                     "save_path": save_path,
@@ -198,12 +198,12 @@ class VideoProcessor:
                     }
                 })
                 
-                # 当缓冲区达到指定大小时，处理并清空缓冲区
+                # When buffer reaches specified size, process and clear buffer
                 if len(buffer) >= Config.buffer_size:
                     window_count += self._process_buffer(buffer)
                     buffer = []
                 
-                # 滑动窗口并加载更多帧
+                # Slide window and load more frames
                 i += Config.window_stride
                 while len(frames) < i + Config.window_size:
                     try:
@@ -218,18 +218,18 @@ class VideoProcessor:
                 if len(frames) < i + Config.window_size:
                     break
 
-            # 处理剩余的缓冲区数据
+            # Process remaining buffer data
             if buffer:
                 window_count += self._process_buffer(buffer)
                 
-            print(f"处理完成: {video_id} 生成 {window_count} 个窗口")
+            print(f"Processing complete: {video_id} generated {window_count} windows")
         except Exception as e:
-            print(f"处理失败 {video_id}: {str(e)}")
+            print(f"Processing failed {video_id}: {str(e)}")
             
     def _balance_dataset(self):
-        print("\n开始平衡数据集...")
+        print("\nStarting to balance dataset...")
         meta_df = pd.DataFrame(self.metadata)
-        to_delete = []  # 延迟删除
+        to_delete = []  # Delayed deletion
         for split in ["train", "val"]:
             pos_mask = (meta_df['label'] == 1) & (meta_df['path'].str.startswith(split))
             pos_samples = meta_df[pos_mask]
@@ -242,7 +242,7 @@ class VideoProcessor:
                 neg_selected = neg_samples.sample(sample_num, random_state=Config.seed)
                 to_delete.extend(neg_samples[~neg_samples.index.isin(neg_selected.index)]['path'])
                 meta_df = pd.concat([meta_df[~neg_mask], neg_selected])
-        # 批量删除
+        # Batch delete
         for path in to_delete:
             full_path = os.path.join(Config.output_dir, path)
             if os.path.exists(full_path):
@@ -250,7 +250,7 @@ class VideoProcessor:
         
         meta_df.to_csv(os.path.join(Config.output_dir, "metadata.csv"), index=False)
         self.metadata = meta_df.to_dict('records')
-        print("数据集平衡完成")
+        print("Dataset balancing complete")
 
     def _visualize_samples(self):
         plt.figure(figsize=(15, 5))
@@ -258,13 +258,13 @@ class VideoProcessor:
         for idx, sample in enumerate(samples):
             full_path = os.path.join(Config.output_dir, sample['path'])
             
-            # 从视频文件加载帧
+            # Load frames from video file
             cap = cv2.VideoCapture(full_path)
             ret, frame = cap.read()
             if ret:
                 plt.subplot(1, 3, idx+1)
                 plt.imshow(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-                plt.title(f"{'正样本' if sample['label'] else '负样本'}\n{sample['source']}")
+                plt.title(f"{'Positive sample' if sample['label'] else 'Negative sample'}\n{sample['source']}")
                 plt.axis('off')
             cap.release()
                 
@@ -273,8 +273,8 @@ class VideoProcessor:
         plt.show()
         
     def _cleanup_resources(self):
-        """清理所有资源"""
-        # 释放所有视频写入器
+        """Clean up all resources"""
+        # Release all video writers
         for key in list(self.writer_cache.keys()):
             self.writer_cache[key].release()
         self.writer_cache.clear()
@@ -287,21 +287,21 @@ class VideoProcessor:
             futures = []
             for _, row in self.df.iterrows():
                 futures.append(executor.submit(self._process_video, row=row, train_ids=train_ids))
-            for future in tqdm(futures, desc="处理视频", total=len(futures)):
+            for future in tqdm(futures, desc="Processing videos", total=len(futures)):
                 future.result()
 
-        # 从队列收集元数据
+        # Collect metadata from queue
         self.metadata = []
         while not self.metadata_queue.empty():
             self.metadata.append(self.metadata_queue.get())
         
-        # 确保所有资源被释放
+        # Ensure all resources are released
         self._cleanup_resources()
         
         self._balance_dataset()
         if len(self.metadata) > 0:
             self._visualize_samples()
-        print("处理流程全部完成")
+        print("All processing workflows complete")
 
 if __name__ == "__main__":
     processor = VideoProcessor()
