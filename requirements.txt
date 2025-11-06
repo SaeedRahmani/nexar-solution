@@ -21,6 +21,7 @@ psutil>=5.9.0
 
 # Training 
 easydict
+timm
 
 # For CUDA support (if you have NVIDIA GPU)
 # Install PyTorch with CUDA from: https://pytorch.org/get-started/locally/
