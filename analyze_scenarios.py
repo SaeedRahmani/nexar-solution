@@ -17,6 +17,7 @@ Outputs to scenario_analysis/:
 """
 import pandas as pd
 import os
+import matplotlib.pyplot as plt
 
 
 def load_annotations(round1_path, round2_path):
@@ -159,6 +160,83 @@ def calculate_scenario_accuracy(df, scenario_columns, output_path):
     return grouped
 
 
+def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
+    """Create visualization for scenario accuracy
+    
+    Args:
+        accuracy_csv_path: Path to the accuracy CSV file
+        output_plot_path: Where to save the plot
+        title: Plot title
+    """
+    df = pd.read_csv(accuracy_csv_path)
+    
+    # Determine if this is Level 1 or Level 2 (hierarchical)
+    is_hierarchical = 'scenario_level_2' in df.columns
+    
+    if is_hierarchical:
+        # Level 2: Create hierarchical labels
+        df['label'] = df['scenario_level_1'] + '\n→ ' + df['scenario_level_2']
+        # Sort by Level 1 category first, then by count
+        df = df.sort_values(['scenario_level_1', 'total'], ascending=[True, False])
+    else:
+        # Level 1: Simple labels
+        df['label'] = df['scenario_level_1']
+        # Sort by count only
+        df = df.sort_values('total', ascending=False)
+    
+    # Create figure
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, max(8, len(df) * 0.4)))
+    
+    # Plot 1: Accuracy bar chart
+    colors = ['#2ecc71' if acc >= 90 else '#f39c12' if acc >= 80 else '#e74c3c' 
+              for acc in df['accuracy']]
+    
+    bars = ax1.barh(df['label'], df['accuracy'], color=colors, alpha=0.7, edgecolor='black')
+    ax1.set_xlabel('Accuracy (%)', fontsize=12, fontweight='bold')
+    ax1.set_title(f'{title} - Accuracy', fontsize=14, fontweight='bold')
+    ax1.set_xlim(0, 105)
+    ax1.axvline(x=90, color='green', linestyle='--', alpha=0.3, label='90%')
+    ax1.axvline(x=80, color='orange', linestyle='--', alpha=0.3, label='80%')
+    ax1.grid(axis='x', alpha=0.3)
+    ax1.legend(loc='lower right')
+    
+    # Add accuracy values on bars
+    for i, (bar, acc, correct, total) in enumerate(zip(bars, df['accuracy'], df['correct'], df['total'])):
+        width = bar.get_width()
+        ax1.text(width + 1, bar.get_y() + bar.get_height()/2, 
+                f'{acc:.1f}% ({int(correct)}/{int(total)})',
+                ha='left', va='center', fontsize=9, fontweight='bold')
+    
+    # Plot 2: Sample counts
+    bars2 = ax2.barh(df['label'], df['total'], color='steelblue', alpha=0.7, edgecolor='black')
+    ax2.set_xlabel('Number of Videos', fontsize=12, fontweight='bold')
+    ax2.set_title(f'{title} - Sample Size', fontsize=14, fontweight='bold')
+    ax2.grid(axis='x', alpha=0.3)
+    
+    # Add count values on bars
+    for bar, total in zip(bars2, df['total']):
+        width = bar.get_width()
+        ax2.text(width + 0.5, bar.get_y() + bar.get_height()/2, 
+                f'{int(total)}',
+                ha='left', va='center', fontsize=9, fontweight='bold')
+    
+    # Color-code by Level 1 if hierarchical
+    if is_hierarchical:
+        level1_categories = df['scenario_level_1'].unique()
+        colors_map = plt.cm.Set3(range(len(level1_categories)))
+        level1_to_color = dict(zip(level1_categories, colors_map))
+        
+        for ax in [ax1, ax2]:
+            for i, (label, level1) in enumerate(zip(df['label'], df['scenario_level_1'])):
+                ax.get_yticklabels()[i].set_color(level1_to_color[level1])
+                ax.get_yticklabels()[i].set_fontweight('bold')
+    
+    plt.tight_layout()
+    plt.savefig(output_plot_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"Saved plot: {output_plot_path}")
+
+
 def main():
     """Main execution"""
     # Paths
@@ -243,18 +321,32 @@ def main():
         print(f"Overall Accuracy: {overall_acc:.1f}%")
         
         # Level 1 accuracy
+        level1_csv = os.path.join(output_dir, f'{prefix}_level1_accuracy.csv')
         calculate_scenario_accuracy(
             df, 
             'scenario_level_1',
-            os.path.join(output_dir, f'{prefix}_level1_accuracy.csv')
+            level1_csv
+        )
+        # Generate plot
+        plot_scenario_accuracy(
+            level1_csv,
+            os.path.join(output_dir, f'{prefix}_level1_accuracy.png'),
+            f'{name} - Level 1'
         )
         
         # Level 2 accuracy (with Level 1 context)
         if do_level2:
+            level2_csv = os.path.join(output_dir, f'{prefix}_level2_accuracy.csv')
             calculate_scenario_accuracy(
                 df,
                 ['scenario_level_1', 'scenario_level_2'],
-                os.path.join(output_dir, f'{prefix}_level2_accuracy.csv')
+                level2_csv
+            )
+            # Generate plot
+            plot_scenario_accuracy(
+                level2_csv,
+                os.path.join(output_dir, f'{prefix}_level2_accuracy.png'),
+                f'{name} - Level 2 (Hierarchical)'
             )
     
     print("\n" + "="*80)
