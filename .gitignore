@@ -7,3 +7,5 @@ __pycache__
 
 # Output files
 aggregated_results/*
+scenario_labels/*
+scenario_analysis/*
