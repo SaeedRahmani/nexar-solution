@@ -1,3 +1,8 @@
 dataset/*
 balanced_dataset_2s/*
 logs/*
+
+# Output files
+aggregated_results/*
+scenario_labels/*
+scenario_analysis/*
