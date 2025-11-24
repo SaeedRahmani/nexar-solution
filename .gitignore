@@ -9,3 +9,6 @@ __pycache__
 aggregated_results/*
 scenario_labels/*
 scenario_analysis/*
+scenario_analysis_ALL/*
+scenario_analysis_VAL/*
+aggregated_results_ALL/*

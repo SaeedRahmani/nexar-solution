@@ -112,7 +112,11 @@ class PredictionAggregator:
             # Get predictions and probabilities for all segments from this video
             preds = group['pred'].values
             probs = group['prob'].values
-            segment_label = group['label'].iloc[0]  # Ground truth for segments
+            # Use segment_label if available, otherwise fall back to label (from metadata)
+            if 'segment_label' in group.columns:
+                segment_label = group['segment_label'].iloc[0]
+            else:
+                segment_label = group['label'].iloc[0]  # Ground truth for segments
             
             # Handle NaN in probabilities
             valid_probs = probs[~pd.isna(probs)]
@@ -156,20 +160,21 @@ class PredictionAggregator:
         agg_df = pd.DataFrame(aggregated)
         
         # Merge with original labels
-        # Convert video_id format: "00128" -> "01924" or whatever format is in train.csv
-        self.original_df['id'] = self.original_df['id'].astype(str).str.zfill(5)
-        agg_df['video_id'] = agg_df['video_id'].astype(str).str.zfill(5)
+        # Convert video_id format for matching: both to zero-padded strings
+        self.original_df['id_str'] = self.original_df['id'].astype(str).str.zfill(5)
+        agg_df['video_id_str'] = agg_df['video_id'].astype(str).str.zfill(5)
         
         agg_df = agg_df.merge(
-            self.original_df[['id', 'target']], 
-            left_on='video_id', 
-            right_on='id', 
+            self.original_df[['id_str', 'target']], 
+            left_on='video_id_str', 
+            right_on='id_str', 
             how='left'
         )
         
-        # Rename for clarity
+        # Rename for clarity and drop temporary columns
         agg_df['true_label'] = agg_df['target']
-        agg_df = agg_df.drop(['target', 'id'], axis=1)
+        agg_df = agg_df.drop(['target', 'id_str', 'video_id_str'], axis=1)
+        # Keep video_id as integer (not zero-padded string) for analyze_scenarios.py
         
         print(f"Aggregated to {len(agg_df)} original videos")
         print(f"Missing true labels: {agg_df['true_label'].isna().sum()}")
