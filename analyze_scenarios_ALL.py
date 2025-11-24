@@ -234,14 +234,19 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
                 # Label (Scenario Name)
                 ax.text(-1, y_pos, row['scenario_level_2'], ha='right', va='center', fontsize=11, color='#34495e')
                 
-                # Value (Accuracy %) inside or next to bar
-                text_color = 'white' if row['accuracy'] > 50 else 'black'
-                ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
-                       ha='right', va='center', fontsize=10, fontweight='bold', color=text_color)
-                
-                # Sample Count (n=...) on the right
-                ax.text(row['accuracy'] + 1, y_pos, f"(n={row['total']})", 
-                       ha='left', va='center', fontsize=10, color='#7f8c8d')
+                # Value (Accuracy %) & Count
+                if row['accuracy'] < 15:
+                    # Low accuracy: Text outside (right)
+                    ax.text(row['accuracy'] + 1, y_pos, f"{row['accuracy']:.1f}%", 
+                           ha='left', va='center', fontsize=10, fontweight='bold', color='black')
+                    ax.text(row['accuracy'] + 12, y_pos, f"(n={int(row['total'])})", 
+                           ha='left', va='center', fontsize=10, color='#7f8c8d')
+                else:
+                    # High accuracy: Text inside (left of end)
+                    ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
+                           ha='right', va='center', fontsize=10, fontweight='bold', color='white')
+                    ax.text(row['accuracy'] + 1, y_pos, f"(n={int(row['total'])})", 
+                           ha='left', va='center', fontsize=10, color='#7f8c8d')
                 
                 y_pos += 0.6
             
@@ -257,26 +262,29 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
             # Label
             ax.text(-1, y_pos, row['scenario_level_1'], ha='right', va='center', fontsize=12, color='#34495e')
             
-            # Value
-            text_color = 'white' if row['accuracy'] > 50 else 'black'
-            ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
-                   ha='right', va='center', fontsize=11, fontweight='bold', color=text_color)
-            
-            # Count
-            ax.text(row['accuracy'] + 1, y_pos, f"(n={row['total']})", 
-                   ha='left', va='center', fontsize=11, color='#7f8c8d')
+            # Value & Count
+            if row['accuracy'] < 15:
+                ax.text(row['accuracy'] + 1, y_pos, f"{row['accuracy']:.1f}%", 
+                       ha='left', va='center', fontsize=11, fontweight='bold', color='black')
+                ax.text(row['accuracy'] + 12, y_pos, f"(n={int(row['total'])})", 
+                       ha='left', va='center', fontsize=11, color='#7f8c8d')
+            else:
+                ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
+                       ha='right', va='center', fontsize=11, fontweight='bold', color='white')
+                ax.text(row['accuracy'] + 1, y_pos, f"(n={int(row['total'])})", 
+                       ha='left', va='center', fontsize=11, color='#7f8c8d')
             
             y_pos += 0.8
 
     # Styling
     ax.set_xlim(-40, 115) # Left margin for labels, Right for counts
-    ax.set_ylim(-0.5, y_pos)
+    ax.set_ylim(-2, y_pos)
     ax.invert_yaxis() # Top to bottom
     ax.axis('off') # Turn off all spines/ticks
     
     # Add Title
-    ax.text(0, -1, title, fontsize=20, fontweight='bold', color='#2c3e50')
-    ax.text(0, -0.2, "Accuracy % by Scenario (Bar Length & Color)", fontsize=12, color='#7f8c8d')
+    ax.text(0, -1.5, title, fontsize=20, fontweight='bold', color='#2c3e50')
+    ax.text(0, -0.8, "Accuracy % by Scenario (Bar Length & Color)", fontsize=12, color='#7f8c8d')
     
     # Add simple legend/guide manually
     # ax.text(105, -1, "n = Sample Size", fontsize=10, color='#7f8c8d', ha='right')
