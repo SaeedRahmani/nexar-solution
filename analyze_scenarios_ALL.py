@@ -24,6 +24,7 @@ Outputs to scenario_analysis_ALL/:
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def load_annotations(round1_path, round2_path):
@@ -167,7 +168,13 @@ def calculate_scenario_accuracy(df, scenario_columns, output_path):
 
 
 def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
-    """Create visualization for scenario accuracy
+    """Create a Modern 'Dashboard-Style' Horizontal Bar Chart.
+    
+    Design Philosophy: "Clean & Informative"
+    - Layout: Linear list (easiest to read).
+    - Visuals: Minimalist bars with direct labeling.
+    - Grouping: Level 2 items are visually grouped under Level 1 headers.
+    - Clutter Reduction: No axes, no grids, no legends. Just data.
     
     Args:
         accuracy_csv_path: Path to the accuracy CSV file
@@ -179,73 +186,104 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
     # Determine if this is Level 1 or Level 2 (hierarchical)
     is_hierarchical = 'scenario_level_2' in df.columns
     
+    # Sort Data
     if is_hierarchical:
-        # Level 2: Create hierarchical labels
-        df['label'] = df['scenario_level_1'] + '\n→ ' + df['scenario_level_2']
-        # Sort by Level 1 category first, then by count
-        df = df.sort_values(['scenario_level_1', 'total'], ascending=[True, False])
+        # Sort by Level 1 (alphabetical) then Accuracy (descending)
+        df = df.sort_values(['scenario_level_1', 'accuracy'], ascending=[True, True])
     else:
-        # Level 1: Simple labels
-        df['label'] = df['scenario_level_1']
-        # Sort by count only
-        df = df.sort_values('total', ascending=False)
-    
-    # Create figure with larger size for better readability
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, max(10, len(df) * 0.5)))
-    
-    # Plot 1: Accuracy bar chart
-    colors = ['#27ae60' if acc >= 90 else '#d68910' if acc >= 80 else '#c0392b' 
-              for acc in df['accuracy']]
-    
-    bars = ax1.barh(df['label'], df['accuracy'], color=colors, alpha=0.8, edgecolor='black', linewidth=1.5)
-    ax1.set_xlabel('Accuracy (%)', fontsize=16, fontweight='bold')
-    ax1.set_title(f'{title} - Accuracy', fontsize=18, fontweight='bold', pad=20)
-    ax1.set_xlim(0, 105)
-    ax1.axvline(x=90, color='#27ae60', linestyle='--', linewidth=2, alpha=0.5, label='90%')
-    ax1.axvline(x=80, color='#d68910', linestyle='--', linewidth=2, alpha=0.5, label='80%')
-    ax1.grid(axis='x', alpha=0.3, linewidth=1)
-    ax1.legend(loc='lower right', fontsize=12)
-    ax1.tick_params(axis='both', labelsize=12)
-    
-    # Add accuracy values on bars with larger font
-    for i, (bar, acc, correct, total) in enumerate(zip(bars, df['accuracy'], df['correct'], df['total'])):
-        width = bar.get_width()
-        ax1.text(width + 1, bar.get_y() + bar.get_height()/2, 
-                f'{acc:.1f}% ({int(correct)}/{int(total)})',
-                ha='left', va='center', fontsize=12, fontweight='bold', color='black')
-    
-    # Plot 2: Sample counts
-    bars2 = ax2.barh(df['label'], df['total'], color='#2980b9', alpha=0.8, edgecolor='black', linewidth=1.5)
-    ax2.set_xlabel('Number of Videos', fontsize=16, fontweight='bold')
-    ax2.set_title(f'{title} - Sample Size', fontsize=18, fontweight='bold', pad=20)
-    ax2.grid(axis='x', alpha=0.3, linewidth=1)
-    ax2.tick_params(axis='both', labelsize=12)
-    
-    # Add count values on bars with larger font
-    for bar, total in zip(bars2, df['total']):
-        width = bar.get_width()
-        ax2.text(width + 0.5, bar.get_y() + bar.get_height()/2, 
-                f'{int(total)}',
-                ha='left', va='center', fontsize=12, fontweight='bold', color='black')
-    
-    # Color-code by Level 1 if hierarchical - using darker, more visible colors
-    if is_hierarchical:
-        level1_categories = df['scenario_level_1'].unique()
-        # Use tab10 colormap which has darker, more visible colors
-        colors_map = plt.cm.tab10(range(len(level1_categories)))
-        level1_to_color = dict(zip(level1_categories, colors_map))
+        df = df.sort_values('accuracy', ascending=True)
         
-        for ax in [ax1, ax2]:
-            for i, (label, level1) in enumerate(zip(df['label'], df['scenario_level_1'])):
-                color = level1_to_color[level1]
-                ax.get_yticklabels()[i].set_color(color)
-                ax.get_yticklabels()[i].set_fontweight('bold')
-                ax.get_yticklabels()[i].set_fontsize(11)
+    # Setup Figure
+    # Dynamic height: 0.5 inch per row + header space
+    row_height = 0.5
+    header_height = 2
+    total_height = (len(df) * row_height) + header_height
+    if is_hierarchical:
+        # Add space for category headers
+        num_categories = len(df['scenario_level_1'].unique())
+        total_height += num_categories * 0.8
+        
+    fig, ax = plt.subplots(figsize=(16, total_height), facecolor='white')
     
-    plt.tight_layout()
-    plt.savefig(output_plot_path, dpi=150, bbox_inches='tight')
+    # Colors (Red -> Yellow -> Green)
+    cmap = plt.cm.RdYlGn
+    norm = plt.Normalize(vmin=60, vmax=100) # Focus color range on 60-100%
+    
+    # Plotting Loop
+    y_pos = 0
+    y_labels = []
+    y_ticks = []
+    
+    # Group by Level 1 if hierarchical
+    if is_hierarchical:
+        groups = df.groupby('scenario_level_1', sort=False)
+        
+        for name, group in groups:
+            # Add Category Header
+            y_pos += 1
+            ax.text(0, y_pos, name.upper(), fontsize=14, fontweight='bold', color='#2c3e50', va='center')
+            ax.hlines(y_pos - 0.3, 0, 100, color='#bdc3c7', linewidth=1) # Separator line
+            y_pos += 0.8
+            
+            # Plot items in group
+            for _, row in group.iterrows():
+                # Bar
+                color = cmap(norm(row['accuracy']))
+                ax.barh(y_pos, row['accuracy'], height=0.6, color=color, alpha=0.8, align='center', edgecolor='none')
+                
+                # Label (Scenario Name)
+                ax.text(-1, y_pos, row['scenario_level_2'], ha='right', va='center', fontsize=11, color='#34495e')
+                
+                # Value (Accuracy %) inside or next to bar
+                text_color = 'white' if row['accuracy'] > 50 else 'black'
+                ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
+                       ha='right', va='center', fontsize=10, fontweight='bold', color=text_color)
+                
+                # Sample Count (n=...) on the right
+                ax.text(row['accuracy'] + 1, y_pos, f"(n={row['total']})", 
+                       ha='left', va='center', fontsize=10, color='#7f8c8d')
+                
+                y_pos += 0.6
+            
+            y_pos += 0.5 # Gap between groups
+            
+    else:
+        # Flat List
+        for _, row in df.iterrows():
+            # Bar
+            color = cmap(norm(row['accuracy']))
+            ax.barh(y_pos, row['accuracy'], height=0.6, color=color, alpha=0.8, align='center')
+            
+            # Label
+            ax.text(-1, y_pos, row['scenario_level_1'], ha='right', va='center', fontsize=12, color='#34495e')
+            
+            # Value
+            text_color = 'white' if row['accuracy'] > 50 else 'black'
+            ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
+                   ha='right', va='center', fontsize=11, fontweight='bold', color=text_color)
+            
+            # Count
+            ax.text(row['accuracy'] + 1, y_pos, f"(n={row['total']})", 
+                   ha='left', va='center', fontsize=11, color='#7f8c8d')
+            
+            y_pos += 0.8
+
+    # Styling
+    ax.set_xlim(-40, 115) # Left margin for labels, Right for counts
+    ax.set_ylim(-0.5, y_pos)
+    ax.invert_yaxis() # Top to bottom
+    ax.axis('off') # Turn off all spines/ticks
+    
+    # Add Title
+    ax.text(0, -1, title, fontsize=20, fontweight='bold', color='#2c3e50')
+    ax.text(0, -0.2, "Accuracy % by Scenario (Bar Length & Color)", fontsize=12, color='#7f8c8d')
+    
+    # Add simple legend/guide manually
+    # ax.text(105, -1, "n = Sample Size", fontsize=10, color='#7f8c8d', ha='right')
+
+    plt.savefig(output_plot_path, dpi=200, bbox_inches='tight', facecolor='white')
     plt.close()
-    print(f"Saved plot: {output_plot_path}")
+    print(f"Saved Modern Dashboard plot: {output_plot_path}")
 
 
 def main():
