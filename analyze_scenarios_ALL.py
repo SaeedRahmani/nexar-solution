@@ -206,8 +206,11 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
     fig, ax = plt.subplots(figsize=(16, total_height), facecolor='white')
     
     # Colors (Red -> Yellow -> Green)
+    # Using 'nipy_spectral' or similar can be too much. Let's stick to RdYlGn but shift the center.
+    # Or better, let's use a custom color logic for "Vivid"
+    # But to keep it simple and robust, let's just adjust the norm and text color.
     cmap = plt.cm.RdYlGn
-    norm = plt.Normalize(vmin=60, vmax=100) # Focus color range on 60-100%
+    norm = plt.Normalize(vmin=50, vmax=105) # Shifted to make 100% a nice deep green
     
     # Plotting Loop
     y_pos = 0
@@ -221,32 +224,38 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
         for name, group in groups:
             # Add Category Header
             y_pos += 1
-            ax.text(0, y_pos, name.upper(), fontsize=14, fontweight='bold', color='#2c3e50', va='center')
-            ax.hlines(y_pos - 0.3, 0, 100, color='#bdc3c7', linewidth=1) # Separator line
+            ax.text(0, y_pos, name.upper(), fontsize=14, fontweight='bold', color='black', va='center')
+            ax.hlines(y_pos - 0.3, 0, 100, color='black', linewidth=1) # Separator line
             y_pos += 0.8
             
             # Plot items in group
             for _, row in group.iterrows():
                 # Bar
                 color = cmap(norm(row['accuracy']))
-                ax.barh(y_pos, row['accuracy'], height=0.6, color=color, alpha=0.8, align='center', edgecolor='none')
+                ax.barh(y_pos, row['accuracy'], height=0.6, color=color, alpha=0.9, align='center', edgecolor='none')
                 
-                # Label (Scenario Name)
-                ax.text(-1, y_pos, row['scenario_level_2'], ha='right', va='center', fontsize=11, color='#34495e')
+                # Label (Scenario Name) - Dark Black
+                ax.text(-1, y_pos, row['scenario_level_2'], ha='right', va='center', fontsize=11, color='black', fontweight='medium')
                 
                 # Value (Accuracy %) & Count
+                # Determine text color based on background brightness
+                # In RdYlGn: Ends are dark, Middle is light.
+                # Approx: 65-90 is lightish. <65 is red/orange (darker), >90 is green (darker).
+                # Let's be safe: Black text for 60-92 range. White otherwise.
+                bar_text_color = 'black' if (60 <= row['accuracy'] <= 92) else 'white'
+                
                 if row['accuracy'] < 15:
                     # Low accuracy: Text outside (right)
                     ax.text(row['accuracy'] + 1, y_pos, f"{row['accuracy']:.1f}%", 
                            ha='left', va='center', fontsize=10, fontweight='bold', color='black')
                     ax.text(row['accuracy'] + 12, y_pos, f"(n={int(row['total'])})", 
-                           ha='left', va='center', fontsize=10, color='#7f8c8d')
+                           ha='left', va='center', fontsize=10, color='black')
                 else:
                     # High accuracy: Text inside (left of end)
                     ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
-                           ha='right', va='center', fontsize=10, fontweight='bold', color='white')
+                           ha='right', va='center', fontsize=10, fontweight='bold', color=bar_text_color)
                     ax.text(row['accuracy'] + 1, y_pos, f"(n={int(row['total'])})", 
-                           ha='left', va='center', fontsize=10, color='#7f8c8d')
+                           ha='left', va='center', fontsize=10, color='black')
                 
                 y_pos += 0.6
             
@@ -257,22 +266,24 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
         for _, row in df.iterrows():
             # Bar
             color = cmap(norm(row['accuracy']))
-            ax.barh(y_pos, row['accuracy'], height=0.6, color=color, alpha=0.8, align='center')
+            ax.barh(y_pos, row['accuracy'], height=0.6, color=color, alpha=0.9, align='center')
             
-            # Label
-            ax.text(-1, y_pos, row['scenario_level_1'], ha='right', va='center', fontsize=12, color='#34495e')
+            # Label - Dark Black
+            ax.text(-1, y_pos, row['scenario_level_1'], ha='right', va='center', fontsize=12, color='black', fontweight='medium')
             
             # Value & Count
+            bar_text_color = 'black' if (60 <= row['accuracy'] <= 92) else 'white'
+            
             if row['accuracy'] < 15:
                 ax.text(row['accuracy'] + 1, y_pos, f"{row['accuracy']:.1f}%", 
                        ha='left', va='center', fontsize=11, fontweight='bold', color='black')
                 ax.text(row['accuracy'] + 12, y_pos, f"(n={int(row['total'])})", 
-                       ha='left', va='center', fontsize=11, color='#7f8c8d')
+                       ha='left', va='center', fontsize=11, color='black')
             else:
                 ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
-                       ha='right', va='center', fontsize=11, fontweight='bold', color='white')
+                       ha='right', va='center', fontsize=11, fontweight='bold', color=bar_text_color)
                 ax.text(row['accuracy'] + 1, y_pos, f"(n={int(row['total'])})", 
-                       ha='left', va='center', fontsize=11, color='#7f8c8d')
+                       ha='left', va='center', fontsize=11, color='black')
             
             y_pos += 0.8
 
@@ -283,7 +294,7 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
     ax.axis('off') # Turn off all spines/ticks
     
     # Add Title
-    ax.text(0, -1.5, title, fontsize=20, fontweight='bold', color='#2c3e50')
+    ax.text(0, -1.5, title, fontsize=20, fontweight='bold', color='black')
     ax.text(0, -0.8, "Accuracy % by Scenario (Bar Length & Color)", fontsize=12, color='#7f8c8d')
     
     # Add simple legend/guide manually
