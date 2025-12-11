@@ -43,7 +43,7 @@ FRAME_COUNT = train_module.FRAME_COUNT
 device = train_module.device
 VideoMAEClassifier = train_module.VideoMAEClassifier
 
-from aggregate_predictions import PredictionAggregator
+from utils.aggregate_predictions import PredictionAggregator
 
 def load_model(model_path):
     """Load trained model."""
