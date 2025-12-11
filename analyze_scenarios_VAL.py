@@ -8,7 +8,7 @@ This script:
 4. Calculates per-scenario accuracy metrics
 
 Usage:
-    python analyze_scenarios.py
+    python analyze_scenarios_VAL.py
 
 Outputs to scenario_analysis/:
     - Level_1_matched.csv, Level_2_matched.csv: Matched annotations
