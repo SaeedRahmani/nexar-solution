@@ -13,3 +13,11 @@ scenario_analysis_ALL/*
 scenario_analysis_VAL/*
 aggregated_results_ALL/*
 mismatched/*
+
+# Outputs of other models (focal and different window sizes)
+aggregated_results_ALL_focal/*
+aggregated_results_focal/*
+balanced_dataset_2s_focal/*
+balanced_dataset_3s/*
+best_videomaev2_large_focal.pth
+test_results_focal.json
