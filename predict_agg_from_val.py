@@ -1,10 +1,13 @@
 """
-Simple Video-Level Aggregation (Uses Existing Validation Structure)
+"""Predict and Aggregate from Validation Set
+
 This script:
 1. Loads your trained model
-2. Uses the SAME validation dataset structure as test_model-large.py
-3. Makes predictions and tracks which segments belong to which videos
-4. Aggregates to video level
+2. Predicts on VALIDATION set only (unbiased evaluation)
+3. Tracks which segments belong to which videos
+4. Aggregates to video level with metrics and visualizations
+
+Outputs to aggregated_results_val/
 """
 import os
 import sys
@@ -99,7 +102,7 @@ def predict_and_track(model, val_loader, val_dataset):
 
 def main():
     print("="*70)
-    print("SIMPLE VIDEO-LEVEL EVALUATION")
+    print("PREDICT & AGGREGATE FROM VALIDATION SET")
     print("="*70)
     
     # Configuration
@@ -139,8 +142,8 @@ def main():
     predictions_df = predict_and_track(model, val_loader, val_dataset)
     
     # Save segment predictions
-    os.makedirs('aggregated_results', exist_ok=True)
-    seg_path = 'aggregated_results/segment_predictions.csv'
+    os.makedirs('aggregated_results_val', exist_ok=True)
+    seg_path = 'aggregated_results_val/segment_predictions.csv'
     predictions_df.to_csv(seg_path, index=False)
     print(f"\n✅ Segment predictions saved to: {seg_path}")
     
@@ -152,7 +155,7 @@ def main():
     aggregator = PredictionAggregator(
         metadata_path='balanced_dataset_2s/metadata.csv',
         original_labels_path='dataset/train.csv',
-        output_dir='aggregated_results'
+        output_dir='aggregated_results_val'
     )
     
     # Load and merge with metadata
@@ -185,13 +188,13 @@ def main():
     print("\n" + "="*70)
     print("✅ EVALUATION COMPLETE!")
     print("="*70)
-    print("\nResults saved to 'aggregated_results/' directory:")
+    print("\nResults saved to 'aggregated_results_val/' directory:")
     print("  - aggregated_predictions_any.csv   ← Video-level predictions")
     print("  - metrics_any.json                 ← Performance metrics")
     print("  - confusion_matrix_original_videos.png")
     print("  - detailed_report_any.txt          ← Readable summary")
     print("\nTo view results:")
-    print("  cat aggregated_results/detailed_report_any.txt")
+    print("  cat aggregated_results_val/detailed_report_any.txt")
 
 if __name__ == '__main__':
     try:

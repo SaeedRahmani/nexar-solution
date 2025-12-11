@@ -1,16 +1,19 @@
 """
-Generate predictions for ENTIRE dataset (train + validation)
+"""Predict and Aggregate from Train + Validation Sets
 
 This script:
 1. Loads your trained model
-2. Runs predictions on ALL videos (both train and validation splits)
+2. Predicts on TRAIN + VALIDATION splits (for scenario analysis)
 3. Aggregates predictions to original video level
-4. Saves results for scenario analysis
+4. Saves results for scenario analysis with large sample sizes
 
-⚠️  WARNING: This includes training data - accuracy will be inflated!
+⚠️  WARNING: This includes training data - accuracy will be BIASED/INFLATED!
    Use this ONLY for per-scenario statistics, NOT for model evaluation.
+   For unbiased evaluation, use: predict_agg_from_val.py
    
 CHECKPOINTING: If interrupted, the script will resume from cached predictions.
+
+Outputs to aggregated_results_train_val/
 """
 import os
 import sys
@@ -121,7 +124,7 @@ def main():
     VAL_ROOT = 'balanced_dataset_2s/val'
     METADATA_PATH = 'balanced_dataset_2s/metadata.csv'
     GROUND_TRUTH_PATH = 'dataset/train.csv'
-    OUTPUT_DIR = 'aggregated_results_ALL'
+    OUTPUT_DIR = 'aggregated_results_train_val'
     BATCH_SIZE = 8
     
     # Checkpoint paths
@@ -265,6 +268,7 @@ def main():
     print("\nNext step:", flush=True)
     print("  Run: python analyze_scenarios_ALL.py", flush=True)
     print("  This will analyze accuracy per scenario using these predictions", flush=True)
+    print("\n💡 For UNBIASED evaluation, use: python predict_agg_from_val.py", flush=True)
 
 if __name__ == '__main__':
     main()
