@@ -303,33 +303,118 @@ if len(false_negatives) > 0 and len(true_positives) > 0:
                 facecolor='white', edgecolor='none')
     plt.close()
     
-    # ---- Comparison Plot 2: Overlapping Histograms ----
-    fig, ax = plt.subplots(figsize=(10, 6))
+    # ---- Comparison Plot 2: Overlapping Histograms with Ratio Line ----
+    fig, ax1 = plt.subplots(figsize=(12, 7))
     
-    ax.hist(false_negatives['time_difference'], bins=15, 
-            color=colors['wrong'], edgecolor='white', linewidth=1.2, alpha=0.6,
-            label=f'Wrong (n={len(false_negatives)}, μ={false_negatives["time_difference"].mean():.2f}s)')
-    ax.hist(true_positives['time_difference'], bins=30, 
-            color=colors['correct'], edgecolor='white', linewidth=1.2, alpha=0.6,
-            label=f'Correct (n={len(true_positives)}, μ={true_positives["time_difference"].mean():.2f}s)')
+    # Define common bins for both histograms
+    all_time_diffs = np.concatenate([false_negatives['time_difference'].values, 
+                                      true_positives['time_difference'].values])
+    bin_edges = np.linspace(all_time_diffs.min(), all_time_diffs.max(), 16)
+    bin_centers = (bin_edges[:-1] + bin_edges[1:]) / 2
     
-    ax.axvline(false_negatives['time_difference'].mean(), color=colors['wrong'], 
-               linestyle='--', linewidth=2.5, alpha=0.9)
-    ax.axvline(true_positives['time_difference'].mean(), color=colors['correct'], 
-               linestyle='--', linewidth=2.5, alpha=0.9)
+    # Plot histograms with same bins
+    n_wrong, _, _ = ax1.hist(false_negatives['time_difference'], bins=bin_edges, 
+                              color=colors['wrong'], edgecolor='white', linewidth=1.2, alpha=0.6,
+                              label=f'Wrong (n={len(false_negatives)}, μ={false_negatives["time_difference"].mean():.2f}s)')
+    n_correct, _, _ = ax1.hist(true_positives['time_difference'], bins=bin_edges, 
+                                color=colors['correct'], edgecolor='white', linewidth=1.2, alpha=0.6,
+                                label=f'Correct (n={len(true_positives)}, μ={true_positives["time_difference"].mean():.2f}s)')
     
-    ax.set_xlabel('Time Difference (seconds)', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Count', fontsize=12, fontweight='bold')
-    ax.set_title('Time Difference Distribution: Wrong vs Correct Predictions\n(Overlapping)', 
-                 fontsize=14, fontweight='bold', pad=10)
-    ax.legend(fontsize=10, loc='upper right')
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
+    # Add mean lines
+    ax1.axvline(false_negatives['time_difference'].mean(), color=colors['wrong'], 
+                linestyle='--', linewidth=2.5, alpha=0.9)
+    ax1.axvline(true_positives['time_difference'].mean(), color=colors['correct'], 
+                linestyle='--', linewidth=2.5, alpha=0.9)
+    
+    ax1.set_xlabel('Time Difference (seconds)', fontsize=12, fontweight='bold')
+    ax1.set_ylabel('Count', fontsize=12, fontweight='bold')
+    ax1.set_title('Time Difference Distribution: Wrong vs Correct Predictions\n(Overlapping with Error Ratio)', 
+                  fontsize=14, fontweight='bold', pad=10)
+    ax1.legend(fontsize=10, loc='upper right')
+    ax1.spines['top'].set_visible(False)
+    ax1.spines['right'].set_visible(False)
+    
+    # Create secondary y-axis for ratio
+    ax2 = ax1.twinx()
+    
+    # Calculate ratio (wrong/correct) for each bin, handle division by zero
+    with np.errstate(divide='ignore', invalid='ignore'):
+        ratio = np.where(n_correct > 0, n_wrong / n_correct, np.nan)
+    
+    # Plot ratio line (only where we have valid ratios)
+    valid_mask = ~np.isnan(ratio)
+    ax2.plot(bin_centers[valid_mask], ratio[valid_mask], 
+             color=colors['dark'], linewidth=2.5, marker='o', markersize=8,
+             label='Wrong/Correct Ratio', zorder=10)
+    
+    # Add markers for bins with no correct predictions (ratio undefined)
+    if np.any(~valid_mask & (n_wrong > 0)):
+        undefined_bins = bin_centers[~valid_mask & (n_wrong > 0)]
+        ax2.scatter(undefined_bins, [ax2.get_ylim()[1] * 0.9] * len(undefined_bins), 
+                    marker='^', s=100, color=colors['dark'], 
+                    label='Undefined (no correct)', zorder=10)
+    
+    ax2.set_ylabel('Wrong/Correct Ratio', fontsize=12, fontweight='bold', color=colors['dark'])
+    ax2.tick_params(axis='y', labelcolor=colors['dark'])
+    ax2.spines['top'].set_visible(False)
+    ax2.legend(fontsize=10, loc='upper left')
+    
+    # Add horizontal line at ratio = 1 for reference
+    ax2.axhline(y=1.0, color='gray', linestyle=':', linewidth=1.5, alpha=0.7)
     
     plt.tight_layout()
     plt.savefig(f"{comparison_dir}/comparison_overlapping_histograms.png", dpi=150, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
     plt.savefig(f"{comparison_dir}/comparison_overlapping_histograms.pdf", bbox_inches='tight',
+                facecolor='white', edgecolor='none')
+    plt.close()
+    
+    # ---- Comparison Plot 2b: Normalized Overlapping Histograms with Ratio Line ----
+    # This version normalizes histograms to show proportions, making comparison easier
+    fig, ax1 = plt.subplots(figsize=(12, 7))
+    
+    # Plot normalized histograms (density)
+    n_wrong_norm, _, _ = ax1.hist(false_negatives['time_difference'], bins=bin_edges, 
+                                   color=colors['wrong'], edgecolor='white', linewidth=1.2, alpha=0.6,
+                                   density=True,
+                                   label=f'Wrong (n={len(false_negatives)}, μ={false_negatives["time_difference"].mean():.2f}s)')
+    n_correct_norm, _, _ = ax1.hist(true_positives['time_difference'], bins=bin_edges, 
+                                     color=colors['correct'], edgecolor='white', linewidth=1.2, alpha=0.6,
+                                     density=True,
+                                     label=f'Correct (n={len(true_positives)}, μ={true_positives["time_difference"].mean():.2f}s)')
+    
+    # Add mean lines
+    ax1.axvline(false_negatives['time_difference'].mean(), color=colors['wrong'], 
+                linestyle='--', linewidth=2.5, alpha=0.9)
+    ax1.axvline(true_positives['time_difference'].mean(), color=colors['correct'], 
+                linestyle='--', linewidth=2.5, alpha=0.9)
+    
+    ax1.set_xlabel('Time Difference (seconds)', fontsize=12, fontweight='bold')
+    ax1.set_ylabel('Density (Normalized)', fontsize=12, fontweight='bold')
+    ax1.set_title('Time Difference Distribution (Normalized): Wrong vs Correct Predictions\n(with Error Ratio based on counts)', 
+                  fontsize=14, fontweight='bold', pad=10)
+    ax1.legend(fontsize=10, loc='upper right')
+    ax1.spines['top'].set_visible(False)
+    ax1.spines['right'].set_visible(False)
+    
+    # Create secondary y-axis for ratio (using original counts)
+    ax2 = ax1.twinx()
+    
+    # Plot ratio line
+    ax2.plot(bin_centers[valid_mask], ratio[valid_mask], 
+             color=colors['dark'], linewidth=2.5, marker='o', markersize=8,
+             label='Wrong/Correct Ratio', zorder=10)
+    
+    ax2.set_ylabel('Wrong/Correct Ratio', fontsize=12, fontweight='bold', color=colors['dark'])
+    ax2.tick_params(axis='y', labelcolor=colors['dark'])
+    ax2.spines['top'].set_visible(False)
+    ax2.legend(fontsize=10, loc='upper left')
+    ax2.axhline(y=1.0, color='gray', linestyle=':', linewidth=1.5, alpha=0.7)
+    
+    plt.tight_layout()
+    plt.savefig(f"{comparison_dir}/comparison_overlapping_histograms_normalized.png", dpi=150, bbox_inches='tight',
+                facecolor='white', edgecolor='none')
+    plt.savefig(f"{comparison_dir}/comparison_overlapping_histograms_normalized.pdf", bbox_inches='tight',
                 facecolor='white', edgecolor='none')
     plt.close()
     
@@ -538,7 +623,8 @@ if len(true_positives) > 0:
     print(f"  - correct_predictions_analysis.png/pdf (Individual analysis for correct predictions)")
 if len(false_negatives) > 0 and len(true_positives) > 0:
     print(f"  - comparison_histograms.png/pdf (Side-by-side histograms)")
-    print(f"  - comparison_overlapping_histograms.png/pdf (Overlapping histograms)")
+    print(f"  - comparison_overlapping_histograms.png/pdf (Overlapping histograms with ratio line)")
+    print(f"  - comparison_overlapping_histograms_normalized.png/pdf (Normalized overlapping histograms with ratio)")
     print(f"  - comparison_boxplots.png/pdf (Side-by-side box plots)")
     print(f"  - comparison_combined_boxplot.png/pdf (Combined box plot)")
     print(f"  - comparison_scatter_plots.png/pdf (Side-by-side scatter plots)")
