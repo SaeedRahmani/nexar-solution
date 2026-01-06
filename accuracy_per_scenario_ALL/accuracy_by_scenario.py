@@ -227,8 +227,31 @@ def plot_scenario_accuracy(accuracy_csv_path, output_plot_path, title):
     ax.invert_yaxis()
     ax.axis('off')
     
-    # Add Title
-    ax.text(0, -1.5, title, fontsize=20, fontweight='bold', color='black')
+    # Add Title with two parts: "Level X – " in black, subtitle in red
+    # Parse title to extract level info
+    if 'Level 1' in title:
+        level_text = 'Level 1 – '
+    elif 'Level 2' in title:
+        level_text = 'Level 2 – '
+    else:
+        level_text = title + ' – '
+    
+    subtitle = 'Validation and Train Dataset'
+    
+    # Use transform to position text properly
+    from matplotlib.transforms import offset_copy
+    
+    # Draw level text in black, get its extent
+    txt1 = ax.text(0, -1.5, level_text, fontsize=20, fontweight='bold', color='black',
+                   transform=ax.transData)
+    
+    # Force a draw to get the text extent
+    fig.canvas.draw()
+    bbox = txt1.get_window_extent(renderer=fig.canvas.get_renderer())
+    bbox_data = bbox.transformed(ax.transData.inverted())
+    
+    # Draw subtitle right after level text
+    ax.text(bbox_data.x1, -1.5, subtitle, fontsize=20, fontweight='bold', color='#C41E3A')
     ax.text(0, -0.8, "Accuracy % by Scenario (Bar Length & Color)", fontsize=12, color='#7f8c8d')
 
     plt.savefig(output_plot_path, dpi=200, bbox_inches='tight', facecolor='white')
