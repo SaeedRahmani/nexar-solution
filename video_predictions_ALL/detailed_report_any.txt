@@ -1,0 +1,30 @@
+======================================================================
+AGGREGATED PREDICTION RESULTS - ANY
+======================================================================
+
+Aggregation Method: any
+Total Videos: 1477
+Accuracy: 86.46%
+
+Per-Class Metrics:
+----------------------------------------------------------------------
+Negative Class:
+  Precision: 0.9583
+  Recall:    0.7579
+  F1-Score:  0.8464
+  Support:   727
+
+Positive Class:
+  Precision: 0.8049
+  Recall:    0.9680
+  F1-Score:  0.8789
+  Support:   750
+
+ROC-AUC: 0.9597
+
+Confusion Matrix:
+----------------------------------------------------------------------
+                    Predicted
+                 Negative  Positive
+Actual Negative       551       176
+       Positive        24       726

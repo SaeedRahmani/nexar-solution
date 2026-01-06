@@ -1,0 +1,155 @@
+video_name,scenario_level_1,scenario_level_2,label_source,video_id,predicted_label,predicted_probability,true_label
+00022.mp4,Driving in Lane,PV cut-in,R1_R2_Match,22,1,0.97890925,1
+00040.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,40,1,0.9811782,1
+00068.mp4,Driving in Lane,PV stopped,R1_R2_Match,68,1,0.9970047,1
+00084.mp4,Driving in Lane,PV cut-in,R1_R2_Match,84,1,0.96257937,1
+00109.mp4,Driving in Lane,PV stopped,R1_R2_Match,109,1,0.9967018,1
+00123.mp4,Driving in Lane,PV cut-in,R1_R2_Match,123,1,0.9949862,1
+00130.mp4,Driving in Lane,PV stopped,R1_R2_Match,130,1,0.9938547,1
+00145.mp4,Driving in Lane,PV stopped,R1_R2_Match,145,1,0.99836177,1
+00157.mp4,Driving in Lane,PV cut-in,R1_R2_Match,157,1,0.99382186,1
+00180.mp4,Driving in Lane,PV cut-in,R1_R2_Match,180,1,0.5145062,1
+00188.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,188,1,0.97113514,1
+00189.mp4,Driving in Lane,PV stopped,R1_R2_Match,189,1,0.9990947,1
+00210.mp4,Turning at intersection,Other vehicle approaching from side,R1_R2_Match,210,1,0.9891516,1
+00218.mp4,Driving in Lane,PV cut-in,R1_R2_Match,218,1,0.8733781,1
+00234.mp4,Driving in Lane,PV stopped,R1_R2_Match,234,1,0.99818665,1
+00237.mp4,Driving in Lane,PV stopped,R1_R2_Match,237,1,0.981486,1
+00252.mp4,Driving in Lane,PV cut-in,R1_R2_Match,252,1,0.5792648,1
+00259.mp4,Leaving Lane,PV @ target lane,R1_R2_Match,259,1,0.9962197,1
+00270.mp4,Leaving Lane,PV @ target lane,R1_R2_Match,270,1,0.99002177,1
+00273.mp4,Straight at intersection,Other vehicle on the adjacent lane,R1_R2_Match,273,1,0.9985183,1
+00275.mp4,Driving in Lane,PV braking / slower,R1_R2_Match,275,1,0.9976441,1
+00307.mp4,Driving in Lane,PV braking / slower,R1_R2_Match,307,1,0.9991986,1
+00331.mp4,Turning at intersection,PV Slower / Braking / Stopped,R1_R2_Match,331,1,0.99842656,1
+00333.mp4,Driving in Lane,PV stopped,R1_R2_Match,333,1,0.9927026,1
+00339.mp4,Driving in Lane,PV braking / slower,R1_R2_Match,339,0,0.36252058,1
+00340.mp4,Driving in Lane,PV cut-in,R1_R2_Match,340,1,0.95045346,1
+00348.mp4,Straight at intersection,Other vehicle approaching from front / opposite,R1_R2_Match,348,1,0.996506,1
+00358.mp4,Driving in Lane,PV braking / slower,R1_R2_Match,358,1,0.99239093,1
+00366.mp4,Driving in Lane,PV stopped,R1_R2_Match,366,1,0.9987317,1
+00369.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,369,1,0.990851,1
+00382.mp4,Leaving Lane,PV @ target lane,R1_R2_Match,382,1,0.99161655,1
+00397.mp4,Turning at intersection,Other vehicle approaching from front / opposite,R1_R2_Match,397,1,0.9615137,1
+00424.mp4,Turning at intersection,PV Slower / Braking / Stopped,R1_R2_Match,424,1,0.9988273,1
+00428.mp4,Turning at intersection,PV Slower / Braking / Stopped,R1_R2_Match,428,1,0.9993056,1
+00441.mp4,Driving in Lane,PV stopped,R1_R2_Match,441,1,0.95478225,1
+00452.mp4,Turning at intersection,PV Slower / Braking / Stopped,R1_R2_Match,452,1,0.99425054,1
+00455.mp4,Driving in Lane,PV cut-in,R1_R2_Match,455,1,0.9963946,1
+00458.mp4,Straight at intersection,PV Slower / Braking / Stopped,R1_R2_Match,458,1,0.9980902,1
+00469.mp4,Driving in Lane,PV cut-in,R1_R2_Match,469,1,0.7027298,1
+00479.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,479,1,0.98794335,1
+00488.mp4,Other,Add Comment,R1_R2_Match,488,1,0.99753076,1
+00494.mp4,Turning at intersection,PV Slower / Braking / Stopped,R1_R2_Match,494,1,0.9991485,1
+00496.mp4,Straight at intersection,PV Slower / Braking / Stopped,R1_R2_Match,496,1,0.99873,1
+00522.mp4,Driving in Lane,PV cut-in,R1_R2_Match,522,1,0.9480079,1
+00523.mp4,Driving in Lane,PV cut-in,R1_R2_Match,523,1,0.7450703,1
+00540.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,540,1,0.9822634,1
+00542.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,542,1,0.9808397,1
+00543.mp4,Driving in Lane,PV stopped,R1_R2_Match,543,1,0.9994149,1
+00549.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,549,1,0.9778772,1
+00553.mp4,Straight at intersection,Other vehicle approaching from front / opposite,R1_R2_Match,553,1,0.99876815,1
+00560.mp4,Driving in Lane,PV cut-in,R1_R2_Match,560,1,0.9909644,1
+00562.mp4,Driving in Lane,PV cut-in,R1_R2_Match,562,1,0.96141493,1
+00573.mp4,Driving in Lane,PV cut-in,R1_R2_Match,573,0,0.0055979276,1
+00580.mp4,Driving in Lane,Oncoming vehicle,R1_R2_Match,580,1,0.94683963,1
+00602.mp4,Driving in Lane,PV cut-in,R1_R2_Match,602,1,0.98962224,1
+00603.mp4,Driving in Lane,PV cut-in,R1_R2_Match,603,1,0.9677169,1
+00624.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,624,1,0.9938498,1
+00633.mp4,Driving in Lane,PV cut-in,R1_R2_Match,633,1,0.99753404,1
+00653.mp4,Driving in Lane,PV cut-in,R1_R2_Match,653,1,0.9972071,1
+00658.mp4,Driving in Lane,PV cut-in,R1_R2_Match,658,1,0.9869223,1
+00663.mp4,Leaving Lane,SV @ target lane,R1_R2_Match,663,1,0.99383473,1
+00669.mp4,Straight at intersection,Other,R1_R2_Match,669,0,0.39544827,1
+00687.mp4,Turning at intersection,Other vehicle on the adjacent lane,R1_R2_Match,687,1,0.9894527,1
+00698.mp4,Driving in Lane,PV cut-in,R1_R2_Match,698,0,0.15800384,1
+00699.mp4,Leaving Lane,SV @ target lane,R1_R2_Match,699,1,0.98253536,1
+00713.mp4,Driving in Lane,PV cut-in,R1_R2_Match,713,1,0.9945739,1
+00731.mp4,Driving in Lane,PV stopped,R1_R2_Match,731,1,0.99807066,1
+00739.mp4,Driving in Lane,PV cut-in,R1_R2_Match,739,1,0.94758,1
+00744.mp4,Driving in Lane,PV cut-in,R1_R2_Match,744,1,0.8144663,1
+00751.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,751,1,0.9920144,1
+00755.mp4,Driving in Lane,PV cut-in,R1_R2_Match,755,1,0.5284224,1
+00791.mp4,Turning at intersection,PV Slower / Braking / Stopped,R1_R2_Match,791,1,0.9980494,1
+00809.mp4,Driving in Lane,PV cut-in,R1_R2_Match,809,1,0.99799734,1
+00838.mp4,Driving in Lane,PV stopped,R1_R2_Match,838,1,0.9987589,1
+00856.mp4,Driving in Lane,PV cut-in,R1_R2_Match,856,1,0.9406688,1
+00857.mp4,Driving in Lane,PV cut-in,R1_R2_Match,857,1,0.85223216,1
+00873.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,873,0,0.33652052,1
+00879.mp4,Driving in Lane,PV cut-in,R1_R2_Match,879,1,0.99663997,1
+00881.mp4,Driving in Lane,PV cut-in,R1_R2_Match,881,0,0.0023772777,1
+00884.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,884,1,0.9269189,1
+00885.mp4,Straight at intersection,Other vehicle approaching from front / opposite,R1_R2_Match,885,1,0.9926651,1
+00905.mp4,Other,Add Comment,R1_R2_Match,905,1,0.993792,1
+00914.mp4,Driving in Lane,PV stopped,R1_R2_Match,914,1,0.9978593,1
+00936.mp4,Driving in Lane,PV braking / slower,R1_R2_Match,936,1,0.99568295,1
+00938.mp4,Other,Add Comment,R1_R2_Match,938,1,0.827984,1
+00942.mp4,Driving in Lane,PV cut-in,R1_R2_Match,942,1,0.9828262,1
+00977.mp4,Driving in Lane,PV cut-in,R1_R2_Match,977,1,0.7885321,1
+00978.mp4,Straight at intersection,Other vehicle on the adjacent lane,R1_R2_Match,978,1,0.99517834,1
+00985.mp4,Straight at intersection,Other vehicle approaching from side,R1_R2_Match,985,1,0.9928388,1
+00996.mp4,Driving in Lane,PV cut-out,R1_R2_Match,996,1,0.98994255,1
+01011.mp4,Turning at intersection,PV Slower / Braking / Stopped,R1_R2_Match,1011,1,0.9934209,1
+01022.mp4,Driving in Lane,PV stopped,R1_R2_Match,1022,1,0.9953435,1
+01024.mp4,Driving in Lane,PV cut-in,R1_R2_Match,1024,1,0.98475534,1
+01034.mp4,Driving in Lane,PV cut-in,R1_R2_Match,1034,1,0.9133603,1
+00047.mp4,Straight at intersection,Other vehicle approaching from side,R3_SanityCheck,47,1,0.9793763,1
+00049.mp4,Leaving Lane,SV @ target lane,R3_SanityCheck,49,1,0.9745831,1
+00063.mp4,Straight at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,63,1,0.9972682,1
+00081.mp4,Straight at intersection,Other vehicle approaching from side,R3_SanityCheck,81,1,0.9585054,1
+00085.mp4,Straight at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,85,1,0.7849494,1
+00095.mp4,Driving in Lane,Other,R3_SanityCheck,95,0,0.40754363,1
+00108.mp4,Other,Add Comment,R3_SanityCheck,108,0,0.011450157,1
+00111.mp4,Driving in Lane,PV stopped,R3_SanityCheck,111,1,0.9984823,1
+00117.mp4,Leaving Lane,SV @ target lane,R3_SanityCheck,117,1,0.7697516,1
+00119.mp4,Straight at intersection,Other vehicle approaching from side,R3_SanityCheck,119,1,0.8946425,1
+00147.mp4,Turning at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,147,1,0.93729234,1
+00148.mp4,Straight at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,148,1,0.9965346,1
+00152.mp4,Turning at intersection,Other,R3_SanityCheck,152,1,0.9263096,1
+00153.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,153,1,0.9969625,1
+00187.mp4,Leaving Lane,SV @ target lane,R3_SanityCheck,187,1,0.91550463,1
+00256.mp4,Leaving Lane,PV @ target lane,R3_SanityCheck,256,1,0.9962309,1
+00260.mp4,Straight at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,260,1,0.99915886,1
+00282.mp4,Turning at intersection,PV Slower / Braking / Stopped,R3_SanityCheck,282,1,0.9973442,1
+00288.mp4,Driving in Lane,Other,R3_SanityCheck,288,1,0.9171956,1
+00290.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,290,1,0.99884653,1
+00302.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,302,1,0.9928873,1
+00308.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,308,1,0.9978333,1
+00326.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,326,1,0.97727627,1
+00341.mp4,Turning at intersection,PV Slower / Braking / Stopped,R3_SanityCheck,341,1,0.99691474,1
+00342.mp4,Driving in Lane,Other,R3_SanityCheck,342,1,0.9915953,1
+00529.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,529,1,0.99617344,1
+00551.mp4,Turning at intersection,Other vehicle approaching from front / opposite,R3_SanityCheck,551,1,0.9338905,1
+00558.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,558,1,0.9917532,1
+00592.mp4,Turning at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,592,1,0.9719135,1
+00597.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,597,0,0.23017399,1
+00598.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,598,1,0.9312688,1
+00636.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,636,1,0.99530196,1
+00638.mp4,Straight at intersection,Other vehicle approaching from side,R3_SanityCheck,638,1,0.9602776,1
+00643.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,643,1,0.9920225,1
+00652.mp4,Leaving Lane,SV @ target lane,R3_SanityCheck,652,1,0.995465,1
+00678.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,678,0,0.040200625,1
+00697.mp4,Leaving Lane,RV @ target lane,R3_SanityCheck,697,1,0.99257976,1
+00723.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,723,1,0.7385322,1
+00769.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,769,1,0.99404234,1
+00794.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,794,1,0.99026674,1
+00372.mp4,Straight at intersection,PV Slower / Braking / Stopped,R3_SanityCheck,372,1,0.99637234,1
+00383.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,383,0,0.0010044402,1
+00433.mp4,Turning at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,433,1,0.992215,1
+00453.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,453,1,0.9988667,1
+00457.mp4,Straight at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,457,0,0.39722097,1
+00463.mp4,Driving in Lane,PV stopped,R3_SanityCheck,463,1,0.9133255,1
+00466.mp4,Driving in Lane,Other,R3_SanityCheck,466,1,0.88023245,1
+00472.mp4,Straight at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,472,1,0.90073866,1
+00502.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,502,1,0.99846965,1
+00516.mp4,Straight at intersection,Other vehicle on the adjacent lane,R3_SanityCheck,516,1,0.99764997,1
+00904.mp4,Leaving Lane,SV @ target lane,R3_SanityCheck,904,1,0.8117843,1
+00921.mp4,Turning at intersection,PV Slower / Braking / Stopped,R3_SanityCheck,921,1,0.99279964,1
+00930.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,930,1,0.941196,1
+00964.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,964,1,0.9094452,1
+00991.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,991,1,0.99357057,1
+00998.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,998,0,0.12988631,1
+01003.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,1003,1,0.9978275,1
+01004.mp4,Driving in Lane,PV braking / slower,R3_SanityCheck,1004,1,0.97744423,1
+01035.mp4,Driving in Lane,PV cut-in,R3_SanityCheck,1035,1,0.9866105,1
+01036.mp4,Straight at intersection,PV Slower / Braking / Stopped,R3_SanityCheck,1036,1,0.99886334,1

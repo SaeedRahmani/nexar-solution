@@ -1,0 +1,281 @@
+Annotator,Video Name,Category,Scenario Level 1,Scenario Level 2,Ego_X,Ego_Y,Ego_Angle,Other_X,Other_Y,Other_Angle,Target not visible,Ego Emergency Maneuver Required,Unexpected Maneuver,Night or Low Light,Rain/Snow/Fog,Cyclist/Scooter Involved,Pedestrian Involved,Nothing Special Observed,Comment
+Saeed Rahmani,00003.mp4,accident,Driving in Lane,PV braking / slower,118,112,90,118,42,90,False,False,False,True,True,False,False,False,
+Saeed Rahmani,00005.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,160,115,123.69006752597979,104,93,90,True,True,False,False,True,False,False,False,
+Saeed Rahmani,00006.mp4,accident,Driving in Lane,PV braking / slower,85,143,90,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00013.mp4,accident,Straight at intersection,Other vehicle approaching from side,52,143,90,106,99,161.565051177078,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00014.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,101,112,145.5610106911964,112,51,270.0,False,False,True,False,False,False,False,False,
+Saeed Rahmani,00015.mp4,accident,Driving in Lane,PV stopped,117,123,72.71850162818336,97,48,90,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00016.mp4,accident,Leaving Lane,SV @ target lane,133,95,73.17859010995917,178,71,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00018.mp4,accident,Straight at intersection,Other vehicle approaching from side,132,113,88.63607246839707,83,66,1.3019526725788753,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00019.mp4,accident,Straight at intersection,Other vehicle approaching from side,118,119,90,152,68,180.0,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00023.mp4,accident,Turning at intersection,Other vehicle approaching from side,141,115,114.34108993669251,85,70,358.6677801461304,True,True,False,False,False,False,False,False,
+Saeed Rahmani,00026.mp4,accident,Driving in Lane,Other,110,53,90,110,123,90,True,False,False,False,False,False,False,False,Scene not visible at all
+Saeed Rahmani,00027.mp4,near-miss,Driving in Lane,PV stopped,130,133,86.49646835521554,107,59,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00029.mp4,accident,Driving in Lane,PV cut-in,108,132,90,137,67,104.03624346792648,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00037.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,109,141,88.95837332399003,79,76,347.98852161363453,True,True,True,True,False,False,False,False,
+Saeed Rahmani,00039.mp4,accident,Driving in Lane,PV stopped,85,139,90,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00041.mp4,accident,Driving in Lane,Other,85,139,90,85,70,90,False,False,True,True,False,False,False,False,Other vehicle reverse movement
+Saeed Rahmani,00042.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,102,122,90,122,64,138.0940580589171,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00046.mp4,accident,Driving in Lane,PV stopped,85,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00047.mp4,accident,Straight at intersection,Other vehicle approaching from side,128,136,90,167,82,176.82016988013575,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00048.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,94,124,45.0,151,101,90,True,True,True,True,False,False,False,False,
+Saeed Rahmani,00049.mp4,accident,Leaving Lane,SV @ target lane,96,131,70.70995378081128,141,89,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00054.mp4,accident,Turning at intersection,Other,139,117,126.6561084159669,95,145,351.1193408494797,False,False,True,False,False,False,False,False,Scene not visible
+Saeed Rahmani,00063.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,115,149,90,85,70,70.70995378081128,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00064.mp4,accident,Leaving Lane,SV @ target lane,76,115,74.87599269168945,120,87,90,True,False,False,True,False,False,False,False,
+Saeed Rahmani,00071.mp4,accident,Leaving Lane,SV @ target lane,136,79,120.52970589993411,86,90,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00072.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,77,89,78.69006752597979,117,106,90,True,False,True,True,False,False,False,False,
+Saeed Rahmani,00076.mp4,near-miss,Leaving Lane,SV @ target lane,97,84,70.01689347810003,147,84,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00077.mp4,accident,Driving in Lane,PV cut-in,93,146,90,94,73,90,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00078.mp4,accident,Driving in Lane,PV braking / slower,95,139,90,94,70,90,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00081.mp4,accident,Straight at intersection,Other vehicle approaching from side,136,108,90,85,70,358.9390883097358,True,False,True,False,False,False,False,False,
+Saeed Rahmani,00036.mp4,accident,Straight at intersection,Other vehicle approaching from side,133,117,90,165,52,195.52411099675425,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00083.mp4,accident,Driving in Lane,PV braking / slower,86,139,90,85,70,90,False,False,False,True,False,False,False,False,Scene not visible clearly in the camera. Information inferred
+Saeed Rahmani,00085.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,165,120,90,121,97,60.57254359681026,True,False,True,True,False,False,False,False,
+Saeed Rahmani,00090.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,148,83,90,85,70,347.347443499442,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00093.mp4,accident,Driving in Lane,PV stopped,86,136,90,85,70,90,False,False,False,True,True,False,False,False,Scene not visible clearly in dashcam
+Saeed Rahmani,00095.mp4,accident,Driving in Lane,Other,124,119,90,90,83,86.09950625761812,True,False,True,False,False,False,False,False,Large truck turning and side crash to the ego
+Saeed Rahmani,00097.mp4,accident,Leaving Lane,SV @ target lane,123,71,108.8531587644191,81,105,90,True,False,False,False,False,False,False,False,
+Saeed Rahmani,00098.mp4,accident,Driving in Lane,PV stopped,74,141,90,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00099.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,154,118,90.0,118,75,63.43494882292201,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00106.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,141,89,181.02303018866783,85,70,268.69804732742114,True,True,False,True,False,False,False,False,
+Saeed Rahmani,00108.mp4,accident,Other,Add Comment,165,120,90,85,70,90,False,False,True,True,False,False,False,False,ego vehicle stopped. Other oncoming vehicle crashing into it
+Saeed Rahmani,00110.mp4,accident,Driving in Lane,PV cut-in,73,149,90,85,70,98.13010235415598,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00111.mp4,accident,Driving in Lane,PV stopped,74,140,90,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00114.mp4,accident,Driving in Lane,Other,60,125,90,85,70,176.9335144988741,False,True,True,True,True,False,False,False,Other vehicle making u-turn
+Saeed Rahmani,00117.mp4,accident,Leaving Lane,SV @ target lane,102,99,60.70863782901574,152,88,90,True,False,True,False,False,False,False,False,
+Saeed Rahmani,00119.mp4,accident,Straight at intersection,Other vehicle approaching from side,143,73,90.0,85,70,29.291362170984254,False,False,True,True,False,False,False,False,
+Saeed Rahmani,00124.mp4,accident,Driving in Lane,PV cut-out,85,139,90,85,70,90,True,True,False,False,False,False,False,False,
+Saeed Rahmani,00133.mp4,accident,Leaving Lane,PV @ target lane,55,134,80.7273982227997,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00135.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,138,84,129.47245984834385,83,72,90,True,False,False,False,False,False,False,False,
+Saeed Rahmani,00138.mp4,near-miss,Leaving Lane,SV @ target lane,139,78,105.70863782901574,85,70,81.34745820888527,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00141.mp4,accident,Driving in Lane,PV stopped,140,100,90,104,69,79.8244891569568,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00142.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,91,142,90,85,70,125.88213724620422,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00147.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,150,66,91.02303018866785,109,110,79.2157021324374,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00148.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,146,90,121.86597769360368,95,101,90,False,False,True,False,False,False,False,False,
+Saeed Rahmani,00152.mp4,accident,Turning at intersection,Other,130,46,116.56505117707799,82,68,83.6598082540901,False,False,True,False,False,False,False,False,Other vehicle coming out of parking
+Saeed Rahmani,00153.mp4,accident,Driving in Lane,PV braking / slower,121,100,90,121,30,90,False,False,False,False,True,False,False,False,
+Saeed Rahmani,00154.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,118,111,133.36342295838327,96,37,268.2100893917539,False,False,True,False,False,False,False,False,
+Saeed Rahmani,00155.mp4,accident,Straight at intersection,Other vehicle approaching from side,134,111,90,85,70,20.353229148068834,True,False,True,False,False,False,False,False,
+Saeed Rahmani,00158.mp4,near-miss,Driving in Lane,PV cut-in,122,103,90.0,121,30,90,False,False,True,False,False,False,False,False,
+Saeed Rahmani,00162.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,98,120,90.0,110,44,102.0947570770121,False,False,True,False,False,False,False,False,
+Saeed Rahmani,00164.mp4,accident,Driving in Lane,PV braking / slower,112,100,90,114,30,90,True,False,False,True,False,False,False,False,Camera facing up and tarhet not visible.
+Saeed Rahmani,00167.mp4,near-miss,Leaving Lane,SV @ target lane,131,53,104.34933204294714,85,70,84.8055710922652,False,False,False,False,True,False,False,False,
+Saeed Rahmani,00169.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,125,101,90,160,61,107.96913974015703,False,False,False,False,True,False,False,False,
+Saeed Rahmani,00170.mp4,accident,Other,Add Comment,137,92,112.89055165624833,88,46,90,False,False,False,True,False,False,False,False,Work zone at an intersection.
+Saeed Rahmani,00172.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,135,85,90,85,38,344.05460409907715,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00177.mp4,accident,Turning at intersection,Other vehicle approaching from side,112,92,90,112,40,358.6521127198014,True,False,False,False,False,False,False,False,
+Saeed Rahmani,00179.mp4,near-miss,Driving in Lane,PV braking / slower,101,115,90,103,40,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00181.mp4,accident,Driving in Lane,PV stopped,115,102,90,116,35,90,True,False,False,True,False,False,False,False,Camera facing up - target vehicle not visible clearly
+Saeed Rahmani,00184.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,121,45,90,85,70,90,True,False,True,True,False,False,False,False,
+Saeed Rahmani,00187.mp4,accident,Leaving Lane,SV @ target lane,124,71,102.01147838636544,78,68,84.05313694602651,True,False,False,False,False,False,False,False,
+Saeed Rahmani,00194.mp4,accident,Driving in Lane,PV braking / slower,112,100,90,100,30,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00200.mp4,accident,Driving in Lane,PV cut-in,133,114,90,104,64,59.47029410006589,False,False,True,True,False,False,False,False,
+Saeed Rahmani,00201.mp4,accident,Leaving Lane,SV @ target lane,69,99,68.74949449286676,115,54,88.63607246839707,True,False,False,True,False,False,False,False,
+Saeed Rahmani,00205.mp4,accident,Driving in Lane,PV braking / slower,125,122,90,125,54,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00209.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,131,115,90,83,95,56.72511201516508,True,False,False,True,False,False,False,False,
+Saeed Rahmani,00225.mp4,accident,Other,Add Comment,130,118,90,99,49,120.25643716352927,False,False,False,True,True,False,False,False,Vehicle coming out from parking space
+Saeed Rahmani,00228.mp4,accident,Driving in Lane,PV braking / slower,102,117,90,102,49,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00235.mp4,accident,Other,Add Comment,110,63,90,162,58,178.49256424122504,False,False,False,False,False,False,False,True,Vehicle coming out of a parking space
+Saeed Rahmani,00239.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,95,67,62.560272051800695,144,69,90,True,False,False,True,False,False,False,False,
+Saeed Rahmani,00240.mp4,accident,Driving in Lane,PV braking / slower,122,127,90,109,58,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00250.mp4,accident,Driving in Lane,PV braking / slower,112,110,90,112,42,90,True,False,False,False,False,False,False,False,The camera is facing up and the taget vehicle was barely visible
+Saeed Rahmani,00253.mp4,accident,Other,Add Comment,104,116,90,134,47,66.29735404903377,False,False,False,False,False,False,False,True,Target Vehicle reversing for parking
+Saeed Rahmani,00256.mp4,accident,Leaving Lane,PV @ target lane,108,120,117.82409638425325,108,45,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00260.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,162,115,90,124,83,62.87869659584134,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00262.mp4,accident,Driving in Lane,PV braking / slower,103,113,90,103,44,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00263.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,98,82,66.5014343240479,146,74,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00265.mp4,accident,Driving in Lane,PV braking / slower,106,123,90,106,55,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00269.mp4,accident,Straight at intersection,Other vehicle approaching from side,84,68,90,138,60,180.0,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00276.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,107,110,90,107,44,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00282.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,120,104,86.18592516570965,157,42,61.29404745659892,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00283.mp4,accident,Other,Add Comment,101,100,90,136,57,144.32359177813802,False,False,False,True,False,False,False,False,Other vehicle making a u-turn on a rural road
+Saeed Rahmani,00284.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,105,98,90.0,92,33,326.30993247402023,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00287.mp4,accident,Leaving Lane,PV @ target lane,139,108,111.37062226934319,101,44,90,True,False,False,False,False,False,False,False,Camera facing up and the target vehicle not visible clearly
+Saeed Rahmani,00288.mp4,near-miss,Driving in Lane,Other,128,65,90,89,66,90,True,False,True,False,False,False,True,False,Passenger of the target vehicle openning the door suddenly
+Saeed Rahmani,00289.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,90,90,133,39,180.0,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00290.mp4,accident,Driving in Lane,PV braking / slower,102,111,90,103,43,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00292.mp4,near-miss,Driving in Lane,PV cut-in,127,123,90,125,45,59.82647997035567,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00296.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,124,123,90,104,62,51.84277341263094,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00302.mp4,accident,Driving in Lane,PV cut-in,121,112,90,125,41,87.70938995736148,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00308.mp4,accident,Driving in Lane,PV braking / slower,103,109,90,103,42,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00309.mp4,accident,Driving in Lane,Other,165,120,90,85,70,90,False,True,True,False,False,False,False,False,Passenger of the target vehicle openning the door of vehicle suddenly
+Saeed Rahmani,00318.mp4,accident,Driving in Lane,Oncoming vehicle,118,118,90,99,52,329.6887867733184,True,True,True,False,False,False,False,False,Vehicle of the oncoming vehicle making a weird u-turn or left-turn in fron of ego
+Saeed Rahmani,00326.mp4,accident,Driving in Lane,PV cut-in,146,109,88.83086067209258,111,64,75.96375653207353,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00336.mp4,accident,Driving in Lane,PV cut-in,129,118,90,99,59,76.26373169437744,True,True,True,True,False,False,False,False,
+Saeed Rahmani,00341.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,100,94,81.86989764584403,146,39,52.54942176826328,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00342.mp4,accident,Driving in Lane,Other,93,93,90,131,70,90,False,True,True,False,False,False,False,False,Passenger of the target vehicle openning their door.
+Saeed Rahmani,00343.mp4,accident,Driving in Lane,PV braking / slower,106,117,90,107,50,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00344.mp4,accident,Driving in Lane,PV braking / slower,117,114,90,116,45,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00349.mp4,near-miss,Driving in Lane,PV braking / slower,128,124,102.0947570770121,112,51,109.5731258304102,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00351.mp4,accident,Driving in Lane,PV cut-in,128,92,90,85,70,67.55724663470565,True,False,True,False,False,False,False,False,
+Saeed Rahmani,00353.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,121,102,96.63251461513848,85,70,59.743562836470744,True,False,False,True,True,False,False,False,
+Saeed Rahmani,00361.mp4,accident,Driving in Lane,PV braking / slower,117,98,90,117,30,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00362.mp4,accident,Driving in Lane,PV braking / slower,111,117,90,111,49,90,False,False,False,False,True,False,False,False,
+Saeed Rahmani,00363.mp4,accident,Driving in Lane,PV braking / slower,114,109,90,115,43,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00529.mp4,accident,Driving in Lane,PV cut-in,140,123,90,118,55,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00533.mp4,accident,Leaving Lane,PV @ target lane,127,123,103.3924977537511,96,56,90,True,False,False,True,False,False,False,False,
+Saeed Rahmani,00538.mp4,accident,Driving in Lane,Other,124,116,90,115,43,113.355564859286,False,False,False,False,False,False,False,True,PV reversing to park
+Saeed Rahmani,00539.mp4,accident,Driving in Lane,PV cut-in,114,125,90,129,50,105.25511870305779,True,True,False,False,False,False,False,False,Camera facing up and the target vehicle not visible clearly
+Saeed Rahmani,00541.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,121,106,143.65254179111471,88,38,270.0,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00546.mp4,accident,Driving in Lane,Other,97,82,90,137,62,90,True,True,True,True,False,False,False,False,Passenger of the target vehicle openning their door
+Saeed Rahmani,00551.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,62,96,160.97439396243132,85,45,270.0,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00554.mp4,accident,Driving in Lane,PV braking / slower,103,125,90,121,54,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00558.mp4,near-miss,Driving in Lane,PV cut-in,104,77,79.15969454566944,164,51,129.0938588862295,True,True,True,False,True,False,False,False,
+Saeed Rahmani,00563.mp4,near-miss,Driving in Lane,Other,85,91,90,127,70,90,True,True,True,True,False,False,False,False,Passenger of the target vehicle openning their door
+Saeed Rahmani,00565.mp4,near-miss,Driving in Lane,PV cut-in,144,129,90,115,53,72.2995722113328,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00566.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,99,59,59.23728046576109,149,61,70.3461759419467,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00568.mp4,near-miss,Leaving Lane,PV @ target lane,98,108,98.84181456019168,129,58,120.17352002964432,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00571.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,97,120,86.49646835521554,126,43,106.82140989004083,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00581.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,162,122,90,117,71,68.19859051364818,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00584.mp4,near-miss,Leaving Lane,Other,165,120,90,85,70,90,False,True,True,False,False,False,False,False,PV also leaving for the target lane at the same time
+Saeed Rahmani,00589.mp4,near-miss,Driving in Lane,PV braking / slower,103,118,90,103,44,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00591.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,150,99,84.17365797044422,105,56,61.189206257026946,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00592.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,105,109,107.52556837372288,127,55,124.79602627826831,True,True,False,True,False,False,False,False,
+Saeed Rahmani,00593.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,104,111,90.0,140,39,71.96571443287014,False,True,False,False,True,False,False,False,
+Saeed Rahmani,00594.mp4,near-miss,Driving in Lane,PV braking / slower,110,127,90,110,53,90,False,True,False,True,False,False,False,False,
+Saeed Rahmani,00597.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,85,70,90,True,False,False,False,False,False,False,False,The camera is facing up and the target vehicle was not visible
+Saeed Rahmani,00598.mp4,near-miss,Driving in Lane,PV cut-in,92,120,90,138,72,118.30075576600638,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00604.mp4,near-miss,Leaving Lane,SV @ target lane,149,90,109.05770451012833,85,70,70.3461759419467,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00606.mp4,near-miss,Leaving Lane,PV @ target lane,149,117,102.38075692880719,100,49,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00609.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,111,116,90,108,39,189.86580694308435,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00611.mp4,near-miss,Driving in Lane,PV cut-in,137,106,90,95,57,65.13630342824813,True,True,True,False,True,False,False,False,
+Saeed Rahmani,00614.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,100,114,90,135,60,104.03624346792648,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00621.mp4,near-miss,Driving in Lane,PV braking / slower,90,124,90,91,48,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00623.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,140,112,90,111,48,57.03059609653788,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00626.mp4,near-miss,Other,Add Comment,124,114,142.59464336859145,45,41,323.53076560994816,True,False,True,False,False,False,False,False,The ego making a u-turn while another vehicle on the opposite lane also making a turn
+Saeed Rahmani,00627.mp4,near-miss,Driving in Lane,PV cut-in,116,104,90,154,55,123.02386755579664,False,True,True,False,False,False,False,False,The target vehicle coming out of parking
+Saeed Rahmani,00630.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,131,115,122.0053832080835,87,49,119.74488129694222,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00635.mp4,near-miss,Leaving Lane,RV @ target lane,142,88,124.90249561592474,94,125,90,True,True,False,False,False,False,False,False,
+Saeed Rahmani,00636.mp4,near-miss,Driving in Lane,PV braking / slower,103,128,90,102,51,90,False,True,False,True,False,False,False,False,
+Saeed Rahmani,00638.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,124,131,104.03624346792648,68,66,1.4320961841646465,False,True,False,True,False,False,False,False,
+Saeed Rahmani,00643.mp4,near-miss,Driving in Lane,PV cut-in,127,127,90,114,47,65.46227152342222,True,True,True,True,False,False,False,False,
+Saeed Rahmani,00645.mp4,near-miss,Driving in Lane,PV braking / slower,100,135,90,115,55,90,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00648.mp4,near-miss,Driving in Lane,PV cut-in,108,129,90,116,38,103.76078511179124,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00650.mp4,near-miss,Driving in Lane,PV braking / slower,110,124,90,111,49,90,False,True,False,True,False,False,False,False,
+Saeed Rahmani,00651.mp4,near-miss,Driving in Lane,PV braking / slower,112,119,90,112,38,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00652.mp4,near-miss,Leaving Lane,SV @ target lane,86,81,77.82854179141253,143,49,99.61972779969886,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00656.mp4,near-miss,Driving in Lane,PV cut-in,159,112,90,117,60,67.96377305985456,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00659.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,118,105,90,116,43,180.0,True,True,False,True,False,False,False,False,
+Saeed Rahmani,00661.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,114,112,90,152,56,125.39479584498706,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00666.mp4,near-miss,Driving in Lane,PV stopped,105,132,90,103,44,90,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00667.mp4,near-miss,Driving in Lane,PV cut-in,151,103,90,100,61,67.61986494804043,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00670.mp4,near-miss,Leaving Lane,Object,135,125,69.90476880809518,101,42,90,False,False,False,False,False,False,False,True,Ego going towards shoulder
+Saeed Rahmani,00671.mp4,near-miss,Driving in Lane,PV braking / slower,117,119,90.0,117,38,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00674.mp4,near-miss,Driving in Lane,Other,116,114,90,169,66,90,False,False,False,True,False,False,False,False,Ego moving towards an object on the road (lane drop)
+Saeed Rahmani,00678.mp4,near-miss,Driving in Lane,PV braking / slower,105,122,90,107,37,90,True,False,False,False,False,False,False,False,The camera is facing up and the target vehicle is barely visible.
+Saeed Rahmani,00682.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,132,116,91.12330271407544,101,51,57.425942865427494,True,True,True,True,False,False,False,False,
+Saeed Rahmani,00697.mp4,near-miss,Leaving Lane,RV @ target lane,150,73,111.80140948635182,96,112,90,True,True,False,False,False,False,False,False,
+Saeed Rahmani,00702.mp4,near-miss,Driving in Lane,PV cut-in,108,123,90,118,36,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00710.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,94,121,90,95,44,90,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00715.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,98,111,90,74,43,0.0,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00723.mp4,near-miss,Driving in Lane,PV cut-in,157,101,91.0809241866607,111,45,71.17528998175993,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00729.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00733.mp4,near-miss,Leaving Lane,Other,165,120,90,85,70,90,False,False,True,False,False,False,False,False,Preceding vehicle moving to the same target line at the same time.
+Saeed Rahmani,00734.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,85,70,90,False,True,False,True,True,False,False,False,
+Saeed Rahmani,00742.mp4,near-miss,Turning at intersection,Other vehicle approaching from front / opposite,157,108,132.27368900609375,88,39,270.0,False,True,False,True,True,False,False,False,
+Saeed Rahmani,00769.mp4,near-miss,Driving in Lane,PV cut-in,97,106,90,137,44,118.21735585472932,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00783.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,116,121,90,95,53,354.92039213998544,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00788.mp4,near-miss,Driving in Lane,Other,123,119,90.0,95,38,334.4400348281762,True,True,True,False,False,False,False,False,Anoth vehicle turning left of making u-turn from the opposite lane
+Saeed Rahmani,00789.mp4,near-miss,Driving in Lane,Other,131,121,88.56790381583535,101,41,331.0735741647464,True,True,True,False,False,False,False,False,Vehicle on the oppsite lane making a left or u-turn in fron of the ego vehicle
+Saeed Rahmani,00794.mp4,near-miss,Driving in Lane,PV cut-in,141,105,90,109,40,65.22485943116808,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00798.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,102,115,90,145,70,108.43494882292202,True,False,False,True,True,False,False,False,
+Saeed Rahmani,00805.mp4,near-miss,Driving in Lane,PV cut-in,94,127,90,113,34,114.67686317033706,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00817.mp4,near-miss,Driving in Lane,PV braking / slower,111,125,90,110,44,90,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00818.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,141,109,90,97,59,67.47943439710312,True,True,True,True,False,False,False,False,
+Saeed Rahmani,00819.mp4,near-miss,Driving in Lane,PV braking / slower,96,122,90,94,41,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00820.mp4,near-miss,Driving in Lane,PV braking / slower,105,129,90,103,47,90,False,True,False,True,False,False,False,False,
+Saeed Rahmani,00822.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,102,126,90,101,50,90,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00824.mp4,near-miss,Driving in Lane,PV braking / slower,108,128,90,105,48,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00835.mp4,near-miss,Driving in Lane,Other,132,122,90,78,42,354.4724598483438,True,True,True,True,False,False,False,False,The target vehicle from opposite lane making a u-turn
+Saeed Rahmani,00839.mp4,near-miss,Driving in Lane,PV cut-in,76,94,90,121,38,143.47114463301483,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00843.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,152,106,100.53918372862823,102,40,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00845.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,98,113,90,137,62,115.55996517182382,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00847.mp4,near-miss,Driving in Lane,PV braking / slower,102,123,90,101,40,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00850.mp4,near-miss,Driving in Lane,Other,93,122,90,143,45,5.856013585428958,False,True,True,False,False,False,False,False,Target vehicle coming out of parking slot
+Saeed Rahmani,00858.mp4,near-miss,Driving in Lane,PV braking / slower,106,121,88.53119928561418,105,43,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00860.mp4,near-miss,Driving in Lane,PV braking / slower,137,124,90,111,47,90,False,True,False,True,False,False,False,False,
+Saeed Rahmani,00864.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,106,120,90,89,37,180.97102193107915,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00865.mp4,near-miss,Driving in Lane,Other,101,124,90,121,39,104.85861444792467,False,True,True,True,False,False,False,False,PV making weird maneuver to make a u-turn
+Saeed Rahmani,00866.mp4,near-miss,Other,Add Comment,97,39,251.56505117707798,66,116,4.763641690726178,True,True,True,True,False,False,False,False,Ego making a u-turn while anothe rvehicle in the target lane
+Saeed Rahmani,00868.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,121,122,90,83,47,335.32313682966293,False,True,True,True,False,False,False,False,Video was cut a bit  and bad video quality to due illumination
+Saeed Rahmani,00869.mp4,near-miss,Driving in Lane,PV cut-in,110,112,91.24536426676835,143,53,119.6044507460049,True,True,True,True,False,False,False,False,Target vehicle coming our of parking
+Saeed Rahmani,00875.mp4,near-miss,Driving in Lane,PV cut-in,90,104,90,131,54,112.98871680208065,False,True,True,False,False,False,False,False,Target suddenly changing lane and turning
+Saeed Rahmani,00883.mp4,near-miss,Driving in Lane,PV braking / slower,105,127,90,107,48,90,True,True,False,False,False,False,False,False,Camera facing up so the target vehicle not clearly visible
+Saeed Rahmani,00889.mp4,near-miss,Driving in Lane,Other,98,121,90,137,32,12.171458208587472,False,True,True,False,False,False,False,False,Target vehicle coming out of parking in reverse
+Saeed Rahmani,00896.mp4,near-miss,Other,Add Comment,99,110,90,146,33,180.0,True,True,False,False,False,False,False,False,Vehicles facing vertical in parking lot (target not visible initially)
+Saeed Rahmani,00897.mp4,near-miss,Driving in Lane,PV cut-in,127,128,90,104,49,71.17528998175993,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00370.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,154,96,90,113,59,53.13010235415598,False,False,True,False,True,False,False,False,
+Saeed Rahmani,00372.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,113,116,90,144,49,56.309932474020215,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00373.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,124,107,90,85,70,51.00900595749453,True,True,False,True,False,False,False,False,
+Saeed Rahmani,00376.mp4,accident,Driving in Lane,PV cut-in,111,98,90,149,56,135.6437457141754,True,True,True,True,False,False,False,False,
+Saeed Rahmani,00378.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,130,87,90,85,70,61.78264414527071,False,False,True,True,False,False,False,False,
+Saeed Rahmani,00380.mp4,near-miss,Leaving Lane,PV @ target lane,129,116,112.83365417791754,85,52,90,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00381.mp4,accident,Driving in Lane,PV cut-in,91,99,90,132,73,110.1706534118504,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00383.mp4,accident,Driving in Lane,PV cut-in,165,120,90,85,70,90,True,True,True,True,False,False,False,False,The camera was facing up and scene not visible
+Saeed Rahmani,00387.mp4,near-miss,Driving in Lane,PV cut-in,135,89,90,85,70,68.96248897457819,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00389.mp4,accident,Leaving Lane,SV @ target lane,137,69,129.17365797044425,85,70,90,True,False,False,False,False,False,False,False,
+Saeed Rahmani,00401.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,125,95,90.0,85,70,65.55604521958347,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00405.mp4,accident,Other,Add Comment,135,112,90,85,70,180.0,False,True,False,False,False,False,False,False,Other car coming out of parking inside a parking lot
+Saeed Rahmani,00414.mp4,accident,Driving in Lane,PV cut-in,145,114,90,117,55,68.87528085392752,True,True,True,False,False,False,False,False,Camera facing up and the scene not visible
+Saeed Rahmani,00415.mp4,accident,Driving in Lane,PV cut-in,151,118,90,131,44,80.53767779197439,False,True,False,True,True,False,False,False,
+Saeed Rahmani,00420.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,93,90,90,150,64,178.87669728592456,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00425.mp4,accident,Driving in Lane,PV cut-in,118,112,90,85,70,61.38954033403479,True,True,True,False,False,False,False,False,
+Saeed Rahmani,00427.mp4,accident,Other,Add Comment,126,66,90,174,61,358.60281897270363,True,False,True,True,False,False,False,False,The other car reversing in the middle of the section
+Saeed Rahmani,00429.mp4,accident,Other,Add Comment,125,95,166.2184027643464,70,101,90,True,False,False,True,False,False,False,False,Ego making a u-turn and other vehicle not visible because of the camera angel
+Saeed Rahmani,00430.mp4,accident,Driving in Lane,PV stopped,108,113,90,108,44,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00431.mp4,accident,Driving in Lane,PV braking / slower,103,121,90,104,52,90,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00433.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,100,102,90,132,48,127.11686068327027,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00443.mp4,accident,Leaving Lane,SV @ target lane,118,108,101.30993247402021,78,60,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00453.mp4,accident,Driving in Lane,PV braking / slower,127,115,90,126,45,90,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00457.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,125,95,90,88,57,58.781597235653635,True,False,False,False,False,False,False,False,
+Saeed Rahmani,00459.mp4,accident,Driving in Lane,Other,89,113,90,123,49,90,True,False,False,False,False,False,False,False,Camera facing up and the other vehicles movement not visible clearly.
+Saeed Rahmani,00460.mp4,accident,Other,Add Comment,136,100,67.9321004375898,134,34,220.71084667118097,False,False,False,True,False,False,False,False,Ego coming out of a parking and hitting another vehicle coming to the parking place (potentially a gas station or so)
+Saeed Rahmani,00463.mp4,accident,Driving in Lane,PV stopped,109,109,90,86,42,271.6365770416167,False,False,False,True,False,False,False,False,
+Saeed Rahmani,00466.mp4,accident,Driving in Lane,Other,85,93,90,131,65,0.0,True,True,True,False,False,False,False,False,A vehicle coming reverse out of a parking space
+Saeed Rahmani,00467.mp4,accident,Leaving Lane,SV @ target lane,132,97,124.77783136636387,83,92,90,True,False,False,False,True,False,False,False,
+Saeed Rahmani,00472.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,133,96,92.7702157972002,85,70,66.16125981682828,True,True,True,True,True,False,False,False,
+Saeed Rahmani,00475.mp4,accident,Driving in Lane,PV cut-in,113,93,90,117,39,180.0,False,True,True,True,False,False,False,False,The other vehicle making a u turn in the middle of a rural road
+Saeed Rahmani,00477.mp4,accident,Driving in Lane,PV braking / slower,104,126,90,126,59,72.89727103094764,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00478.mp4,accident,Driving in Lane,Oncoming vehicle,144,101,82.05652818940959,104,41,296.565051177078,True,True,True,False,True,False,False,False,
+Saeed Rahmani,00483.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,138,121,90,135,51,61.189206257026946,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00491.mp4,accident,Driving in Lane,PV stopped,95,118,90,94,51,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00497.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,109,118,90,131,56,120.57922687248902,True,False,False,True,False,False,False,False,
+Saeed Rahmani,00502.mp4,accident,Driving in Lane,PV braking / slower,106,110,90,107,44,90,False,False,False,True,False,False,False,False,Camera partially blured
+Saeed Rahmani,00505.mp4,accident,Leaving Lane,PV @ target lane,133,107,116.56505117707799,96,43,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00510.mp4,accident,Driving in Lane,PV cut-in,89,75,90,134,74,111.5713071912546,False,False,False,False,True,False,False,False,
+Saeed Rahmani,00515.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,119,113,90,85,70,74.05460409907715,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00516.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,96,91,90,134,65,120.25643716352927,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00519.mp4,accident,Leaving Lane,SV @ target lane,132,87,120.06858282186246,85,70,71.56505117707799,True,False,False,True,False,False,False,False,
+Saeed Rahmani,00354.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,153,93,64.91640599380908,119,36,1.8778774472853594,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00357.mp4,accident,Driving in Lane,PV cut-in,140,113,90,170,70,121.15930450834438,True,False,True,True,False,False,False,False,
+Saeed Rahmani,00795.mp4,near-miss,Driving in Lane,PV braking / slower,103,112,90,104,38,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00900.mp4,near-miss,Driving in Lane,PV cut-in,118,105,90,150,42,162.25532837494308,False,True,True,False,False,False,False,False,Other vehicle making a u turn in front of ego
+Saeed Rahmani,00904.mp4,near-miss,Leaving Lane,SV @ target lane,136,117,111.80140948635182,85,70,90,False,False,False,False,False,False,False,True,
+Saeed Rahmani,00911.mp4,near-miss,Other,Add Comment,110,107,90,131,47,142.12501634890182,False,False,False,False,False,False,False,True,Other vehicle turning in front of ego in the parking
+Saeed Rahmani,00913.mp4,accident,Driving in Lane,PV cut-in,115,96,90,149,46,124.01934998982647,True,True,True,False,False,False,False,False,Camera partially blured and target not visible fully
+Saeed Rahmani,00917.mp4,near-miss,Driving in Lane,PV braking / slower,106,113,90,105,36,90,False,True,True,False,False,False,False,False,direct sun in the camera.
+Saeed Rahmani,00921.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,127,93,137.41950921665634,36,62,358.80651057601796,True,True,True,False,False,False,False,False,Other vehicle coming on the wrong lane in front of the ego vehicle
+Saeed Rahmani,00930.mp4,near-miss,Driving in Lane,PV cut-in,120,123,90,85,70,63.43494882292201,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00932.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,122,97,90,69,36,344.05460409907715,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00952.mp4,near-miss,Driving in Lane,PV cut-in,101,110,90,128,44,115.46334506187162,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00953.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,105,78,78.69006752597979,153,89,90,True,True,False,False,False,False,False,False,
+Saeed Rahmani,00954.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,85,70,90,False,False,False,False,False,False,False,True,Camera partially blured and target not fully visible
+Saeed Rahmani,00961.mp4,near-miss,Driving in Lane,PV cut-in,115,95,90,160,65,119.87599269168943,False,True,True,False,True,False,False,False,Other vehicle coming out of parking
+Saeed Rahmani,00964.mp4,near-miss,Driving in Lane,PV braking / slower,86,120,111.80140948635182,103,37,90,False,True,False,False,True,False,False,False,
+Saeed Rahmani,00965.mp4,near-miss,Leaving Lane,SV @ target lane,86,107,69.30454926593673,138,106,90,True,False,False,False,False,False,False,False,
+Saeed Rahmani,00970.mp4,near-miss,Driving in Lane,PV braking / slower,105,134,90,120,56,90,False,True,False,False,False,False,False,False,
+Saeed Rahmani,00979.mp4,near-miss,Driving in Lane,PV braking / slower,98,125,71.93952806380082,124,47,70.70995378081128,False,True,True,True,False,False,False,False,
+Saeed Rahmani,00988.mp4,near-miss,Driving in Lane,PV cut-out,123,124,90,74,56,108.06047193619918,True,True,True,False,False,False,False,False,Camera partially blured and the other vehicle is not fully visible
+Saeed Rahmani,00991.mp4,near-miss,Driving in Lane,PV cut-in,145,115,90,85,70,1.6602823689828055,True,True,True,True,False,False,False,False,Target vehicle coming from side on a longitudinal section
+Saeed Rahmani,00995.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,142,112,105.1540680503126,104,40,115.46334506187162,False,True,True,False,False,False,False,False,
+Saeed Rahmani,00998.mp4,near-miss,Driving in Lane,PV cut-in,148,110,90,107,72,69.59011716619602,False,True,True,False,False,False,False,False,
+Saeed Rahmani,01000.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,117,124,90,158,50,191.5346206536447,True,True,False,False,False,False,False,False,
+Saeed Rahmani,01003.mp4,near-miss,Driving in Lane,PV braking / slower,112,111,90,111,36,90,False,True,True,True,False,False,False,False,Camera brightness is not so bright (vehicle bareli visible)
+Saeed Rahmani,01004.mp4,near-miss,Driving in Lane,PV braking / slower,96,128,90,126,52,71.22196677755446,False,True,True,False,False,False,False,False,
+Saeed Rahmani,01016.mp4,near-miss,Driving in Lane,PV cut-in,88,130,90,119,62,116.56505117707799,True,True,True,True,False,False,False,False,
+Saeed Rahmani,01020.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,146,121,90,104,80,72.80145877993414,True,True,True,True,False,False,False,False,Camera partially blured
+Saeed Rahmani,01031.mp4,near-miss,Leaving Lane,SV @ target lane,157,98,109.98310652189998,105,111,90.95484125387219,True,True,False,False,False,False,False,False,Camera partially blured
+Saeed Rahmani,01035.mp4,near-miss,Driving in Lane,PV cut-in,88,125,90,117,45,104.62087398863166,False,False,True,True,False,False,False,False,
+Saeed Rahmani,01036.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,98,112,90,100,37,90,False,True,False,True,True,False,False,False,
+Saeed Rahmani,01037.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,72,100,33.40782458970893,161,80,2.8624052261117474,False,True,True,True,False,False,False,False,Target vehicle reverse movement on the target lane after ego turn

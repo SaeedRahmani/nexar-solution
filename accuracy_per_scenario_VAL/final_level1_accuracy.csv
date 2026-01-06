@@ -1,0 +1,6 @@
+scenario_level_1,total,correct,accuracy,avg_prob
+Driving in Lane,87.0,78.0,89.65517241379311,0.8635669959827587
+Straight at intersection,33.0,30.0,90.9090909090909,0.9196876639393939
+Turning at intersection,18.0,18.0,100.0,0.9816792400000001
+Leaving Lane,12.0,12.0,100.0,0.9508439499999999
+Other,4.0,3.0,75.0,0.70768922925

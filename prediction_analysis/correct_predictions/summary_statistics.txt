@@ -1,0 +1,44 @@
+======================================================================
+CORRECT PREDICTIONS ANALYSIS SUMMARY
+======================================================================
+
+Total correct predictions: 1277
+  - True Positives: 726 (correctly detected accidents)
+  - True Negatives: 551 (correctly identified safe videos)
+
+----------------------------------------------------------------------
+TRUE POSITIVES (Correctly Detected Accidents)
+----------------------------------------------------------------------
+
+By split:
+  - Training: 585
+  - Validation: 141
+
+Prediction confidence:
+  - Mean probability: 0.9664
+  - Std: 0.0719
+  - Min: 0.5146
+  - Max: 0.9995
+
+Time difference (event - alert) for 726 videos:
+  - Mean: 1.617s
+  - Std: 0.867s
+  - Min: 0.033s
+  - Max: 4.466s
+  - Median: 1.436s
+
+----------------------------------------------------------------------
+TRUE NEGATIVES (Correctly Identified Safe Videos)
+----------------------------------------------------------------------
+
+By split:
+  - Training: 452
+  - Validation: 99
+
+Prediction confidence:
+  - Mean probability: 0.1112
+  - Std: 0.1362
+  - Min: 0.0003
+  - Max: 0.4983
+
+======================================================================

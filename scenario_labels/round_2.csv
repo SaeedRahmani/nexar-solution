@@ -1,0 +1,748 @@
+Annotator,Video Name,Category,Scenario Level 1,Scenario Level 2,Ego_X,Ego_Y,Ego_Angle,Other_X,Other_Y,Other_Angle,Target not visible,Ego Emergency Maneuver Required,Unexpected Maneuver,Night or Low Light,Rain/Snow/Fog,Cyclist/Scooter Involved,Pedestrian Involved,Nothing Special Observed,Comment
+Derzou,00000.mp4,accident,Driving in Lane,PV cut-in,165,120,90,126,74,66.03751102542182,False,False,False,True,False,False,False,False,
+Derzou,00003.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,165,120,90,164,38,90,False,False,False,True,True,False,False,False,
+Derzou,00004.mp4,accident,Leaving Lane,PV @ target lane,39,92,77.7352262721076,85,70,90,False,False,False,False,False,False,False,True,
+Derzou,00005.mp4,near-miss,Leaving Lane,SV @ target lane,165,120,90,85,70,90,False,False,False,False,True,False,False,False,
+Derzou,00006.mp4,accident,Driving in Lane,PV stopped,93,126,90,94,40,90,False,False,False,False,True,False,False,False,
+Derzou,00007.mp4,near-miss,Leaving Lane,PV @ target lane,102,124,106.58733855692742,80,44,102.52880770915151,False,False,True,False,False,False,False,False,
+Derzou,00008.mp4,accident,Leaving Lane,PV @ target lane,80,80,69.71744091108339,125,64,90,False,False,False,True,False,False,False,False,
+Derzou,00010.mp4,near-miss,Leaving Lane,PV @ target lane,138,103,109.5731258304102,82,112,90,False,False,False,False,False,False,False,True,stubborn
+Derzou,00013.mp4,near-miss,Driving in Lane,Oncoming vehicle,133,123,90,190,62,180.0,True,False,False,False,False,False,False,False,
+Derzou,00014.mp4,accident,Leaving Lane,SV @ target lane,76,126,129.0938588862295,83,31,269.2151753970081,False,False,True,False,False,False,False,False,
+Derzou,00015.mp4,accident,Driving in Lane,PV stopped,89,138,90,88,46,90,False,False,False,False,False,False,False,True,not attentive
+Derzou,00016.mp4,accident,Driving in Lane,Other,152,80,83.36748538486154,190,62,90,False,False,False,False,False,False,False,True,falling a sleep? Phone?
+Derzou,00017.mp4,accident,Driving in Lane,PV stopped,88,129,90,89,51,90,False,False,False,True,False,False,False,False,
+Derzou,00018.mp4,accident,Driving in Lane,Oncoming vehicle,84,48,90,82,121,90,False,False,False,True,False,False,False,False,
+Derzou,00019.mp4,near-miss,Driving in Lane,Oncoming vehicle,86,127,90,154,66,181.43209618416464,False,False,False,False,False,False,False,True,blinded by sun
+Derzou,00021.mp4,accident,Driving in Lane,PV stopped,85,127,90,84,44,90,False,False,False,False,False,False,False,True,not attentive
+Derzou,00022.mp4,accident,Driving in Lane,PV cut-in,86,98,90,35,73,59.23728046576109,False,False,True,False,False,False,False,False,
+Derzou,00023.mp4,accident,Turning at intersection,Other vehicle approaching from side,81,97,90,78,35,1.193489423982035,False,False,False,False,False,False,False,True,
+Derzou,00024.mp4,near-miss,Leaving Lane,PV @ target lane,107,118,98.58362148011395,79,42,91.46880071438582,False,False,False,False,False,False,False,True,
+Derzou,00025.mp4,near-miss,Driving in Lane,PV cut-in,140,118,90,92,82,74.87599269168945,False,False,False,False,True,False,False,False,
+Derzou,00026.mp4,accident,Driving in Lane,Other,82,125,90,137,56,90,False,False,False,False,False,False,False,True,unclear
+Derzou,00027.mp4,near-miss,Driving in Lane,PV braking / slower,83,130,90,56,54,90.0,False,False,False,False,False,False,False,True,
+Derzou,00028.mp4,accident,Driving in Lane,PV stopped,81,120,90.0,82,45,90,False,False,False,False,False,False,False,True,not attentive
+Derzou,00029.mp4,accident,Driving in Lane,PV cut-out,88,107,90,133,54,114.77514056883193,False,False,False,False,False,False,False,True,
+Derzou,00031.mp4,accident,Driving in Lane,PV cut-in,165,120,90,85,70,90,False,False,False,False,False,False,False,True,sunny
+Derzou,00032.mp4,accident,Driving in Lane,PV cut-in,97,115,90,139,83,99.68878656036681,False,False,False,False,False,False,False,True,sunny
+Derzou,00036.mp4,accident,Driving in Lane,Oncoming vehicle,97,104,90,152,42,178.45184230102205,False,False,False,False,False,False,False,True,
+Derzou,00037.mp4,accident,Driving in Lane,Oncoming vehicle,136,107,90,76,37,358.492564241225,False,False,True,False,False,False,False,False,
+Derzou,00039.mp4,accident,Driving in Lane,PV braking / slower,84,124,90,83,47,90,False,False,False,False,False,False,False,True,
+Derzou,00040.mp4,accident,Straight at intersection,Other vehicle approaching from side,93,81,90.0,161,76,178.95837332399003,False,False,False,False,False,False,False,True,
+Derzou,00041.mp4,accident,Driving in Lane,Oncoming vehicle,84,129,90,84,51,90,False,False,False,True,False,False,False,False,driving backward
+Derzou,00042.mp4,accident,Straight at intersection,Other vehicle approaching from side,90,110,88.78112476486871,123,59,143.3658861240326,False,False,False,True,False,False,False,False,
+Derzou,00043.mp4,accident,Driving in Lane,PV cut-in,87,128,90,67,58,68.96248897457819,False,False,True,False,False,False,False,False,
+Derzou,00044.mp4,accident,Straight at intersection,Other vehicle approaching from side,85,104,90,142,56,179.29268063145577,False,False,False,False,False,False,False,True,
+Derzou,00046.mp4,accident,Driving in Lane,PV stopped,88,111,90,89,35,90,False,False,False,False,False,False,False,True,
+Derzou,00047.mp4,accident,Driving in Lane,Oncoming vehicle,90,127,90,134,67,180.0,False,False,False,False,False,False,False,True,
+Derzou,00048.mp4,accident,Leaving Lane,PV @ target lane,79,115,62.78388844269253,135,115,90,False,False,False,True,False,False,False,False,
+Derzou,00049.mp4,accident,Leaving Lane,Object,88,126,80.53767779197439,135,51,90,False,False,False,False,False,False,False,True,vehicle is parked
+Derzou,00054.mp4,accident,Leaving Lane,PV @ target lane,106,62,125.90972307917767,41,91,331.7826441452707,False,False,False,True,False,False,False,False,
+Derzou,00055.mp4,accident,Driving in Lane,PV stopped,83,126,90,85,46,90,False,False,False,True,False,False,False,False,
+Derzou,00056.mp4,accident,Straight at intersection,Other vehicle approaching from side,135,109,90,66,70,0.0,False,False,False,False,False,False,False,True,
+Derzou,00057.mp4,accident,Driving in Lane,PV stopped,84,127,90,85,48,90,False,False,False,False,False,False,False,True,
+Derzou,00058.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,91,129,91.00508600525419,56,56,115.20112364547508,False,False,False,True,False,False,False,False,
+Derzou,00059.mp4,accident,Leaving Lane,PV @ target lane,86,96,62.24145939893998,139,96,90,False,False,False,False,False,False,False,True,
+Derzou,00060.mp4,accident,Driving in Lane,PV stopped,79,128,90,85,48,90,False,False,False,False,True,False,False,False,
+Derzou,00061.mp4,near-miss,Driving in Lane,PV cut-in,83,117,90,30,106,65.89776549883887,False,False,False,True,False,False,False,False,
+Derzou,00062.mp4,accident,Straight at intersection,Other vehicle approaching from side,84,112,90,154,78,180.93919094573556,False,False,False,False,False,False,False,True,
+Derzou,00063.mp4,near-miss,Driving in Lane,PV cut-in,88,115,90,60,44,59.981632572390915,False,False,False,False,False,False,False,True,
+Stijn,00064.mp4,near-miss,Leaving Lane,SV @ target lane,49,94,90,86,66,90,True,False,False,True,False,False,False,False,Difficult to judge if impact or not
+Stijn,00065.mp4,accident,Driving in Lane,PV stopped,85,154,90,85,70,90,False,False,False,False,True,False,False,False,
+Stijn,00066.mp4,accident,Straight at intersection,Other vehicle approaching from side,97,153,90,99,93,181.59114027119458,False,True,False,True,True,False,False,False,"EM unclear, I judge yes"
+Stijn,00068.mp4,accident,Driving in Lane,PV stopped,82,152,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00071.mp4,accident,Leaving Lane,SV @ target lane,127,154,113.70264595096624,70,151,70.76932762433871,False,False,False,False,False,False,False,True,slow speed accident in traffic jam
+Stijn,00072.mp4,accident,Leaving Lane,SV @ target lane,39,93,83.0470425318261,76,144,90,True,False,True,True,False,False,False,False,
+Stijn,00074.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,150,143,99.86580694308438,99,85,132.436229788535,False,False,False,True,False,False,True,False,
+Stijn,00076.mp4,near-miss,Leaving Lane,SV @ target lane,96,131,56.659292653523,147,149,90,False,False,True,True,False,False,False,False,Impact or not difficult to judge
+Stijn,00077.mp4,accident,Driving in Lane,PV braking / slower,86,161,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00078.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,87,155,90,85,70,90,False,True,False,False,False,False,True,False,
+Stijn,00079.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,127,136,108.82471001824007,85,70,128.92754359279232,False,True,False,True,False,False,False,False,
+Stijn,00081.mp4,accident,Straight at intersection,Other vehicle approaching from side,135,125,90,74,104,1.6846843178962914,True,True,False,False,False,False,False,False,
+Stijn,00082.mp4,accident,Driving in Lane,PV cut-in,82,126,87.87890360333854,122,94,108.43494882292202,False,False,False,False,False,False,False,True,
+Stijn,00083.mp4,accident,Driving in Lane,PV stopped,84,142,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00084.mp4,accident,Driving in Lane,PV cut-in,81,153,86.18592516570965,127,134,115.01689347810004,False,True,False,False,True,False,False,False,
+Stijn,00085.mp4,accident,Straight at intersection,Other vehicle approaching from side,119,136,90,77,97,42.70938995736147,True,False,False,True,False,False,False,False,
+Stijn,00086.mp4,accident,Driving in Lane,PV braking / slower,86,150,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00089.mp4,accident,Straight at intersection,Other vehicle approaching from side,112,145,90,168,93,177.51044707800085,False,True,False,True,False,False,False,False,
+Stijn,00090.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,127,138,90,65,82,341.565051177078,False,True,False,False,False,False,False,False,
+Stijn,00093.mp4,accident,Driving in Lane,PV braking / slower,85,153,90,85,70,90,False,False,False,True,True,False,False,False,
+Stijn,00095.mp4,accident,Other,Add Comment,137,137,90,104,83,78.69006752597979,False,False,False,False,False,False,False,True,"Ego standstill, hit by Target at side"
+Stijn,00096.mp4,accident,Driving in Lane,PV cut-in,46,115,90,85,70,109.85521436932106,False,False,False,False,False,False,False,True,
+Stijn,00097.mp4,accident,Leaving Lane,SV @ target lane,150,119,116.05349531049094,100,138,90,True,False,False,False,False,False,False,False,
+Stijn,00098.mp4,accident,Driving in Lane,PV braking / slower,87,150,90,85,70,90,False,False,False,False,False,False,True,False,
+Stijn,00099.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,135,133,90,96,93,53.47114463301483,False,False,False,False,False,False,False,True,
+Stijn,00100.mp4,accident,Driving in Lane,PV cut-in,139,136,90,100,97,68.74949449286676,False,True,False,True,False,False,False,False,
+Stijn,00102.mp4,accident,Driving in Lane,PV stopped,88,151,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00103.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,137,90,128,80,5.572197803963795,False,False,False,True,True,False,False,False,
+Stijn,00104.mp4,near-miss,Driving in Lane,PV stopped,87,155,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00105.mp4,accident,Straight at intersection,Other vehicle approaching from side,134,116,90,75,109,356.72951207681643,False,False,False,True,False,False,False,False,
+Stijn,00106.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,165,120,90,85,70,90,False,False,False,True,False,False,False,False,"Ego u-turn, target oncoming"
+Stijn,00108.mp4,accident,Other,Add Comment,92,156,90,117,84,268.8876003837022,False,False,False,True,False,False,False,False,"Ego standstil, oncoming target impact"
+Stijn,00109.mp4,near-miss,Driving in Lane,PV stopped,85,155,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00110.mp4,near-miss,Driving in Lane,PV cut-in,76,147,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00111.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,69,144,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00112.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,134,133,117.97947438848014,85,70,134.06080905426444,False,False,False,True,False,False,False,False,
+Stijn,00114.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,93,156,90,127,94,155.92450174492117,False,True,False,True,True,False,False,False,Target PV u-turn at intersection
+Stijn,00117.mp4,accident,Leaving Lane,RV @ target lane,79,102,79.2157021324374,117,137,90,False,False,False,False,False,False,False,True,
+Stijn,00118.mp4,accident,Driving in Lane,PV stopped,89,144,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00119.mp4,accident,Straight at intersection,Other vehicle approaching from side,119,123,90,64,121,12.094757077012101,False,False,False,True,False,False,False,False,
+Stijn,00121.mp4,near-miss,Driving in Lane,PV cut-in,120,138,90,80,112,79.2157021324374,False,True,True,False,True,False,False,False,Difficult to judge near miss
+Stijn,00122.mp4,accident,Straight at intersection,Other vehicle approaching from side,109,161,90,151,95,200.55604521958347,True,False,False,False,False,False,False,False,intersection = exit parking lot
+Stijn,00123.mp4,accident,Driving in Lane,PV cut-in,129,143,90,82,112,51.0724564072077,False,True,False,True,False,False,False,False,
+Stijn,00124.mp4,accident,Driving in Lane,PV cut-out,84,150,90,85,70,90,True,True,True,False,False,False,False,False,
+Stijn,00125.mp4,accident,Straight at intersection,Other vehicle approaching from side,94,146,90,104,91,180.0,False,False,False,False,False,False,False,True,
+Stijn,00127.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,117,149,90,58,110,306.86989764584405,False,True,False,False,False,False,False,False,
+Stijn,00128.mp4,accident,Driving in Lane,PV cut-in,80,157,95.31454566994475,113,120,113.38522105721376,False,False,False,False,False,False,False,True,
+Stijn,00129.mp4,accident,Driving in Lane,PV cut-in,114,153,90,103,79,139.23639479905884,False,True,False,False,False,False,False,False,
+Stijn,00130.mp4,accident,Driving in Lane,PV stopped,86,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00131.mp4,accident,Straight at intersection,Other vehicle approaching from side,115,138,88.83086067209258,71,79,358.63607246839706,False,True,False,False,False,False,False,False,
+Stijn,00132.mp4,accident,Straight at intersection,Other vehicle approaching from side,125,142,90,66,93,356.98721249581666,False,True,False,False,False,False,False,False,
+Stijn,00133.mp4,accident,Leaving Lane,SV @ target lane,87,136,91.0809241866607,115,76,112.71441235316725,False,False,False,False,False,False,False,True,
+Stijn,00135.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,141,113,104.03624346792648,101,141,90,True,False,False,False,False,False,False,False,
+Stijn,00136.mp4,near-miss,Driving in Lane,PV cut-in,127,125,90,85,70,66.37062226934319,False,False,False,True,False,False,False,False,
+Stijn,00138.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,111,138,74.74488129694222,83,98,54.86580694308437,False,True,False,True,False,False,False,False,
+Stijn,00141.mp4,accident,Driving in Lane,PV cut-in,132,121,90,93,81,58.49573328079582,False,False,False,True,False,False,False,False,
+Stijn,00142.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,107,160,90,106,84,126.86989764584402,False,True,False,False,False,False,False,False,
+Stijn,00143.mp4,accident,Straight at intersection,Other vehicle approaching from side,127,142,90,85,70,337.2490236572124,False,True,False,False,False,False,False,False,
+Stijn,00144.mp4,accident,Driving in Lane,PV stopped,93,152,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00145.mp4,accident,Driving in Lane,PV stopped,87,154,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00147.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,165,120,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00148.mp4,accident,Turning at intersection,Other,94,165,103.44861505168652,119,115,132.13759477388825,False,False,False,False,False,False,False,True,PV cut-in
+Stijn,00149.mp4,accident,Driving in Lane,PV stopped,89,155,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00151.mp4,accident,Driving in Lane,PV stopped,81,151,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00152.mp4,accident,Driving in Lane,PV cut-in,89,160,90,140,131,132.87890360333856,False,False,False,False,False,False,False,True,
+Stijn,00153.mp4,accident,Driving in Lane,PV braking / slower,85,145,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00154.mp4,accident,Turning at intersection,Other vehicle approaching from side,91,163,90,150,121,180.98776039963982,False,False,False,False,False,False,False,True,
+Stijn,00155.mp4,accident,Straight at intersection,Other vehicle approaching from side,136,137,90,84,96,12.094757077012101,True,True,False,False,False,False,False,False,
+Stijn,00157.mp4,accident,Driving in Lane,PV cut-in,89,164,90,130,110,120.14138555207535,False,False,False,False,False,False,False,True,
+Stijn,00158.mp4,near-miss,Driving in Lane,PV braking / slower,87,158,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00160.mp4,accident,Driving in Lane,PV stopped,90,150,90,85,70,90,False,True,False,True,True,False,False,False,
+Stijn,00162.mp4,near-miss,Driving in Lane,PV cut-in,65,149,90,92,77,90,False,True,False,False,False,False,False,False,
+Stijn,00163.mp4,accident,Driving in Lane,Other,127,113,90,85,70,90,False,False,False,False,False,False,False,True,Ego hit parked target opening door
+Stijn,00164.mp4,accident,Driving in Lane,Other,165,120,90,85,70,90,False,False,False,True,False,False,False,False,Difficult to judge due to accident occured in blurred area
+Stijn,00166.mp4,accident,Straight at intersection,Other vehicle approaching from side,129,149,90,80,96,5.194428907734806,False,True,False,False,False,False,False,False,
+Stijn,00167.mp4,accident,Leaving Lane,SV @ target lane,129,118,90,86,73,77.12499844038753,False,False,False,False,True,False,False,False,
+Stijn,00168.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,139,148,90,85,70,295.6021875514418,False,True,False,False,False,False,False,False,
+Stijn,00169.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,40,118,90,85,70,113.19859051364818,False,False,False,False,True,False,False,False,
+Stijn,00170.mp4,accident,Leaving Lane,SV @ target lane,140,125,113.33404127670978,87,115,90,False,False,False,True,False,False,False,False,
+Stijn,00171.mp4,accident,Driving in Lane,PV braking / slower,72,151,90,85,70,90,False,False,True,False,False,False,False,False,
+Stijn,00172.mp4,accident,Straight at intersection,Other vehicle approaching from side,122,141,90,85,70,315.0,False,False,False,False,False,False,False,True,
+Stijn,00173.mp4,accident,Driving in Lane,PV stopped,85,155,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00174.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,63,144,90,85,70,80.53767779197439,False,False,False,False,True,False,False,False,
+Stijn,00175.mp4,accident,Driving in Lane,PV cut-in,127,129,90,91,86,80.78897345918332,False,False,False,True,False,False,False,False,
+Stijn,00177.mp4,accident,Straight at intersection,Other vehicle approaching from side,121,153,90,80,96,358.56790381583534,False,False,False,False,False,False,False,True,ego start from stop
+Stijn,00179.mp4,accident,Driving in Lane,PV braking / slower,88,153,90,85,70,90,False,True,False,False,False,False,False,False,difficult to judge if impact
+Stijn,00180.mp4,accident,Driving in Lane,PV cut-in,133,130,90,95,88,75.6186054089094,False,False,False,False,False,False,False,True,
+Stijn,00181.mp4,accident,Driving in Lane,PV braking / slower,89,154,90,85,70,90,False,True,False,True,False,False,False,False,
+Stijn,00183.mp4,accident,Driving in Lane,PV cut-in,133,141,90,96,95,73.00917670801384,False,False,False,False,False,False,False,True,
+Stijn,00184.mp4,near-miss,Driving in Lane,PV cut-in,128,137,90,94,92,80.2724214485984,True,True,False,True,True,False,False,False,
+Stijn,00187.mp4,accident,Leaving Lane,SV @ target lane,119,95,108.06047193619918,77,113,88.72696997994329,True,False,False,False,False,False,False,False,
+Stijn,00188.mp4,accident,Straight at intersection,Other vehicle approaching from side,84,160,90,129,104,180.0,False,False,False,False,False,False,False,True,
+Stijn,00189.mp4,accident,Driving in Lane,PV stopped,83,157,90,85,70,90,False,True,False,True,False,False,False,False,
+Stijn,00190.mp4,accident,Driving in Lane,PV cut-in,134,135,90,97,99,64.79887635452492,False,False,False,False,False,False,False,True,
+Stijn,00192.mp4,accident,Straight at intersection,Other vehicle approaching from side,124,149,90,99,92,358.1523897340054,False,False,False,True,False,False,False,False,
+Stijn,00194.mp4,accident,Driving in Lane,PV braking / slower,102,147,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00195.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,123,164,117.95096902789018,85,70,270.0,False,False,False,False,False,False,False,True,
+Stijn,00199.mp4,accident,Straight at intersection,Other vehicle approaching from side,107,164,90,159,104,181.63657704161673,False,False,False,False,False,False,False,True,
+Stijn,00200.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,131,134,90,95,89,82.50414236027014,False,False,False,True,False,False,False,False,
+Stijn,00201.mp4,accident,Leaving Lane,SV @ target lane,93,105,81.86989764584403,134,112,90,False,False,False,True,False,False,False,False,
+Stijn,00202.mp4,accident,Driving in Lane,PV cut-in,126,132,90,87,88,64.98310652189998,False,False,False,False,True,False,False,False,
+Stijn,00205.mp4,accident,Driving in Lane,PV braking / slower,84,153,90,85,70,90,False,True,False,True,False,False,False,False,
+Stijn,00206.mp4,accident,Other,Add Comment,139,157,90,87,102,180.0,False,False,False,True,False,False,False,False,"Ego straight path, Target reverse from parking"
+Stijn,00207.mp4,accident,Driving in Lane,PV cut-in,105,173,90,154,128,161.07535558394878,False,False,False,False,False,False,False,True,
+Stijn,00208.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,118,161,90,88,92,313.83086067209257,False,True,False,False,False,False,False,False,
+Stijn,00209.mp4,accident,Straight at intersection,Other,136,155,90,97,123,77.0053832080835,False,False,False,True,False,False,False,False,SV Cut-in
+Stijn,00210.mp4,accident,Turning at intersection,Other vehicle approaching from side,121,165,90,64,116,2.3859440303888126,False,False,False,False,False,False,False,True,intersection is start from stop cut-in by ego
+Stijn,00213.mp4,accident,Driving in Lane,PV stopped,87,156,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00214.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,71,154,67.75097634278764,120,130,83.29016319224307,False,False,False,True,False,False,False,False,
+Stijn,00216.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,144,161,115.51387042753426,109,83,315.0,False,False,False,False,False,False,False,True,
+Stijn,00217.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,138,137,90,102,90,49.76364169072618,False,False,False,False,False,False,False,True,
+Stijn,00218.mp4,accident,Driving in Lane,PV cut-in,135,138,90,108,83,58.172553423326896,True,False,False,True,True,False,False,False,
+Stijn,00222.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,53,150,78.23171106797936,85,70,59.34933204294713,False,False,False,False,False,False,False,True,
+Stijn,00223.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,117,165,101.30993247402021,134,98,124.87532834460218,False,False,False,True,True,False,False,False,Target cut-in
+Stijn,00224.mp4,accident,Driving in Lane,PV stopped,89,159,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00225.mp4,accident,Other,Add Comment,139,157,90,89,98,175.36453657309735,False,False,False,True,True,False,False,False,"Parking lot: Ego straight path, target reverse from parking space"
+Stijn,00226.mp4,accident,Driving in Lane,PV stopped,85,157,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00227.mp4,accident,Driving in Lane,PV stopped,83,160,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00228.mp4,accident,Driving in Lane,PV stopped,89,151,90,85,70,90,False,True,False,False,False,False,False,True,
+Stijn,00232.mp4,accident,Straight at intersection,Other vehicle approaching from side,140,150,90,87,96,0.0,False,False,False,True,True,False,False,False,
+Stijn,00233.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,146,149,113.96248897457819,86,96,137.20259816176582,False,False,False,False,False,False,True,False,
+Stijn,00234.mp4,accident,Driving in Lane,PV stopped,85,158,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00235.mp4,accident,Other,Add Comment,92,162,90,155,109,178.3864610671188,False,False,False,False,False,False,False,True,"Parking lot: Ego straight path, target exit from parking space"
+Stijn,00236.mp4,near-miss,Driving in Lane,PV stopped,95,171,102.38075692880719,123,89,90,False,True,False,True,False,False,False,False,
+Stijn,00237.mp4,accident,Driving in Lane,PV stopped,87,157,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00238.mp4,accident,Driving in Lane,PV stopped,87,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00239.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,108,165,90,147,126,107.96913974015703,True,False,False,True,False,False,False,False,Target SV cut-in
+Stijn,00240.mp4,accident,Driving in Lane,PV braking / slower,102,151,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00242.mp4,accident,Driving in Lane,PV cut-in,60,166,90,102,127,110.92450174492117,False,True,False,False,False,False,False,False,
+Stijn,00244.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,108,159,42.70938995736147,102,87,318.81407483429035,False,False,False,False,False,False,False,True,
+Stijn,00245.mp4,accident,Driving in Lane,PV cut-in,121,148,90,155,89,109.5731258304102,False,False,False,False,False,False,False,True,
+Stijn,00247.mp4,accident,Driving in Lane,PV cut-in,78,153,90,125,111,109.35899417569473,False,False,False,False,False,False,False,True,
+Stijn,00250.mp4,accident,Driving in Lane,PV braking / slower,84,154,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00251.mp4,accident,Driving in Lane,PV cut-in,128,157,90,100,102,66.37062226934319,False,False,True,True,False,False,False,False,
+Stijn,00252.mp4,accident,Driving in Lane,PV cut-in,92,165,90,136,133,106.14433878028349,False,False,False,False,False,False,False,True,
+Stijn,00253.mp4,accident,Other,Add Comment,97,165,90,143,100,27.979474388480146,False,False,False,False,False,False,False,True,Target reversed into ego at parking speed
+Stijn,00254.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,144,123,90,100,130,78.92979742206063,False,False,False,True,False,False,False,False,Target SV cut-in
+Stijn,00255.mp4,accident,Driving in Lane,PV stopped,89,159,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00256.mp4,accident,Leaving Lane,PV @ target lane,88,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00260.mp4,accident,Straight at intersection,Other vehicle approaching from side,128,135,90,111,82,43.09084756700362,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00262.mp4,accident,Other,Add Comment,85,162,90,85,70,90,False,False,True,True,False,False,False,False,truck PV reversing in to the EGO
+Sergi Reboll Blasco,00263.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,101,179,67.98871680208065,148,140,84.68545433005525,True,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00264.mp4,accident,Driving in Lane,PV cut-in,132,143,90,175,111,118.30075576600638,False,False,False,False,True,False,False,False,
+Sergi Reboll Blasco,00265.mp4,accident,Driving in Lane,PV braking / slower,85,142,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00266.mp4,accident,Driving in Lane,PV braking / slower,85,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00269.mp4,accident,Straight at intersection,Other vehicle approaching from side,104,147,90,157,137,180.0,False,True,False,False,False,False,False,False,
+Sergi Reboll Blasco,00270.mp4,accident,Leaving Lane,PV @ target lane,71,140,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00271.mp4,accident,Driving in Lane,PV cut-in,123,123,90,92,81,82.03038960567865,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00272.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,85,70,90,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00273.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,126,150,90,89,124,63.97040780848655,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00275.mp4,accident,Driving in Lane,PV braking / slower,85,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00276.mp4,accident,Driving in Lane,PV braking / slower,93,133,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00282.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,116,152,90,143,83,56.309932474020215,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00283.mp4,accident,Driving in Lane,Other,106,115,90,109,60,188.13010235415598,False,True,True,False,False,False,False,False,Unexpected Uturn
+Sergi Reboll Blasco,00284.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,116,131,90,90,61,325.06068979532296,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00285.mp4,accident,Leaving Lane,PV @ target lane,87,135,82.40535663140857,85,70,90,False,False,False,True,False,False,False,True,
+Sergi Reboll Blasco,00286.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,77,141,90,85,70,75.14138555207533,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00287.mp4,accident,Leaving Lane,Other,137,152,90,99,91,96.07245640720771,False,False,False,False,False,False,False,True,EGO lost the lane
+Sergi Reboll Blasco,00288.mp4,accident,Driving in Lane,Other,125,113,90,85,70,90,True,False,True,False,False,False,True,False,passenger opened the rear door of target vehicle
+Sergi Reboll Blasco,00289.mp4,accident,Straight at intersection,Other vehicle approaching from side,120,162,90,117,108,196.26020470831193,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00290.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,114,152,90,109,84,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00291.mp4,near-miss,Driving in Lane,PV cut-in,102,141,90,143,108,98.9726266148964,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00292.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,114,156,90,124,80,59.981632572390915,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00294.mp4,accident,Driving in Lane,PV braking / slower,85,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00295.mp4,accident,Driving in Lane,PV cut-in,125,103,90,91,68,74.21924669048461,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00296.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,133,128,90,106,81,58.10920819815429,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00298.mp4,accident,Driving in Lane,PV braking / slower,120,131,90,106,59,121.60750224624891,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00300.mp4,accident,Driving in Lane,PV braking / slower,86,139,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00301.mp4,accident,Driving in Lane,PV cut-in,119,114,90,80,115,78.69006752597979,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00302.mp4,accident,Driving in Lane,PV braking / slower,86,141,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00303.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,128,132,90,85,70,291.8014094863518,False,True,False,False,False,False,False,False,
+Sergi Reboll Blasco,00307.mp4,accident,Driving in Lane,PV braking / slower,82,137,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00308.mp4,accident,Driving in Lane,PV braking / slower,85,140,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00309.mp4,accident,Driving in Lane,Other,137,122,90,175,96,90,False,False,True,False,False,False,True,False,driver door opened
+Sergi Reboll Blasco,00310.mp4,accident,Straight at intersection,Other vehicle approaching from side,109,122,90,85,70,1.6365770416167182,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00311.mp4,accident,Driving in Lane,PV stopped,87,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00312.mp4,accident,Driving in Lane,PV stopped,84,140,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00313.mp4,accident,Straight at intersection,Other vehicle approaching from side,121,124,90,85,70,358.6677801461304,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00317.mp4,accident,Driving in Lane,PV braking / slower,86,136,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00318.mp4,accident,Driving in Lane,Oncoming vehicle,95,145,90,85,70,299.9536081678015,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00319.mp4,accident,Straight at intersection,Other vehicle approaching from side,96,150,90,145,99,178.95837332399003,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00320.mp4,accident,Other,Add Comment,89,110,90,142,66,182.6025622024998,False,False,False,False,False,False,False,True,EGO out of lane (weird Uturn)
+Sergi Reboll Blasco,00321.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,111,90,85,70,0.0,False,False,False,False,True,False,False,False,EGO not braking
+Sergi Reboll Blasco,00324.mp4,accident,Turning at intersection,Other vehicle approaching from side,130,125,90,115,72,192.93805631718644,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00325.mp4,accident,Driving in Lane,PV braking / slower,84,138,90,85,70,90,False,False,False,False,False,False,False,True,EGo did not brake
+Sergi Reboll Blasco,00326.mp4,accident,Leaving Lane,RV @ target lane,128,87,114.56717132060132,82,57,92.6942842898561,False,False,False,False,False,False,False,True,EGO unsafe lane change
+Sergi Reboll Blasco,00327.mp4,accident,Driving in Lane,PV stopped,85,140,90,85,70,90,False,False,False,False,False,False,False,True,ego lifted brake pedal
+Sergi Reboll Blasco,00328.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,129,127,90,96,85,60.25511870305778,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00329.mp4,accident,Driving in Lane,PV stopped,85,141,90,85,70,90,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00330.mp4,accident,Straight at intersection,Other vehicle approaching from side,132,117,90,130,63,0.8425242607404145,False,True,False,False,False,False,False,False,
+Sergi Reboll Blasco,00259.mp4,near-miss,Leaving Lane,PV @ target lane,73,142,78.17851165939275,85,70,90,False,False,False,False,False,False,False,True,ego not paying attention to the front  during lane change
+Sergi Reboll Blasco,00332.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,130,138,90.0,86,83,310.44623202084136,False,False,True,False,False,False,False,False,target crosses in front of ego
+Sergi Reboll Blasco,00333.mp4,accident,Driving in Lane,PV stopped,96,137,90,85,70,90,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00334.mp4,accident,Driving in Lane,PV cut-in,116,108,90,85,70,70.11483488614456,False,False,True,False,False,False,False,True,
+Sergi Reboll Blasco,00335.mp4,accident,Driving in Lane,PV cut-in,108,133,90,68,107,68.87528085392752,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00339.mp4,accident,Driving in Lane,PV braking / slower,85,141,90,85,70,90,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00340.mp4,accident,Driving in Lane,PV cut-in,100,152,90,140,123,108.06047193619918,False,False,True,False,False,True,False,False,target moving on the way after bicycle passes
+Sergi Reboll Blasco,00331.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,85,140,90,85,70,80.96051719664487,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00336.mp4,accident,Leaving Lane,RV @ target lane,114,101,99.09027692082232,77,113,90.0,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00341.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,40,120,90,85,70,59.47029410006589,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00342.mp4,accident,Driving in Lane,Other,124,106,90,164,68,90,False,False,False,False,False,False,True,False,Dr door opened
+Sergi Reboll Blasco,00343.mp4,accident,Driving in Lane,PV braking / slower,86,139,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00344.mp4,accident,Driving in Lane,PV stopped,85,139,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00345.mp4,accident,Straight at intersection,Other vehicle approaching from side,103,119,90.0,97,68,180.0,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00348.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,100,147,90,116,91,309.28940686250036,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00351.mp4,accident,Other,Add Comment,165,120,90,123,136,81.67434966957316,True,False,False,False,False,False,False,False,ego stopped
+Sergi Reboll Blasco,00353.mp4,accident,Leaving Lane,RV @ target lane,127,136,101.56013079421777,87,109,79.2157021324374,True,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00349.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,179,52,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00355.mp4,accident,Straight at intersection,Other vehicle approaching from side,101,122,90,85,70,1.1017061152063747,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00356.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,110,113,132.436229788535,76,40,268.8766972859246,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00358.mp4,near-miss,Driving in Lane,PV braking / slower,112,124,90,113,52,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00360.mp4,accident,Turning at intersection,Other vehicle approaching from side,126,125,90,85,70,0.725224299059252,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00361.mp4,accident,Driving in Lane,PV stopped,87,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00362.mp4,accident,Driving in Lane,PV stopped,81,139,90,85,70,90,False,False,False,False,True,False,False,True,
+Sergi Reboll Blasco,00363.mp4,accident,Driving in Lane,PV stopped,90,112,90,90,41,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00364.mp4,accident,Driving in Lane,PV braking / slower,96,107,90,96,41,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00366.mp4,accident,Driving in Lane,PV stopped,108,113,90,109,43,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00369.mp4,accident,Straight at intersection,Other vehicle approaching from side,96,104,90,87,55,1.2453642667683475,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00370.mp4,accident,Leaving Lane,PV @ target lane,129,108,90,85,70,54.727578551401606,False,False,False,False,True,False,False,False,ego driving out of its lane
+Sergi Reboll Blasco,00371.mp4,accident,Straight at intersection,Other vehicle approaching from side,116,123,90,85,70,359.2559407971113,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00372.mp4,accident,Driving in Lane,PV braking / slower,118,97,90,156,32,59.78867761416518,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00373.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,129,92,90,104,43,45.0,False,False,False,False,False,False,False,True,target crosses in front of ego
+Sergi Reboll Blasco,00375.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,122,107,90,122,40,81.86989764584403,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00376.mp4,accident,Driving in Lane,PV cut-in,107,100,90,145,63,124.33021719550332,False,False,False,True,False,False,False,False,"ego starting to drive, target crossing in front"
+Sergi Reboll Blasco,00378.mp4,near-miss,Other,Add Comment,154,74,90,85,70,90,False,False,False,False,False,False,False,True,impossible to determine what happened here
+Sergi Reboll Blasco,00380.mp4,near-miss,Leaving Lane,PV @ target lane,110,140,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00381.mp4,accident,Driving in Lane,PV cut-in,113,91,90,148,63,110.22485943116808,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00382.mp4,accident,Leaving Lane,PV @ target lane,172,114,90,180,42,90,False,False,False,False,False,False,False,True,driving towards a parked car
+Sergi Reboll Blasco,00383.mp4,accident,Driving in Lane,PV cut-in,119,102,90,156,74,101.56013079421777,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00387.mp4,accident,Driving in Lane,PV cut-in,123,93,90,85,70,74.40718906073366,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00388.mp4,accident,Straight at intersection,Other vehicle approaching from side,123,124,90,85,70,358.47247455778705,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00389.mp4,accident,Other,Add Comment,165,120,90,128,93,74.21924669048461,False,False,False,False,False,False,False,True,not clear
+Sergi Reboll Blasco,00391.mp4,accident,Driving in Lane,Other,46,97,90,85,70,90,False,False,False,False,False,False,False,True,target opened dr door
+Sergi Reboll Blasco,00392.mp4,accident,Straight at intersection,Other vehicle approaching from side,85,123,90,85,70,358.9390883097358,False,False,False,False,False,False,False,True,red light for the ego
+Sergi Reboll Blasco,00393.mp4,accident,Driving in Lane,PV stopped,87,139,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00394.mp4,accident,Turning at intersection,Other vehicle approaching from side,140,138,90,90,89,1.2453642667683475,False,True,False,False,False,False,False,False,
+Stijn,00395.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,139,90,76,92,2.602562202499806,False,False,False,False,False,False,False,True,
+Stijn,00397.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,124,156,122.66091272167381,118,73,269.09061955080085,False,False,False,False,False,False,False,True,
+Stijn,00398.mp4,accident,Driving in Lane,PV cut-in,74,160,90,119,131,122.0053832080835,False,False,False,False,True,False,False,False,
+Stijn,00401.mp4,accident,Turning at intersection,Other,118,147,76.26373169437744,75,112,49.53777250790665,False,True,False,False,False,False,False,False,"SV Cut in in front of Ego, difficult to see if impact or near miss"
+Stijn,00403.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,84,122,53.97262661489639,124,157,90,True,False,False,True,False,False,False,False,
+Stijn,00405.mp4,accident,Other,Add Comment,136,145,90,89,88,180.0,False,False,False,True,False,False,False,False,"SV Target pulling out of parking space in reverse, Ego hit as driving in lane"
+Stijn,00406.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,125,147,126.63411387596742,119,72,270.84252426074045,False,False,False,False,True,False,False,False,
+Stijn,00407.mp4,accident,Driving in Lane,PV stopped,84,152,90,85,70,90,False,False,False,True,False,False,False,False,
+stijn,00408.mp4,accident,Driving in Lane,PV cut-in,131,123,90,93,82,50.19442890773481,False,True,True,True,False,False,False,False,
+Stijn,00410.mp4,accident,Driving in Lane,PV stopped,82,147,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00411.mp4,accident,Leaving Lane,SV @ target lane,133,136,123.3885135761115,85,149,90,False,False,False,True,False,False,False,False,
+Stijn,00413.mp4,accident,Driving in Lane,PV stopped,84,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00414.mp4,accident,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,"Impossible to judge due to blurred area, accident not visible"
+Stijn,00415.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,88,156,90,85,70,90,False,False,True,False,True,False,False,False,
+Stijn,00416.mp4,accident,Driving in Lane,PV stopped,50,142,90,85,70,90,False,False,False,False,False,False,False,True,PV parked on driving lane
+Stijn,00417.mp4,accident,Driving in Lane,PV braking / slower,84,145,90,85,70,90,False,False,True,False,False,False,False,False,
+Stijn,00418.mp4,accident,Driving in Lane,PV stopped,83,152,103.3924977537511,85,70,83.6598082540901,False,True,False,True,False,False,False,False,
+Stijn,00420.mp4,accident,Driving in Lane,PV cut-in,86,158,90,137,103,178.8308606720926,False,True,False,False,False,False,False,False,
+Stijn,00422.mp4,accident,Driving in Lane,PV cut-in,117,134,90,64,112,63.43494882292201,False,True,False,False,False,False,False,False,
+Stijn,00423.mp4,accident,Leaving Lane,SV @ target lane,131,143,110.85445803957835,86,153,90,True,False,False,False,False,False,False,False,
+Stijn,00424.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,123,150,101.76828893202065,96,76,124.69515353123397,False,True,False,False,True,False,False,False,Ego unable to stop due to snow
+Stijn,00425.mp4,accident,Other,Add Comment,137,158,107.7004277886672,84,151,80.75388725443676,True,False,False,False,False,False,False,False,"Parking area, Ego leaving lane, SV cut in"
+Stijn,00426.mp4,accident,Driving in Lane,PV stopped,87,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00427.mp4,accident,Driving in Lane,PV cut-in,79,155,90,133,116,358.56790381583534,False,True,True,False,False,False,False,False,"PV u-turn in driving lane, ego leaving lane as avoidance maneuver, PV reverse into Ego path"
+Stijn,00428.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,123,188,96.95295746817392,92,111,108.43494882292202,False,False,False,True,False,False,False,False,
+Stijn,00429.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,80,132,39.80557109226519,54,82,0.0,False,False,False,True,False,False,False,False,
+Stijn,00430.mp4,accident,Driving in Lane,PV stopped,89,151,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00431.mp4,accident,Driving in Lane,PV braking / slower,83,154,90,85,70,90,False,True,False,True,False,False,False,False,
+Stijn,00433.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,91,151,90,108,91,133.87669728592456,False,True,False,False,False,False,False,False,
+Stijn,00434.mp4,accident,Straight at intersection,Other vehicle approaching from side,86,153,90,86,96,180.0,False,False,False,False,False,False,False,True,
+Stijn,00435.mp4,accident,Straight at intersection,Other vehicle approaching from side,93,154,90,133,95,181.46880071438582,False,False,False,False,False,False,False,True,
+Stijn,00437.mp4,accident,Driving in Lane,PV stopped,85,154,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00440.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,87,156,90,98,77,64.13364320590549,False,False,False,True,False,False,False,False,
+Stijn,00441.mp4,accident,Driving in Lane,PV stopped,86,166,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00443.mp4,accident,Leaving Lane,SV @ target lane,130,111,104.03624346792648,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00444.mp4,accident,Driving in Lane,PV stopped,87,158,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00447.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,105,166,109.5731258304102,117,105,126.43085812016236,False,False,False,False,False,False,False,True,
+Stijn,00449.mp4,accident,Turning at intersection,Other vehicle approaching from side,146,134,127.0730733173104,89,156,0.9548412538721887,False,False,False,False,False,False,False,True,
+stijn,00450.mp4,accident,Driving in Lane,PV stopped,86,150,90,85,70,90,False,False,False,True,True,False,False,False,
+Stijn,00452.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,102,163,78.17851165939275,139,93,55.885527054658745,False,False,False,True,False,False,False,False,
+Stijn,00453.mp4,accident,Driving in Lane,PV stopped,87,155,90,85,70,90,False,True,False,True,False,False,False,False,
+Stijn,00454.mp4,accident,Leaving Lane,PV @ target lane,85,156,90,85,70,90,False,False,True,True,False,False,False,False,
+Stijn,00455.mp4,accident,Driving in Lane,PV cut-in,107,155,90,89,77,76.6075022462489,False,True,True,True,False,False,False,False,
+Stijn,00456.mp4,accident,Driving in Lane,PV cut-in,122,139,90,85,96,70.5599651718238,False,False,False,False,False,False,False,True,
+Stijn,00457.mp4,accident,Turning at intersection,Other vehicle approaching from side,130,135,90,95,87,51.63251461513847,True,False,True,False,False,False,False,False,
+Stijn,00458.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,92,158,90,109,81,64.79887635452492,False,False,False,True,False,False,False,False,
+Stijn,00459.mp4,accident,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,Impossible to judge due to blurred area
+Stijn,00460.mp4,accident,Other,Add Comment,105,151,67.01128319791937,120,69,217.94215335011893,False,False,False,True,False,False,False,False,Accident at parking Ego exit and Oncoming vehicle parking entry
+Stijn,00461.mp4,accident,Driving in Lane,PV braking / slower,89,153,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00463.mp4,accident,Driving in Lane,Other,72,156,105.25511870305779,30,71,270.0,False,False,False,True,False,False,False,False,"Ego wandering, hitting parked car on opposite side of the road, hit and run"
+Stijn,00464.mp4,accident,Driving in Lane,PV cut-in,103,127,90,58,93,72.34987578006988,False,False,False,False,False,False,False,True,
+Stijn,00466.mp4,accident,Driving in Lane,PV cut-in,88,146,90,137,90,0.0,False,False,True,False,False,False,False,True,PV reversing inot road from driveway
+Stijn,00467.mp4,accident,Leaving Lane,SV @ target lane,134,144,123.02386755579664,79,151,90,True,False,False,False,True,False,False,False,Ego pull out of parking at side of road
+Stijn,00469.mp4,accident,Driving in Lane,PV cut-in,67,169,90,104,129,108.8860873697093,False,False,False,True,False,False,False,False,
+Stijn,00471.mp4,accident,Driving in Lane,PV braking / slower,89,158,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00472.mp4,near-miss,Straight at intersection,Other,165,120,90,85,70,90,False,True,True,True,True,False,False,False,SV Cut in
+Stijn,00473.mp4,accident,Driving in Lane,PV braking / slower,93,155,90,85,70,90,False,True,False,True,True,False,False,False,
+Stijn,00474.mp4,accident,Driving in Lane,PV cut-in,39,107,90,85,70,109.23067237566129,False,False,False,True,True,False,False,False,
+Stijn,00475.mp4,accident,Driving in Lane,PV cut-in,93,165,90,93,99,186.1701750950296,False,True,True,True,False,False,False,False,PV U-turn
+Stijn,00477.mp4,accident,Driving in Lane,PV cut-out,73,155,90,85,70,59.85861444792466,False,False,False,False,False,False,False,True,
+Stijn,00478.mp4,accident,Driving in Lane,Oncoming vehicle,113,168,90,79,92,320.4403320310055,False,True,True,False,True,False,False,False,Oncoming vehicle from side
+Stijn,00479.mp4,accident,Straight at intersection,Other vehicle approaching from side,124,142,90,76,94,0.0,False,False,False,False,False,False,False,True,
+Stijn,00480.mp4,accident,Driving in Lane,PV stopped,88,152,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00481.mp4,accident,Straight at intersection,Other vehicle approaching from side,89,156,90,152,106,177.27368900609375,False,False,False,False,False,False,False,True,
+Stijn,00483.mp4,accident,Driving in Lane,PV cut-in,85,158,90,77,84,62.65012421993013,False,False,False,True,False,False,False,False,
+Stijn,00485.mp4,accident,Leaving Lane,PV @ target lane,63,141,77.59258147259925,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00486.mp4,accident,Driving in Lane,PV stopped,84,152,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00487.mp4,accident,Straight at intersection,Other vehicle approaching from side,87,152,90,92,90,1.3971810272963765,False,False,False,True,False,False,False,False,
+Stijn,00488.mp4,accident,Other,Add Comment,111,160,90,85,95,165.67728002179646,False,False,False,True,False,False,False,False,"Gas station parking, PV stopped, ego hit PV 2 times on purpose"
+Stijn,00491.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,88,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00493.mp4,accident,Leaving Lane,PV @ target lane,105,144,104.82647997035568,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00494.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,82,153,65.69545073406329,113,84,39.17365797044423,False,False,False,True,False,False,False,False,
+Stijn,00495.mp4,accident,Driving in Lane,PV stopped,85,150,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00496.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,86,158,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00497.mp4,accident,Straight at intersection,Other vehicle approaching from side,86,151,90,116,97,111.37062226934319,False,False,True,True,False,False,False,False,SV Cut in
+Stijn,00498.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,98,165,81.52885536698517,118,86,60.25511870305778,False,False,False,True,False,False,False,False,
+Stijn,00500.mp4,accident,Driving in Lane,PV stopped,84,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00501.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,84,153,90,85,70,90,False,True,True,False,False,False,True,False,PV brake for pedestrian
+Stijn,00502.mp4,accident,Driving in Lane,PV stopped,83,154,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00503.mp4,accident,Driving in Lane,PV stopped,88,156,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00505.mp4,accident,Leaving Lane,SV @ target lane,136,88,113.86017519134235,85,70,90,True,False,False,False,False,False,False,False,
+Stijn,00506.mp4,accident,Straight at intersection,Other vehicle approaching from side,82,147,90,85,70,98.47114463301483,False,True,False,False,False,False,False,True,PV cut in
+Stijn,00510.mp4,accident,Leaving Lane,Other,85,161,107.19854122006586,110,95,133.26429541107163,False,False,False,False,True,False,False,False,SV Cut in
+Stijn,00512.mp4,accident,Driving in Lane,PV cut-in,128,134,90,90,83,59.03624346792648,False,False,False,False,False,False,False,True,
+Stijn,00515.mp4,accident,Straight at intersection,Other vehicle approaching from side,143,129,90,96,84,48.65222278030633,False,False,False,False,False,False,False,True,SV Cut in
+Stijn,00516.mp4,accident,Straight at intersection,Other,44,121,90,85,70,102.80426606528675,False,False,True,False,False,False,False,False,PV Cut in
+Stijn,00517.mp4,accident,Straight at intersection,Other vehicle approaching from side,135,145,90,88,87,0.0,False,True,False,False,False,False,False,False,
+Stijn,00519.mp4,accident,Leaving Lane,SV @ target lane,146,157,104.03624346792648,105,169,88.45184230102204,False,False,False,True,False,False,False,False,
+Stijn,00520.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,137,90,85,70,344.8759926916894,True,True,False,False,False,False,False,False,
+Stijn,00521.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,78,130,79.91940201245768,114,59,48.71528910542877,False,False,False,True,False,False,True,False,
+Stijn,00522.mp4,accident,Driving in Lane,PV cut-in,45,127,90,85,99,103.76078511179124,False,False,False,True,False,False,False,False,
+Stijn,00523.mp4,accident,Driving in Lane,PV cut-in,48,124,90,89,93,100.40771131249006,False,False,False,False,False,False,False,True,
+Stijn,00526.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,92,126,180.0,85,70,268.9190758133393,False,False,False,False,False,False,False,True,
+Stijn,00527.mp4,accident,Driving in Lane,PV stopped,80,143,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00528.mp4,accident,Driving in Lane,PV stopped,98,148,82.50414236027014,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00529.mp4,accident,Driving in Lane,PV cut-in,136,157,90,106,81,90,False,False,False,False,False,False,False,True,
+Stijn,00530.mp4,accident,Driving in Lane,PV cut-in,134,101,90,95,76,82.23483398157467,False,False,False,False,False,False,False,True,
+Stijn,00533.mp4,near-miss,Leaving Lane,PV @ target lane,121,153,90,97,72,90,False,False,False,True,False,False,False,False,
+Stijn,00534.mp4,accident,Driving in Lane,PV stopped,89,156,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00537.mp4,accident,Straight at intersection,Other vehicle approaching from side,95,160,90,99,96,180.0,False,False,False,False,False,False,False,True,
+Stijn,00538.mp4,accident,Driving in Lane,Other,88,168,90,103,88,109.74683660542613,False,False,False,False,False,False,False,True,"PV reversing to park parallel, then stopped before impact"
+Stijn,00539.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,86,157,90,99,77,109.74683660542613,False,False,False,False,False,False,False,True,
+Stijn,00540.mp4,accident,Straight at intersection,Other vehicle approaching from side,86,160,90,121,92,202.83365417791754,False,False,False,True,False,False,False,False,
+Stijn,00541.mp4,accident,Turning at intersection,Other vehicle approaching from side,83,159,90,132,107,181.8476102659946,False,False,False,False,False,False,False,True,
+Stijn,00542.mp4,accident,Straight at intersection,Other vehicle approaching from side,123,162,90,83,106,0.0,False,False,False,True,False,False,False,False,Parking lot intersection
+Stijn,00543.mp4,accident,Driving in Lane,PV stopped,87,155,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00544.mp4,accident,Driving in Lane,PV stopped,88,161,90,85,70,90,False,False,False,False,False,False,False,True,slow speed impact
+Stijn,00546.mp4,accident,Driving in Lane,Other,83,160,90,123,127,90,False,False,False,True,False,False,False,False,Ego vehicle hit parked car driver door when opened
+Stijn,00547.mp4,accident,Driving in Lane,PV stopped,85,154,90,85,70,90,False,False,False,False,False,False,False,True,low speed impact
+Stijn,00549.mp4,accident,Straight at intersection,Other vehicle approaching from side,139,155,90,101,83,327.38075692880716,False,False,False,False,False,False,False,True,Ego vehicle hidden from sight of Target vehicle
+Stijn,00550.mp4,accident,Driving in Lane,PV stopped,84,152,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00551.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,117,153,149.34933204294714,85,70,273.01278750418334,False,False,False,False,False,False,False,True,
+Stijn,00553.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,112,165,90,72,89,307.11686068327026,False,False,False,True,False,False,False,False,
+Stijn,00554.mp4,accident,Driving in Lane,PV braking / slower,69,146,90,85,70,90,False,False,False,False,False,False,False,True,slow speed impact
+Stijn,00556.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,85,160,90,107,99,140.06361685303008,False,False,False,False,False,False,False,True,
+Stijn,00557.mp4,near-miss,Driving in Lane,PV cut-in,124,148,90,84,87,68.19859051364818,False,False,False,True,False,False,False,False,
+Stijn,00558.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,84,152,90,130,109,145.30484646876604,False,False,False,True,True,False,False,False,
+Stijn,00560.mp4,near-miss,Driving in Lane,PV cut-in,47,125,90,84,78,117.09555249375181,True,False,False,False,False,False,False,False,
+Stijn,00562.mp4,near-miss,Driving in Lane,PV cut-in,125,137,90,87,89,66.61477894278624,False,False,False,False,False,False,False,True,
+Stijn,00563.mp4,near-miss,Driving in Lane,Other,47,96,90,85,70,90,False,False,False,True,False,False,False,False,parked vehicle adjacent lane driver opens door
+Stijn,00564.mp4,near-miss,Driving in Lane,PV stopped,84,151,90,85,70,90,False,False,False,False,False,False,False,True,driver ego vehicle almost rear end PV at parking speed
+Stijn,00565.mp4,near-miss,Driving in Lane,PV cut-in,123,142,90,92,85,67.83365417791754,False,False,False,True,False,False,False,False,
+Stijn,00566.mp4,near-miss,Turning at intersection,Other,43,116,90,85,70,111.25050550713325,False,False,False,False,False,False,False,True,SV cur in lane after both vehicles turn at intersection
+Stijn,00567.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,126,72,84.55966796899449,False,False,False,True,False,False,False,False,attempted cut-in
+Stijn,00568.mp4,near-miss,Leaving Lane,SV @ target lane,50,130,101.53462065364472,85,70,113.83874018317172,False,False,False,False,False,False,False,True,
+Stijn,00570.mp4,near-miss,Driving in Lane,PV cut-in,138,133,90,97,81,72.80145877993414,False,False,False,True,False,False,False,False,
+Stijn,00571.mp4,near-miss,Leaving Lane,PV @ target lane,60,145,77.7352262721076,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00573.mp4,near-miss,Driving in Lane,PV cut-in,49,149,90,85,70,90,False,False,False,False,True,False,False,False,"assumption: not clear due to blurred area, actual incident not visible"
+Stijn,00574.mp4,near-miss,Driving in Lane,PV cut-in,47,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00577.mp4,near-miss,Driving in Lane,PV cut-in,46,140,90,87,100,109.5731258304102,False,False,False,False,False,False,False,True,
+Stijn,00579.mp4,near-miss,Driving in Lane,PV cut-in,43,143,90,73,81,164.35775354279127,False,False,False,False,False,False,False,True,attempted U-turn of PV
+Stijn,00580.mp4,near-miss,Driving in Lane,Oncoming vehicle,105,165,90,68,95,357.7974018382342,False,False,False,True,False,False,False,False,u-turn of oncoming vehicle (slow speed)
+Stijn,00581.mp4,near-miss,Driving in Lane,PV cut-in,108,167,90,73,114,69.62356478616361,False,False,False,True,False,False,False,False,
+Stijn,00583.mp4,near-miss,Driving in Lane,PV braking / slower,87,151,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00584.mp4,near-miss,Leaving Lane,PV @ target lane,115,156,74.40718906073366,93,94,52.59464336859145,False,False,False,False,False,False,False,True,"both vehicles attempt lane change, Ego wants to overtake PV"
+Stijn,00585.mp4,near-miss,Driving in Lane,PV cut-in,114,159,90,76,109,78.17851165939275,False,False,False,False,False,False,False,True,
+Stijn,00586.mp4,near-miss,Driving in Lane,PV stopped,87,153,90,85,70,90,False,False,False,True,True,False,False,False,
+Stijn,00587.mp4,near-miss,Driving in Lane,PV cut-in,123,96,90,85,70,82.61395684873273,False,False,False,False,False,False,False,True,
+Stijn,00588.mp4,near-miss,Driving in Lane,PV cut-in,42,127,90,85,70,109.35899417569473,False,False,False,True,False,False,False,False,
+Stijn,00589.mp4,near-miss,Driving in Lane,PV braking / slower,86,148,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00590.mp4,near-miss,Driving in Lane,PV braking / slower,85,155,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00591.mp4,near-miss,Leaving Lane,PV @ target lane,109,147,70.14478563067895,85,70,67.61986494804043,False,False,False,False,False,False,False,True,
+Stijn,00592.mp4,near-miss,Leaving Lane,SV @ target lane,102,150,90,145,118,115.46334506187162,False,False,False,True,False,False,False,False,
+Stijn,00593.mp4,near-miss,Driving in Lane,PV cut-out,84,155,90,124,81,54.86580694308437,False,False,False,False,False,False,False,True,"partial cut-out, PV brake and stop"
+Stijn,00594.mp4,near-miss,Driving in Lane,PV stopped,86,161,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00596.mp4,near-miss,Driving in Lane,PV cut-in,82,154,90,120,95,104.32271997820357,False,False,False,False,False,False,False,True,
+Stijn,00597.mp4,near-miss,Other,Add Comment,86,173,90,85,70,90,False,False,False,False,False,False,False,True,Impossible to judge due to incident occur in blurred area
+Stijn,00598.mp4,near-miss,Leaving Lane,SV @ target lane,90,176,90,124,119,110.72555886556054,False,False,False,False,False,False,False,True,
+Stijn,00599.mp4,near-miss,Driving in Lane,PV stopped,85,162,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00600.mp4,near-miss,Driving in Lane,PV stopped,85,156,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00601.mp4,near-miss,Driving in Lane,PV stopped,86,156,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00602.mp4,near-miss,Driving in Lane,PV cut-in,42,127,90,81,95,110.40988283380399,False,False,False,False,False,False,False,True,
+Stijn,00603.mp4,near-miss,Driving in Lane,PV cut-in,42,124,90,85,70,114.44395478041653,False,False,False,False,False,False,False,True,
+Stijn,00604.mp4,near-miss,Leaving Lane,SV @ target lane,146,140,111.31791227546155,85,113,71.17528998175993,False,False,False,False,False,False,False,True,
+Stijn,00605.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,127,158,90,67,96,0.0,False,False,False,False,False,False,False,True,
+Stijn,00606.mp4,near-miss,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,attempt by ego vehicle to scare driver pv1 and then almost hitting pv2
+Stijn,00607.mp4,near-miss,Driving in Lane,PV cut-out,114,156,90,72,84,128.6598082540901,False,False,False,False,False,False,False,True,slow cut-out of pv
+Stijn,00608.mp4,near-miss,Driving in Lane,PV stopped,85,156,90,85,70,90,False,False,False,True,False,False,False,True,
+Stijn,00609.mp4,near-miss,Driving in Lane,Oncoming vehicle,82,164,90,96,81,218.85337434035333,False,False,False,False,False,False,False,True,
+Stijn,00610.mp4,near-miss,Driving in Lane,PV cut-in,90,158,90,85,70,90,False,False,False,True,False,False,True,False,
+Stijn,00611.mp4,near-miss,Driving in Lane,PV cut-in,117,166,90,79,128,59.85861444792466,False,False,False,False,True,False,False,False,
+Stijn,00613.mp4,near-miss,Driving in Lane,PV cut-in,86,147,90,127,113,110.55604521958347,False,False,False,False,False,False,False,True,
+Stijn,00614.mp4,near-miss,Driving in Lane,PV cut-in,92,173,90,122,117,136.21887523513132,False,False,False,True,False,False,False,False,
+Stijn,00617.mp4,near-miss,Driving in Lane,PV cut-in,139,125,90,102,73,68.4985656759521,False,False,False,True,False,False,False,False,
+Stijn,00618.mp4,near-miss,Driving in Lane,PV cut-in,124,128,90,85,70,74.05460409907715,False,False,False,True,True,False,False,False,
+Stijn,00621.mp4,near-miss,Turning at intersection,Other,130,126,79.91940201245768,98,70,50.792796495032164,False,False,False,False,False,False,False,True,SV Cut in
+Stijn,00622.mp4,near-miss,Driving in Lane,PV braking / slower,85,150,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00623.mp4,near-miss,Driving in Lane,Other,142,113,90,99,96,72.12130340415867,True,False,False,False,False,False,False,False,SV cut-in
+Stijn,00624.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,112,160,90,179,93,180.0,False,False,False,True,False,False,False,False,
+Stijn,00625.mp4,near-miss,Driving in Lane,Other,43,106,90,85,70,90,False,False,False,False,True,False,False,False,parked car door opening
+Stijn,00626.mp4,near-miss,Leaving Lane,Oncoming vehicle,166,154,138.21548399174821,50,115,318.31094151461144,False,False,False,False,False,False,False,True,both driver attempt u-turn and almost collide head-on
+Stijn,00627.mp4,near-miss,Driving in Lane,Other,165,120,90,85,70,90,False,False,False,False,False,False,False,True,parked vehicle in adjacent lane exits into ego driving lane
+Stijn,00629.mp4,near-miss,Turning at intersection,Other vehicle approaching from front / opposite,119,171,151.15733986458793,85,70,269.0122396003602,False,False,False,True,False,False,False,False,
+Stijn,00630.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,119,157,99.86580694308438,85,70,119.1676133795778,False,False,False,True,False,False,False,False,
+Stijn,00633.mp4,near-miss,Driving in Lane,PV cut-in,117,148,90,85,70,12.094757077012101,False,False,False,True,False,False,False,False,
+Stijn,00634.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,100,160,90,138,99,165.57922687248902,False,False,False,True,True,False,False,False,
+Stijn,00635.mp4,near-miss,Leaving Lane,RV @ target lane,117,128,161.30101719581887,61,176,90,True,False,False,False,False,False,False,False,
+Stijn,00636.mp4,near-miss,Driving in Lane,PV braking / slower,87,157,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00637.mp4,near-miss,Driving in Lane,PV cut-in,49,134,90,85,70,103.3924977537511,False,False,False,False,False,False,False,True,
+Stijn,00638.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,115,161,90,85,70,307.5685920288275,False,False,False,False,False,False,False,True,
+Stijn,00639.mp4,near-miss,Driving in Lane,PV braking / slower,90,156,94.28915332881903,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00640.mp4,near-miss,Driving in Lane,PV cut-in,39,132,90,85,70,115.76932762433871,False,False,False,False,False,False,False,True,
+Stijn,00641.mp4,near-miss,Driving in Lane,PV stopped,91,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00642.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,70,153,90,85,70,69.77514056883192,False,False,False,True,False,False,True,False,
+Stijn,00643.mp4,near-miss,Leaving Lane,SV @ target lane,116,172,117.699472808055,57,105,65.55604521958347,False,False,False,True,False,False,False,False,sv leaving lane as well
+Stijn,00644.mp4,near-miss,Driving in Lane,PV cut-in,115,159,90,69,107,73.14160123226172,False,False,False,False,False,False,False,True,
+Stijn,00645.mp4,near-miss,Driving in Lane,PV braking / slower,62,150,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00647.mp4,near-miss,Driving in Lane,PV cut-in,54,149,90,97,102,137.12109639666144,False,False,False,True,False,False,False,False,
+Stijn,00648.mp4,near-miss,Leaving Lane,PV @ target lane,84,164,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00650.mp4,near-miss,Driving in Lane,PV braking / slower,85,156,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00651.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,89,155,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00652.mp4,near-miss,Leaving Lane,SV @ target lane,41,128,79.99202019855866,85,70,105.94539590092286,False,False,False,True,False,False,False,False,
+Stijn,00653.mp4,near-miss,Driving in Lane,PV cut-in,43,123,90,85,70,112.61986494804043,False,False,False,False,False,False,False,True,
+Stijn,00655.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,121,132,90,85,70,1.193489423982035,False,False,False,False,False,False,False,True,
+Stijn,00656.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,131,150,90,89,97,63.43494882292201,False,False,False,True,False,False,False,False,
+Stijn,00657.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,105,142,92.38594403038883,48,65,347.9052429229879,False,False,False,False,False,False,False,True,
+Stijn,00658.mp4,near-miss,Driving in Lane,PV cut-in,40,136,90,85,70,107.96913974015703,False,False,False,False,False,False,False,True,
+Stijn,00659.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,81,155,90,127,94,168.6900675259798,False,False,False,True,False,False,False,False,
+Stijn,00660.mp4,near-miss,Driving in Lane,PV cut-in,128,143,90,95,93,46.16913932790742,False,False,False,False,False,False,False,True,
+Stijn,00661.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,86,151,90.0,124,103,130.15599962491933,False,False,False,False,False,False,False,True,
+Stijn,00663.mp4,near-miss,Leaving Lane,SV @ target lane,55,129,74.53878225955809,103,82,107.5924245621816,False,False,False,False,False,False,False,True,
+Stijn,00664.mp4,near-miss,Driving in Lane,PV cut-in,122,145,90,88,76,64.23067237566129,False,False,False,True,False,False,False,False,
+Stijn,00665.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,92,162,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00666.mp4,near-miss,Leaving Lane,Object,115,154,66.97450799147197,85,70,145.00797980144134,False,False,False,True,False,False,False,False,"accident vehicle in original lane, therefore brake and leave lane"
+Stijn,00667.mp4,near-miss,Leaving Lane,SV @ target lane,137,135,102.80426606528675,85,70,76.6075022462489,False,False,False,False,False,False,False,True,
+Stijn,00668.mp4,near-miss,Driving in Lane,PV cut-in,131,131,90,85,70,65.77225468204583,False,False,False,True,False,False,False,False,
+Stijn,00669.mp4,near-miss,Straight at intersection,Other,174,167,90,30,40,90,False,False,False,False,False,False,True,False,late brake for pedestrian
+Stijn,00670.mp4,near-miss,Leaving Lane,SV @ target lane,112,117,65.55604521958347,85,70,55.37584492005105,False,False,False,False,False,False,False,True,
+Stijn,00671.mp4,near-miss,Driving in Lane,PV braking / slower,84,151,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00673.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,98,128,90,167,73,181.06091169026422,True,False,False,False,False,False,False,False,
+Stijn,00674.mp4,near-miss,Driving in Lane,PV braking / slower,135,112,90,87,97,69.27444113443946,False,False,False,True,False,False,False,False,"Ego attempt to overtake slower vehicle, then has to abort due to almost impact with guard rail"
+Stijn,00675.mp4,near-miss,Driving in Lane,PV cut-in,133,120,90,85,70,66.37062226934319,False,False,False,True,False,False,False,False,
+Stijn,00677.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,57,123,90,110,73,141.34019174590992,False,False,False,False,True,False,False,False,
+Stijn,00678.mp4,near-miss,Driving in Lane,Other,165,120,90,85,70,90,False,False,False,False,False,False,False,True,not possible to judge due to incident occur in blurred area
+Stijn,00682.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,140,119,90,85,70,36.86989764584402,False,False,False,True,False,False,False,False,
+Stijn,00683.mp4,near-miss,Driving in Lane,Oncoming vehicle,92,149,90,88,87,195.4612177404419,False,False,False,False,False,False,False,True,
+Stijn,00684.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,121,85,66.03751102542182,False,False,False,True,True,False,False,False,
+Stijn,00686.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,105,94,62.850318302216834,False,False,False,False,False,False,False,True,double: pv and sv cut-in
+Stijn,00687.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,91,146,117.18111108547723,106,86,160.01689347810003,False,False,False,False,False,False,False,True,
+Stijn,00688.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,95,160,90,82,78,115.46334506187162,False,False,False,True,False,False,False,False,
+Stijn,00690.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,110,153,90,85,70,321.1155035662854,False,False,False,True,False,False,False,False,
+Stijn,00691.mp4,near-miss,Driving in Lane,PV braking / slower,86,161,90,85,70,90,False,False,False,True,True,False,False,False,
+Stijn,00692.mp4,near-miss,Driving in Lane,PV braking / slower,86,161,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00693.mp4,near-miss,Driving in Lane,Other,42,119,90,85,70,90,False,False,False,False,False,False,False,True,parked vehicle door opening
+Stijn,00694.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,85,178,70.01689347810003,118,104,48.50353164478446,False,False,False,True,False,False,False,False,
+Stijn,00695.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,132,132,80.53767779197439,103,71,31.759480084812793,False,False,False,True,False,False,False,False,
+Stijn,00696.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,88,147,90,104,74,62.24145939893998,False,False,False,False,False,False,True,False,
+Stijn,00697.mp4,near-miss,Leaving Lane,SV @ target lane,130,116,98.47114463301483,85,70,82.72499504211075,True,False,False,False,False,False,False,False,
+Stijn,00698.mp4,near-miss,Driving in Lane,PV cut-in,141,121,90,85,70,59.82647997035567,False,False,False,True,False,False,False,False,
+Stijn,00699.mp4,near-miss,Leaving Lane,SV @ target lane,142,127,78.46537934635528,108,85,57.094757077012105,False,False,False,True,False,False,False,False,
+Stijn,00700.mp4,near-miss,Driving in Lane,PV cut-in,132,129,90,85,70,39.66784111834045,False,False,False,True,False,False,False,False,
+Stijn,00701.mp4,near-miss,Driving in Lane,PV cut-in,40,110,90,85,70,111.1247191460725,False,False,False,False,False,False,False,True,
+Stijn,00702.mp4,near-miss,Driving in Lane,PV braking / slower,84,152,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00703.mp4,near-miss,Driving in Lane,PV braking / slower,86,157,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00704.mp4,near-miss,Driving in Lane,PV cut-in,86,151,90,58,93,40.36453657309736,False,False,False,True,False,False,False,False,
+Stijn,00705.mp4,near-miss,Driving in Lane,PV cut-in,83,154,90,50,102,29.74488129694222,False,False,False,False,True,False,False,False,
+Stijn,00707.mp4,near-miss,Driving in Lane,PV cut-in,90,160,90,99,88,170.24757505834623,False,False,False,True,False,False,False,False,pv runaway from cops
+Stijn,00709.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,84,157,90,144,89,181.73570458892837,False,False,False,False,False,False,False,True,
+Stijn,00710.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,83,159,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00712.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,89,149,90,137,85,180.0,False,False,False,True,False,False,False,False,
+Stijn,00713.mp4,near-miss,Driving in Lane,PV cut-in,39,122,90,85,70,137.20259816176582,False,False,False,True,False,False,False,False,
+Stijn,00714.mp4,near-miss,Driving in Lane,PV cut-in,122,120,90,85,70,69.77514056883192,False,False,False,True,False,False,False,False,
+Stijn,00715.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,124,155,90,69,95,2.2025981617658053,False,False,False,False,False,False,False,True,parking lot
+Stijn,00719.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,84,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00722.mp4,near-miss,Driving in Lane,PV stopped,84,153,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00723.mp4,near-miss,Driving in Lane,PV cut-in,117,153,90,76,111,75.25643716352927,False,False,False,True,False,False,False,False,
+Stijn,00725.mp4,near-miss,Driving in Lane,PV braking / slower,89,156,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00727.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,108,162,90,44,107,0.0,False,False,False,False,False,False,False,True,
+Stijn,00729.mp4,near-miss,Driving in Lane,PV braking / slower,84,158,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00730.mp4,near-miss,Driving in Lane,PV cut-in,123,125,90,85,70,74.6237487511738,False,False,False,False,False,False,False,True,
+Stijn,00731.mp4,near-miss,Driving in Lane,PV stopped,85,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00733.mp4,near-miss,Driving in Lane,PV cut-in,85,145,90.0,117,79,107.96913974015703,False,False,False,False,False,False,False,True,
+Stijn,00734.mp4,near-miss,Leaving Lane,PV @ target lane,88,153,90,85,70,90,False,False,False,True,True,False,False,False,
+Stijn,00735.mp4,near-miss,Driving in Lane,PV cut-in,133,129,90,106,71,65.55604521958347,False,False,False,False,False,False,False,True,
+Stijn,00737.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,90,160,92.12109639666146,142,105,181.39718102729637,False,False,False,False,False,False,False,True,
+Stijn,00739.mp4,near-miss,Driving in Lane,PV cut-in,150,110,90,190,69,105.59281093926634,False,False,False,True,False,False,False,False,
+Stijn,00740.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,86,151,90,141,99,164.21924669048462,False,False,False,False,False,False,False,True,
+Stijn,00741.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,127,128,90,85,70,59.03624346792648,False,False,False,True,False,False,False,False,
+Stijn,00742.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,122,156,118.92642583525362,85,70,268.8766972859246,False,False,False,True,False,False,False,False,
+Stijn,00744.mp4,near-miss,Driving in Lane,PV cut-in,130,114,90,85,70,71.96571443287014,False,False,False,False,False,False,False,True,
+Stijn,00745.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,120,75,74.6237487511738,False,False,False,True,False,False,False,False,
+Stijn,00747.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,126,85,75.06858282186245,False,False,False,False,False,False,False,True,
+Stijn,00748.mp4,near-miss,Driving in Lane,PV cut-in,44,125,90,85,70,110.55604521958347,False,False,False,False,False,False,False,True,
+Stijn,00750.mp4,near-miss,Driving in Lane,PV cut-in,42,114,90,85,70,111.80140948635182,False,False,False,True,False,False,False,False,
+Stijn,00751.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,118,154,90,72,88,1.507435758774968,False,False,False,False,False,False,False,True,
+Stijn,00753.mp4,near-miss,Leaving Lane,PV @ target lane,83,148,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00754.mp4,near-miss,Leaving Lane,PV @ target lane,69,155,75.46554491945989,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00755.mp4,near-miss,Driving in Lane,PV cut-in,43,126,90,85,70,116.56505117707799,False,False,False,True,False,False,False,False,
+Stijn,00757.mp4,near-miss,Driving in Lane,PV cut-in,46,119,90,85,70,104.85861444792467,False,False,False,True,False,False,False,False,
+Stijn,00758.mp4,near-miss,Driving in Lane,Oncoming vehicle,99,156,90,51,89,347.31961650818016,False,False,False,False,False,False,False,True,PV vehicle u-turn towards ego
+Stijn,00761.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,73,140,92.29061004263853,121,86,163.88658176691072,False,False,False,False,False,False,False,True,
+Stijn,00762.mp4,near-miss,Driving in Lane,PV stopped,89,153,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00763.mp4,near-miss,Driving in Lane,PV cut-in,43,123,90,85,70,126.02737338510362,False,False,False,True,True,False,False,False,
+Stijn,00765.mp4,near-miss,Driving in Lane,PV cut-in,118,125,90,85,70,67.5205656028969,False,False,False,False,False,False,False,True,
+Stijn,00766.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,62,126,90,101,73,149.34933204294714,False,False,False,False,False,False,False,True,
+Stijn,00769.mp4,near-miss,Driving in Lane,PV cut-in,39,112,90,85,70,111.25050550713325,False,False,False,True,False,False,False,False,
+Tom Roggeman,00771.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,146,135,110.2825590889166,85,70,140.71059313749967,False,True,False,False,False,False,False,False,
+Tom Roggeman,00773.mp4,near-miss,Driving in Lane,PV cut-in,165,120,164.20759647114272,85,70,194.74356283647072,False,True,True,True,False,False,False,False,
+Tom Roggeman,00774.mp4,near-miss,Turning at intersection,Other vehicle approaching from front / opposite,165,120,128.6598082540901,85,70,326.30993247402023,False,True,True,False,False,False,False,False,target illegal u-turn
+Tom Roggeman,00776.mp4,near-miss,Driving in Lane,PV cut-in,165,120,159.77514056883192,85,70,177.31622484053102,False,True,False,True,False,False,False,False,
+Tom Roggeman,00777.mp4,accident,Driving in Lane,PV braking / slower,165,120,90,85,70,90,False,True,False,True,False,False,False,False,Late brake from ego
+TOM ROGGEMAN,00780.mp4,near-miss,Driving in Lane,PV cut-in,79,142,90.0,99,58,112.01128319791937,False,False,True,True,False,False,False,False,Police acting strange
+TOM ROGGEMAN,00782.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,85,165,90,85,70,90,False,False,True,False,False,False,False,False,
+TOM ROGGEMAN,00783.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,87,125,90,106,42,352.05652818940956,False,True,True,False,False,False,False,False,"blinded by sun, still accelerating"
+TOM ROGGEMAN,00784.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,85,70,90,False,True,False,False,False,False,False,False,ego driver distracted
+TOM ROGGEMAN,00785.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,83,141,104.93141717813755,71,66,358.89829388479365,False,True,False,False,False,False,False,False,ego ignoring stop
+TOM ROGGEMAN,00787.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,87,167,90,85,70,90,False,False,True,False,False,False,False,False,target left turn where not allowed
+TOM ROGGEMAN,00788.mp4,near-miss,Driving in Lane,Oncoming vehicle,114,160,90,66,91,354.4278021960362,False,False,True,False,False,False,False,False,"target crossing road, ego very slow reaction"
+TOM ROGGEMAN,00789.mp4,near-miss,Driving in Lane,Oncoming vehicle,122,143,90,85,70,352.14668669802177,False,False,True,False,False,False,False,False,"target crossing road, ego very slow reaction"
+TOM ROGGEMAN,00791.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,95,152,79.46081627137177,85,70,95.1944289077348,False,True,False,False,False,False,False,False,"target so slow light turns red, ego not paying attention"
+TOM ROGGEMAN,00792.mp4,near-miss,Driving in Lane,PV braking / slower,89,169,87.39743779750019,94,76,83.01894259317021,False,False,False,False,False,False,False,True,"ego not paying attention, late brake"
+TOM ROGGEMAN,00793.mp4,near-miss,Driving in Lane,PV stopped,80,151,92.48955292199916,85,70,90,False,True,False,False,False,False,False,False,"ego not paying attention, late brake"
+TOM ROGGEMAN,00794.mp4,near-miss,Other,Add Comment,140,171,90,104,108,81.67434966957316,False,False,False,False,False,False,False,True,"ego driving on shoulder, target also crossing in onto shoulder => road rage"
+tom roggeman,00798.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,89,153,90,108,82,155.6589100633075,False,True,False,True,True,False,False,False,"ego going straight on turning lane, target on the right turning left as required"
+tom roggeman,00802.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,129,111,68.36911316348207,113,43,182.86240522611175,False,True,False,True,False,False,False,False,late reaction from ego
+tom roggeman,00803.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,129,144,90,85,70,131.92254460057563,False,True,False,False,False,False,False,False,late reaction from ego
+tom roggeman,00804.mp4,near-miss,Driving in Lane,PV cut-in,122,134,90,85,70,71.56505117707799,False,True,True,True,False,False,False,False,
+tom roggeman,00805.mp4,near-miss,Driving in Lane,PV cut-out,112,152,81.15818543980832,85,70,112.71441235316725,False,True,False,True,False,False,False,False,No/late reaction ego
+tom roggeman,00809.mp4,near-miss,Driving in Lane,PV cut-in,86,154,90,85,70,81.2538377374448,False,False,False,True,False,False,False,False,target cut back in after cut out
+tom roggeman,00810.mp4,near-miss,Driving in Lane,PV cut-in,88,135,90,137,132,101.07020257793937,False,False,True,True,True,False,False,False,
+tom roggeman,00813.mp4,near-miss,Driving in Lane,PV cut-in,95,168,90,113,52,118.7059525434011,False,True,False,True,False,False,False,False,ego refuse to slow down => near miss
+tom roggeman,00816.mp4,near-miss,Driving in Lane,Oncoming vehicle,85,171,90,85,70,300.80144597613685,False,True,True,True,False,False,False,False,Target randomly cuts across double yellow almost head on
+tom roggeman,00817.mp4,near-miss,Driving in Lane,PV stopped,117,147,68.70264595096624,88,65,90,False,True,True,False,False,False,False,False,target has no brake lights (trailer)
+tom roggeman,00818.mp4,accident,Straight at intersection,Other vehicle approaching from side,125,144,90,92,98,72.03086025984298,False,False,False,True,False,False,False,False,Ego departs whilst being overtaken
+tom roggeman,00819.mp4,near-miss,Leaving Lane,PV @ target lane,110,162,107.28149837181665,85,70,90,False,True,False,False,False,False,False,False,"Ego not payoing attention, late brake"
+tom roggeman,00820.mp4,near-miss,Driving in Lane,PV braking / slower,87,170,90,85,70,90,False,True,False,False,False,False,False,False,"ego not paying attention, late brake"
+tom roggeman,00822.mp4,near-miss,Driving in Lane,PV stopped,85,151,90,85,70,90,False,False,False,False,False,False,False,True,ego tailgating to avoid cut in
+tom roggeman,00823.mp4,near-miss,Driving in Lane,Oncoming vehicle,62,154,90,85,70,349.1144729453413,False,False,False,True,False,False,False,False,"vehicle crossing, ego refuse to brake"
+tom roggeman,00824.mp4,near-miss,Driving in Lane,PV braking / slower,88,174,90,85,70,90,False,False,False,False,False,False,False,True,close folowing
+tom roggeman,00825.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,103,141,118.36904629327857,85,70,0.0,False,True,False,True,False,False,False,False,"ego late brake, target ignores stop"
+tom roggeman,00827.mp4,near-miss,Other,Add Comment,129,134,137.81555668421123,98,40,256.50426671920417,False,True,False,False,False,False,False,False,ego turning into parking spot ignoring oncoming vehicle
+tom roggeman,00828.mp4,near-miss,Driving in Lane,PV cut-in,135,163,90,93,114,77.47119229084849,False,True,False,False,False,False,False,False,
+tom roggeman,00830.mp4,near-miss,Driving in Lane,PV cut-in,88,131,90,131,101,108.79988515865266,False,True,False,False,False,False,False,False,truck on rh tries to ram ego
+tom roggeman,00831.mp4,near-miss,Driving in Lane,PV cut-in,109,142,90,85,70,51.927218126009166,False,True,False,False,False,False,False,False,
+tom roggeman,00832.mp4,near-miss,Driving in Lane,PV cut-in,86,148,90,103,63,120.06858282186246,False,True,False,False,False,False,False,False,
+tom roggeman,00833.mp4,near-miss,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,don't see anything
+tom roggeman,00834.mp4,near-miss,Driving in Lane,PV stopped,115,143,90,114,52,90,False,True,False,False,False,False,False,False,ego creeping forward (not looking at rioad)
+tom roggeman,00835.mp4,near-miss,Driving in Lane,Oncoming vehicle,112,163,84.8055710922652,79,85,332.87869659584135,False,True,True,True,False,False,False,False,oncoming car cut in over double yellow
+tom roggeman,00836.mp4,near-miss,Driving in Lane,PV cut-in,90,155,90,128,78,111.5713071912546,False,True,True,False,False,False,False,False,Target cut in lane to avoid obstacle
+tom roggeman,00838.mp4,near-miss,Driving in Lane,PV stopped,90,159,90,85,70,90,False,False,False,True,False,False,False,False,"ego late brake, not paying attention"
+tom roggeman,00839.mp4,near-miss,Leaving Lane,PV @ target lane,56,134,90,89,61,124.07719528013074,False,True,False,False,False,False,False,False,ego overtaking manoevring vehicle
+tom roggeman,00840.mp4,near-miss,Driving in Lane,PV cut-in,102,156,90,57,108,65.22485943116808,False,True,True,True,False,False,False,False,
+tom roggeman,00841.mp4,near-miss,Driving in Lane,PV cut-in,87,168,90,126,126,99.65989307844234,False,True,False,False,False,False,False,False,
+tom roggeman,00842.mp4,near-miss,Driving in Lane,PV cut-in,86,160,90,111,93,119.57783868126134,False,True,True,True,False,False,False,False,
+tom roggeman,00843.mp4,near-miss,Leaving Lane,PV @ target lane,130,140,124.77783136636387,85,70,90,False,True,False,False,False,False,False,False,ego not paying attention
+tom roggeman,00845.mp4,accident,Driving in Lane,PV cut-in,91,157,90,131,104,129.64417495714483,False,True,False,False,False,False,False,False,"Target cut ego off to turn, ego refuse to brake"
+tom roggeman,00846.mp4,near-miss,Driving in Lane,PV cut-in,111,145,130.3141001604973,100,79,149.2372804657611,False,True,True,False,False,False,False,False,
+tom roggeman,00847.mp4,near-miss,Driving in Lane,PV braking / slower,97,163,90,85,70,90,False,True,False,False,False,False,False,False,ego tailgating
+tom roggeman,00849.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,84,159,90,118,80,178.69804732742114,False,False,False,False,False,False,False,True,ego yielded late
+tom roggeman,00850.mp4,near-miss,Driving in Lane,Other,57,140,90,96,66,5.194428907734806,False,False,False,False,False,False,False,True,reversing vehicle out of parking spot
+tom roggeman,00851.mp4,near-miss,Driving in Lane,PV cut-in,90,160,90,130,110,117.21611155730749,False,True,True,False,False,False,False,False,"road rage, target cuts in from shoulder trying to brake check ego"
+tom roggeman,00854.mp4,near-miss,Driving in Lane,PV cut-in,133,146,90,89,80,81.46923439005187,False,False,False,False,False,False,False,True,
+tom roggeman,00856.mp4,near-miss,Driving in Lane,PV cut-in,88,156,90,123,99,124.07719528013074,False,False,False,False,False,False,False,True,
+tom roggeman,00857.mp4,near-miss,Driving in Lane,PV cut-in,102,146,110.2825590889166,123,86,157.75097634278765,False,False,False,False,False,False,False,True,"ego refuses to brake, late avoidance"
+tom roggeman,00858.mp4,near-miss,Driving in Lane,PV braking / slower,88,160,90,85,70,90,False,True,False,False,False,False,False,False,ego late brake
+tom roggeman,00859.mp4,near-miss,Driving in Lane,PV cut-in,68,149,90,85,70,128.8298249049704,False,False,True,False,False,False,False,False,
+tom roggeman,00860.mp4,near-miss,Leaving Lane,Other,108,144,58.781597235653635,85,70,90,False,True,False,True,False,False,False,False,ego not watching road
+tom roggeman,00861.mp4,near-miss,Driving in Lane,PV cut-in,96,111,90,132,43,146.30993247402023,False,False,True,False,False,False,False,False,
+tom roggeman,00863.mp4,near-miss,Driving in Lane,PV cut-in,156,86,89.3414568224364,85,70,41.32550047917034,False,False,True,False,False,False,False,False,
+tom roggeman,00864.mp4,near-miss,Leaving Lane,Other,124,115,107.10272896905236,160,42,187.48088617952368,False,False,False,False,False,False,False,True,"ego no brake, avoidance over double yellow"
+tom roggeman,00865.mp4,near-miss,Driving in Lane,PV cut-out,122,135,90,99,54,164.8459319496874,False,True,True,True,False,False,False,False,
+tom roggeman,00866.mp4,near-miss,Leaving Lane,Other,106,151,64.3231843181618,101,67,143.3438915840331,False,True,True,True,False,False,False,False,"ego and target both making illegal u-turn, ego almost hits target"
+tom roggeman,00867.mp4,near-miss,Driving in Lane,PV cut-in,130,107,90,85,70,83.01894259317021,False,False,False,False,False,False,False,True,
+tom roggeman,00868.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,117,153,90,85,70,332.10272896905235,False,True,False,True,False,False,False,False,target cuts off ego
+tom roggeman,00869.mp4,near-miss,Driving in Lane,Other,87,101,90,139,61,138.3664606634298,False,False,False,True,False,False,False,False,"taget leaving parking, ego refuse to wait, has to avoid"
+tom roggeman,00872.mp4,near-miss,Driving in Lane,PV cut-in,95,99,90,139,71,100.61965527615514,False,False,True,False,False,False,False,False,
+tom roggeman,00873.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,119,120,90,161,54,178.8542371618249,False,True,False,False,False,False,False,False,target yields late
+tom roggeman,00874.mp4,near-miss,Driving in Lane,PV stopped,86,149,90,85,70,90,False,True,False,False,False,False,False,False,ego almost creeps into target
+tom roggeman,00875.mp4,near-miss,Leaving Lane,Other,62,152,90,85,70,123.69006752597979,False,True,True,False,False,False,False,False,target turns whilst ego overtakes
+tom roggeman,00876.mp4,near-miss,Driving in Lane,PV cut-in,84,155,90,104,67,119.57783868126134,False,True,False,False,False,False,False,False,
+tom roggeman,00877.mp4,near-miss,Driving in Lane,PV cut-in,133,106,90,85,70,90,False,False,False,True,False,False,False,True,ego refuse to brake
+tom roggeman,00879.mp4,near-miss,Driving in Lane,PV cut-in,89,122,118.7059525434011,117,53,132.9299693469589,False,True,False,False,False,False,False,False,ego not paying attention
+tom roggeman,00880.mp4,near-miss,Driving in Lane,PV cut-in,116,129,90,85,70,55.53918372862823,False,True,True,False,False,False,False,False,
+tom roggeman,00881.mp4,near-miss,Driving in Lane,PV cut-in,137,70,90,94,64,86.49646835521554,True,True,False,True,False,False,False,False,
+tom roggeman,00882.mp4,near-miss,Driving in Lane,PV stopped,165,120,90,85,70,90,False,True,False,False,True,False,False,False,ego almost creep into target
+tom roggeman,00883.mp4,near-miss,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,don't see anything
+tom roggeman,00884.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,95,165,90,125,83,182.6025622024998,False,True,False,False,False,False,False,False,target not stopping at stop
+tom roggeman,00885.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,124,158,90,85,70,302.9052429229879,False,True,False,False,True,False,False,False,view obstructed by PV
+tom roggeman,00887.mp4,near-miss,Driving in Lane,PV cut-in,132,126,90,85,70,55.4914770123316,False,False,False,True,False,False,False,False,
+tom roggeman,00888.mp4,near-miss,Driving in Lane,PV cut-in,85,165,90,123,106,99.24611274556325,False,False,True,False,False,False,False,False,
+tom roggeman,00889.mp4,near-miss,Driving in Lane,Other,97,107,90,153,49,8.13010235415598,False,False,False,False,False,False,False,True,target backing up into street
+tom roggeman,00890.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,95,142,90,85,70,343.73979529168804,False,True,False,False,False,False,False,False,
+tom roggeman,00891.mp4,near-miss,Driving in Lane,PV cut-in,93,145,90,125,82,104.67639313745002,False,False,True,False,False,False,False,False,
+tom roggeman,00895.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,116,160,90,85,70,291.8014094863518,False,True,False,False,False,False,False,False,
+tom roggeman,00896.mp4,near-miss,Driving in Lane,Oncoming vehicle,91,139,90,146,60,195.36161631184865,False,True,False,False,False,False,False,False,target crossing parking
+tom roggeman,00897.mp4,near-miss,Driving in Lane,PV cut-in,116,135,90,85,70,70.76932762433871,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00898.mp4,near-miss,Driving in Lane,PV cut-in,133,76,100.08059798754232,85,70,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00900.mp4,near-miss,Driving in Lane,PV braking / slower,110,118,90,120,40,169.46081627137178,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00901.mp4,near-miss,Driving in Lane,PV cut-in,126,137,90,103,59,62.447188423282206,False,False,False,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00902.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,103,142,90,85,70,40.60129464500447,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00903.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,143,97,90,85,70,56.63363399894044,False,False,False,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00904.mp4,near-miss,Leaving Lane,SV @ target lane,140,118,97.59464336859145,88,89,73.68614757373945,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00905.mp4,near-miss,Other,Add Comment,145,123,90,85,70,358.45184230102205,False,False,True,False,False,False,False,False,Target coming from the right out of parking position
+Nicolás Cutcliffe Sánchez,00906.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,117,123,78.69006752597979,82,77,64.02560603756868,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00909.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,155,79,90,85,70,0.0,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00910.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,108,131,90,132,50,58.840695491655616,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00911.mp4,near-miss,Driving in Lane,PV cut-in,62,152,90,98,89,119.74488129694222,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00912.mp4,near-miss,Driving in Lane,PV stopped,84,150,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00913.mp4,near-miss,Driving in Lane,PV cut-in,88,119,90,128,73,115.3461759419467,False,False,False,False,False,False,False,True,Hard to judge the incident with the video
+Nicolás Cutcliffe Sánchez,00914.mp4,near-miss,Driving in Lane,PV stopped,84,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00915.mp4,near-miss,Driving in Lane,PV braking / slower,54,138,114.34108993669251,85,70,90,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00916.mp4,near-miss,Driving in Lane,PV cut-in,96,100,90,150,94,108.43494882292202,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00917.mp4,near-miss,Driving in Lane,PV braking / slower,121,143,90,117,53,108.0041616059134,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00918.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,83,109,74.74488129694222,132,90,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00921.mp4,near-miss,Other,Add Comment,104,140,53.615648184164115,122,58,270.52085637450193,False,False,True,False,False,False,False,False,Oncoming target on ego lane
+Nicolás Cutcliffe Sánchez,00923.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,138,96,117.07208023799276,56,73,0.0,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00926.mp4,near-miss,Driving in Lane,PV cut-in,124,129,90,79,104,78.95905981967627,False,False,True,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00927.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,68,101,95.71059313749964,118,94,103.17255342332689,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00928.mp4,near-miss,Driving in Lane,PV braking / slower,121,133,90,121,53,133.45184230102205,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00929.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,100,156,90,85,70,307.77568430595466,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00930.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,126,57,75.32360686254998,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00931.mp4,near-miss,Driving in Lane,PV cut-in,123,133,90,90,60,81.34745820888527,False,False,False,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00932.mp4,near-miss,Leaving Lane,Oncoming vehicle,165,120,90,85,70,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00935.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,143,34,55.71312302279104,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00936.mp4,near-miss,Driving in Lane,PV braking / slower,85,150,90,85,70,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00937.mp4,near-miss,Driving in Lane,PV cut-in,139,88,96.48307369289724,99,120,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00938.mp4,near-miss,Other,Add Comment,165,120,136.0809241866607,103,132,90,False,False,False,False,False,False,False,True,Truck performing a U turn
+Nicolás Cutcliffe Sánchez,00940.mp4,near-miss,Driving in Lane,PV cut-in,129,103,90,85,70,72.47443162627712,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00942.mp4,near-miss,Driving in Lane,PV cut-in,100,129,90,145,85,105.01836063115067,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00943.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,147,126,90,97,68,15.524110996754258,True,False,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00944.mp4,near-miss,Driving in Lane,PV cut-in,84,118,90,122,57,92.33730585912382,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00945.mp4,near-miss,Driving in Lane,PV cut-in,82,114,90,127,118,96.20344790169185,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00947.mp4,near-miss,Driving in Lane,PV cut-in,87,129,90,126,87,116.56505117707799,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00948.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,131,118,90,85,70,39.98688624496419,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00949.mp4,near-miss,Driving in Lane,PV cut-in,120,122,90,85,70,60.832386620422206,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00952.mp4,near-miss,Driving in Lane,PV braking / slower,83,161,90,109,67,90,False,False,True,True,False,False,False,False,Driving between lanes slow
+Nicolás Cutcliffe Sánchez,00953.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,60,147,62.049030972109826,117,149,90,True,True,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00954.mp4,near-miss,Driving in Lane,PV stopped,84,151,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00955.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,116,134,90,126,52,199.1790080258107,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00957.mp4,near-miss,Driving in Lane,PV cut-in,93,154,90,131,100,103.09189306434685,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00958.mp4,near-miss,Driving in Lane,PV cut-in,118,98,90,171,80,113.49856567595211,False,False,True,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00959.mp4,near-miss,Driving in Lane,PV cut-in,158,133,90,128,70,61.606980578617005,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00960.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,115,147,90,85,70,130.6012946450045,False,False,False,False,False,False,True,False,
+Nicolás Cutcliffe Sánchez,00961.mp4,near-miss,Driving in Lane,PV cut-in,52,126,90,106,113,108.43494882292202,False,False,True,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00963.mp4,near-miss,Driving in Lane,PV cut-in,77,133,90,110,67,128.48019824834302,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00964.mp4,near-miss,Leaving Lane,Other,109,165,105.94539590092286,108,70,110.40988283380399,False,False,False,False,True,False,False,False,Leaving the lane then encountering traffic doing the same
+Nicolás Cutcliffe Sánchez,00965.mp4,near-miss,Leaving Lane,PV @ target lane,86,108,74.74488129694222,135,94,90,True,False,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00966.mp4,near-miss,Driving in Lane,PV cut-in,104,157,90,113,79,108.8531587644191,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00967.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,79,110,47.563770211465005,152,49,179.01223960036018,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00968.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,121,131,90,85,70,16.69924423399362,False,False,True,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00970.mp4,near-miss,Leaving Lane,PV @ target lane,68,152,80.53767779197439,85,70,90,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00971.mp4,near-miss,Leaving Lane,PV @ target lane,94,135,98.84181456019168,114,58,114.34108993669251,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00972.mp4,near-miss,Driving in Lane,PV cut-in,85,113,90,126,73,100.53918372862823,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00973.mp4,near-miss,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,Impossible to interpret the video
+Nicolás Cutcliffe Sánchez,00976.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,73,110,103.76078511179124,107,62,111.41296947487176,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00977.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00978.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,83,129,90,128,100,109.29004621918874,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00979.mp4,near-miss,Driving in Lane,PV braking / slower,79,148,90,95,62,70.3461759419467,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00980.mp4,near-miss,Driving in Lane,PV cut-in,132,119,90,85,70,58.626994859891546,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00981.mp4,near-miss,Driving in Lane,PV cut-in,81,150,90,136,124,123.3885135761115,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00982.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,115,85,51.54629078329403,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00983.mp4,near-miss,Driving in Lane,PV cut-in,79,93,100.17551084304321,117,64,103.3245312618908,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00985.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,86,141,90,85,70,359.09061955080085,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00986.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,93,94,90,156,47,169.26110289909454,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00988.mp4,near-miss,Driving in Lane,Other,136,121,90,85,70,214.59228868750995,False,False,False,False,False,False,False,True,"U turn of target vehicle, but difficult to make a proper estimation of what happened"
+Nicolás Cutcliffe Sánchez,00989.mp4,near-miss,Driving in Lane,PV cut-in,86,117,90,149,104,111.41296947487176,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00990.mp4,near-miss,Driving in Lane,PV cut-in,81,103,90,134,93,106.69924423399362,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00991.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,142,134,90,79,119,0.0,False,False,False,True,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00995.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,122,140,90,85,70,132.51044707800085,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00996.mp4,near-miss,Driving in Lane,PV cut-out,121,136,90,113,37,136.43209618416466,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00997.mp4,near-miss,Driving in Lane,PV cut-in,134,135,90,85,70,30.96375653207352,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00998.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,127,71,71.22196677755446,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01000.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,91,136,90,155,50,189.323591778138,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01002.mp4,near-miss,Driving in Lane,PV cut-in,123,163,90,143,79,112.24902365721238,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01003.mp4,near-miss,Driving in Lane,PV braking / slower,85,148,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01004.mp4,near-miss,Driving in Lane,PV stopped,89,144,90,96,54,78.69006752597979,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01008.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,128,63,87.27368900609373,False,False,True,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,01011.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,106,143,90,129,61,69.30454926593673,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01012.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,127,51,68.19859051364818,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01013.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,125,69,77.47119229084849,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01016.mp4,near-miss,Driving in Lane,PV cut-in,102,159,90,125,74,118.14160123226173,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01019.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,85,70,90,True,False,False,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,01020.mp4,near-miss,Driving in Lane,PV cut-in,124,113,90,85,70,82.8749836510982,False,False,False,True,False,False,False,False,Semi-cutin to make the corner radius shalower
+Nicolás Cutcliffe Sánchez,01022.mp4,near-miss,Driving in Lane,PV stopped,84,145,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01024.mp4,near-miss,Driving in Lane,PV cut-in,88,155,90,110,67,111.31791227546155,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01028.mp4,near-miss,Other,Add Comment,82,151,90,85,70,90,False,False,False,False,False,False,False,True,impossible to judge
+Nicolás Cutcliffe Sánchez,01031.mp4,near-miss,Leaving Lane,SV @ target lane,165,120,90,85,70,90,True,False,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01033.mp4,near-miss,Driving in Lane,PV cut-in,104,149,90,142,86,106.09081634885217,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01034.mp4,near-miss,Driving in Lane,PV cut-in,93,80,90,156,87,107.5924245621816,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01035.mp4,near-miss,Driving in Lane,PV stopped,80,161,90,101,68,114.44395478041653,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01036.mp4,near-miss,Driving in Lane,PV braking / slower,86,153,90,85,70,90,False,False,False,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,01037.mp4,near-miss,Other,Add Comment,120,148,90,96,68,127.74680538727468,False,False,True,True,True,False,False,False,Vehicle reversing from parking space
+Nicolás Cutcliffe Sánchez,01039.mp4,near-miss,Driving in Lane,PV cut-in,94,158,90,117,82,112.24902365721238,False,False,True,False,False,False,False,False,

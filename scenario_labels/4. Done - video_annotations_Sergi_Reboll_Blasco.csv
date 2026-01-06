@@ -1,0 +1,187 @@
+Annotator,Video Name,Category,Scenario Level 1,Scenario Level 2,Ego_X,Ego_Y,Ego_Angle,Other_X,Other_Y,Other_Angle,Target not visible,Ego Emergency Maneuver Required,Unexpected Maneuver,Night or Low Light,Rain/Snow/Fog,Cyclist/Scooter Involved,Pedestrian Involved,Nothing Special Observed,Comment
+Sergi Reboll Blasco,00260.mp4,accident,Straight at intersection,Other vehicle approaching from side,128,135,90,111,82,43.09084756700362,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00262.mp4,accident,Other,Add Comment,85,162,90,85,70,90,False,False,True,True,False,False,False,False,truck PV reversing in to the EGO
+Sergi Reboll Blasco,00263.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,101,179,67.98871680208065,148,140,84.68545433005525,True,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00264.mp4,accident,Driving in Lane,PV cut-in,132,143,90,175,111,118.30075576600638,False,False,False,False,True,False,False,False,
+Sergi Reboll Blasco,00265.mp4,accident,Driving in Lane,PV braking / slower,85,142,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00266.mp4,accident,Driving in Lane,PV braking / slower,85,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00269.mp4,accident,Straight at intersection,Other vehicle approaching from side,104,147,90,157,137,180.0,False,True,False,False,False,False,False,False,
+Sergi Reboll Blasco,00270.mp4,accident,Leaving Lane,PV @ target lane,71,140,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00271.mp4,accident,Driving in Lane,PV cut-in,123,123,90,92,81,82.03038960567865,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00272.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,85,70,90,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00273.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,126,150,90,89,124,63.97040780848655,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00275.mp4,accident,Driving in Lane,PV braking / slower,85,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00276.mp4,accident,Driving in Lane,PV braking / slower,93,133,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00282.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,116,152,90,143,83,56.309932474020215,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00283.mp4,accident,Driving in Lane,Other,106,115,90,109,60,188.13010235415598,False,True,True,False,False,False,False,False,Unexpected Uturn
+Sergi Reboll Blasco,00284.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,116,131,90,90,61,325.06068979532296,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00285.mp4,accident,Leaving Lane,PV @ target lane,87,135,82.40535663140857,85,70,90,False,False,False,True,False,False,False,True,
+Sergi Reboll Blasco,00286.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,77,141,90,85,70,75.14138555207533,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00287.mp4,accident,Leaving Lane,Other,137,152,90,99,91,96.07245640720771,False,False,False,False,False,False,False,True,EGO lost the lane
+Sergi Reboll Blasco,00288.mp4,accident,Driving in Lane,Other,125,113,90,85,70,90,True,False,True,False,False,False,True,False,passenger opened the rear door of target vehicle
+Sergi Reboll Blasco,00289.mp4,accident,Straight at intersection,Other vehicle approaching from side,120,162,90,117,108,196.26020470831193,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00290.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,114,152,90,109,84,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00291.mp4,near-miss,Driving in Lane,PV cut-in,102,141,90,143,108,98.9726266148964,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00292.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,114,156,90,124,80,59.981632572390915,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00294.mp4,accident,Driving in Lane,PV braking / slower,85,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00295.mp4,accident,Driving in Lane,PV cut-in,125,103,90,91,68,74.21924669048461,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00296.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,133,128,90,106,81,58.10920819815429,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00298.mp4,accident,Driving in Lane,PV braking / slower,120,131,90,106,59,121.60750224624891,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00300.mp4,accident,Driving in Lane,PV braking / slower,86,139,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00301.mp4,accident,Driving in Lane,PV cut-in,119,114,90,80,115,78.69006752597979,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00302.mp4,accident,Driving in Lane,PV braking / slower,86,141,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00303.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,128,132,90,85,70,291.8014094863518,False,True,False,False,False,False,False,False,
+Sergi Reboll Blasco,00307.mp4,accident,Driving in Lane,PV braking / slower,82,137,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00308.mp4,accident,Driving in Lane,PV braking / slower,85,140,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00309.mp4,accident,Driving in Lane,Other,137,122,90,175,96,90,False,False,True,False,False,False,True,False,driver door opened
+Sergi Reboll Blasco,00310.mp4,accident,Straight at intersection,Other vehicle approaching from side,109,122,90,85,70,1.6365770416167182,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00311.mp4,accident,Driving in Lane,PV stopped,87,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00312.mp4,accident,Driving in Lane,PV stopped,84,140,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00313.mp4,accident,Straight at intersection,Other vehicle approaching from side,121,124,90,85,70,358.6677801461304,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00317.mp4,accident,Driving in Lane,PV braking / slower,86,136,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00318.mp4,accident,Driving in Lane,Oncoming vehicle,95,145,90,85,70,299.9536081678015,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00319.mp4,accident,Straight at intersection,Other vehicle approaching from side,96,150,90,145,99,178.95837332399003,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00320.mp4,accident,Other,Add Comment,89,110,90,142,66,182.6025622024998,False,False,False,False,False,False,False,True,EGO out of lane (weird Uturn)
+Sergi Reboll Blasco,00321.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,111,90,85,70,0.0,False,False,False,False,True,False,False,False,EGO not braking
+Sergi Reboll Blasco,00324.mp4,accident,Turning at intersection,Other vehicle approaching from side,130,125,90,115,72,192.93805631718644,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00325.mp4,accident,Driving in Lane,PV braking / slower,84,138,90,85,70,90,False,False,False,False,False,False,False,True,EGo did not brake
+Sergi Reboll Blasco,00326.mp4,accident,Leaving Lane,RV @ target lane,128,87,114.56717132060132,82,57,92.6942842898561,False,False,False,False,False,False,False,True,EGO unsafe lane change
+Sergi Reboll Blasco,00327.mp4,accident,Driving in Lane,PV stopped,85,140,90,85,70,90,False,False,False,False,False,False,False,True,ego lifted brake pedal
+Sergi Reboll Blasco,00328.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,129,127,90,96,85,60.25511870305778,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00329.mp4,accident,Driving in Lane,PV stopped,85,141,90,85,70,90,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00330.mp4,accident,Straight at intersection,Other vehicle approaching from side,132,117,90,130,63,0.8425242607404145,False,True,False,False,False,False,False,False,
+Sergi Reboll Blasco,00259.mp4,near-miss,Leaving Lane,PV @ target lane,73,142,78.17851165939275,85,70,90,False,False,False,False,False,False,False,True,ego not paying attention to the front  during lane change
+Sergi Reboll Blasco,00332.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,130,138,90.0,86,83,310.44623202084136,False,False,True,False,False,False,False,False,target crosses in front of ego
+Sergi Reboll Blasco,00333.mp4,accident,Driving in Lane,PV stopped,96,137,90,85,70,90,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00334.mp4,accident,Driving in Lane,PV cut-in,116,108,90,85,70,70.11483488614456,False,False,True,False,False,False,False,True,
+Sergi Reboll Blasco,00335.mp4,accident,Driving in Lane,PV cut-in,108,133,90,68,107,68.87528085392752,False,False,True,True,False,False,False,False,
+Sergi Reboll Blasco,00339.mp4,accident,Driving in Lane,PV braking / slower,85,141,90,85,70,90,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00340.mp4,accident,Driving in Lane,PV cut-in,100,152,90,140,123,108.06047193619918,False,False,True,False,False,True,False,False,target moving on the way after bicycle passes
+Sergi Reboll Blasco,00331.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,85,140,90,85,70,80.96051719664487,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00336.mp4,accident,Leaving Lane,RV @ target lane,114,101,99.09027692082232,77,113,90.0,False,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00341.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,40,120,90,85,70,59.47029410006589,False,False,False,False,False,False,False,True,ego does not brake
+Sergi Reboll Blasco,00342.mp4,accident,Driving in Lane,Other,124,106,90,164,68,90,False,False,False,False,False,False,True,False,Dr door opened
+Sergi Reboll Blasco,00343.mp4,accident,Driving in Lane,PV braking / slower,86,139,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00344.mp4,accident,Driving in Lane,PV stopped,85,139,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00345.mp4,accident,Straight at intersection,Other vehicle approaching from side,103,119,90.0,97,68,180.0,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00348.mp4,accident,Straight at intersection,Other vehicle approaching from front / opposite,100,147,90,116,91,309.28940686250036,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00351.mp4,accident,Other,Add Comment,165,120,90,123,136,81.67434966957316,True,False,False,False,False,False,False,False,ego stopped
+Sergi Reboll Blasco,00353.mp4,accident,Leaving Lane,RV @ target lane,127,136,101.56013079421777,87,109,79.2157021324374,True,False,True,False,False,False,False,False,
+Sergi Reboll Blasco,00349.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,179,52,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00355.mp4,accident,Straight at intersection,Other vehicle approaching from side,101,122,90,85,70,1.1017061152063747,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00356.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,110,113,132.436229788535,76,40,268.8766972859246,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00358.mp4,near-miss,Driving in Lane,PV braking / slower,112,124,90,113,52,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00360.mp4,accident,Turning at intersection,Other vehicle approaching from side,126,125,90,85,70,0.725224299059252,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00361.mp4,accident,Driving in Lane,PV stopped,87,138,90,85,70,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00362.mp4,accident,Driving in Lane,PV stopped,81,139,90,85,70,90,False,False,False,False,True,False,False,True,
+Sergi Reboll Blasco,00363.mp4,accident,Driving in Lane,PV stopped,90,112,90,90,41,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00364.mp4,accident,Driving in Lane,PV braking / slower,96,107,90,96,41,90,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00366.mp4,accident,Driving in Lane,PV stopped,108,113,90,109,43,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00369.mp4,accident,Straight at intersection,Other vehicle approaching from side,96,104,90,87,55,1.2453642667683475,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00370.mp4,accident,Leaving Lane,PV @ target lane,129,108,90,85,70,54.727578551401606,False,False,False,False,True,False,False,False,ego driving out of its lane
+Sergi Reboll Blasco,00371.mp4,accident,Straight at intersection,Other vehicle approaching from side,116,123,90,85,70,359.2559407971113,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00372.mp4,accident,Driving in Lane,PV braking / slower,118,97,90,156,32,59.78867761416518,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00373.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,129,92,90,104,43,45.0,False,False,False,False,False,False,False,True,target crosses in front of ego
+Sergi Reboll Blasco,00375.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,122,107,90,122,40,81.86989764584403,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00376.mp4,accident,Driving in Lane,PV cut-in,107,100,90,145,63,124.33021719550332,False,False,False,True,False,False,False,False,"ego starting to drive, target crossing in front"
+Sergi Reboll Blasco,00378.mp4,near-miss,Other,Add Comment,154,74,90,85,70,90,False,False,False,False,False,False,False,True,impossible to determine what happened here
+Sergi Reboll Blasco,00380.mp4,near-miss,Leaving Lane,PV @ target lane,110,140,90,85,70,90,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00381.mp4,accident,Driving in Lane,PV cut-in,113,91,90,148,63,110.22485943116808,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00382.mp4,accident,Leaving Lane,PV @ target lane,172,114,90,180,42,90,False,False,False,False,False,False,False,True,driving towards a parked car
+Sergi Reboll Blasco,00383.mp4,accident,Driving in Lane,PV cut-in,119,102,90,156,74,101.56013079421777,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00387.mp4,accident,Driving in Lane,PV cut-in,123,93,90,85,70,74.40718906073366,False,False,False,True,False,False,False,False,
+Sergi Reboll Blasco,00388.mp4,accident,Straight at intersection,Other vehicle approaching from side,123,124,90,85,70,358.47247455778705,False,False,False,False,False,False,False,True,
+Sergi Reboll Blasco,00389.mp4,accident,Other,Add Comment,165,120,90,128,93,74.21924669048461,False,False,False,False,False,False,False,True,not clear
+Sergi Reboll Blasco,00391.mp4,accident,Driving in Lane,Other,46,97,90,85,70,90,False,False,False,False,False,False,False,True,target opened dr door
+Sergi Reboll Blasco,00392.mp4,accident,Straight at intersection,Other vehicle approaching from side,85,123,90,85,70,358.9390883097358,False,False,False,False,False,False,False,True,red light for the ego
+Sergi Reboll Blasco,00393.mp4,accident,Driving in Lane,PV stopped,87,139,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00394.mp4,accident,Turning at intersection,Other vehicle approaching from side,140,138,90,90,89,1.2453642667683475,False,True,False,False,False,False,False,False,
+Stijn,00395.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,139,90,76,92,2.602562202499806,False,False,False,False,False,False,False,True,
+Stijn,00397.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,124,156,122.66091272167381,118,73,269.09061955080085,False,False,False,False,False,False,False,True,
+Stijn,00398.mp4,accident,Driving in Lane,PV cut-in,74,160,90,119,131,122.0053832080835,False,False,False,False,True,False,False,False,
+Stijn,00401.mp4,accident,Turning at intersection,Other,118,147,76.26373169437744,75,112,49.53777250790665,False,True,False,False,False,False,False,False,"SV Cut in in front of Ego, difficult to see if impact or near miss"
+Stijn,00403.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,84,122,53.97262661489639,124,157,90,True,False,False,True,False,False,False,False,
+Stijn,00405.mp4,accident,Other,Add Comment,136,145,90,89,88,180.0,False,False,False,True,False,False,False,False,"SV Target pulling out of parking space in reverse, Ego hit as driving in lane"
+Stijn,00406.mp4,accident,Turning at intersection,Other vehicle approaching from front / opposite,125,147,126.63411387596742,119,72,270.84252426074045,False,False,False,False,True,False,False,False,
+Stijn,00407.mp4,accident,Driving in Lane,PV stopped,84,152,90,85,70,90,False,False,False,True,False,False,False,False,
+stijn,00408.mp4,accident,Driving in Lane,PV cut-in,131,123,90,93,82,50.19442890773481,False,True,True,True,False,False,False,False,
+Stijn,00410.mp4,accident,Driving in Lane,PV stopped,82,147,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00411.mp4,accident,Leaving Lane,SV @ target lane,133,136,123.3885135761115,85,149,90,False,False,False,True,False,False,False,False,
+Stijn,00413.mp4,accident,Driving in Lane,PV stopped,84,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00414.mp4,accident,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,"Impossible to judge due to blurred area, accident not visible"
+Stijn,00415.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,88,156,90,85,70,90,False,False,True,False,True,False,False,False,
+Stijn,00416.mp4,accident,Driving in Lane,PV stopped,50,142,90,85,70,90,False,False,False,False,False,False,False,True,PV parked on driving lane
+Stijn,00417.mp4,accident,Driving in Lane,PV braking / slower,84,145,90,85,70,90,False,False,True,False,False,False,False,False,
+Stijn,00418.mp4,accident,Driving in Lane,PV stopped,83,152,103.3924977537511,85,70,83.6598082540901,False,True,False,True,False,False,False,False,
+Stijn,00420.mp4,accident,Driving in Lane,PV cut-in,86,158,90,137,103,178.8308606720926,False,True,False,False,False,False,False,False,
+Stijn,00422.mp4,accident,Driving in Lane,PV cut-in,117,134,90,64,112,63.43494882292201,False,True,False,False,False,False,False,False,
+Stijn,00423.mp4,accident,Leaving Lane,SV @ target lane,131,143,110.85445803957835,86,153,90,True,False,False,False,False,False,False,False,
+Stijn,00424.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,123,150,101.76828893202065,96,76,124.69515353123397,False,True,False,False,True,False,False,False,Ego unable to stop due to snow
+Stijn,00425.mp4,accident,Other,Add Comment,137,158,107.7004277886672,84,151,80.75388725443676,True,False,False,False,False,False,False,False,"Parking area, Ego leaving lane, SV cut in"
+Stijn,00426.mp4,accident,Driving in Lane,PV stopped,87,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00427.mp4,accident,Driving in Lane,PV cut-in,79,155,90,133,116,358.56790381583534,False,True,True,False,False,False,False,False,"PV u-turn in driving lane, ego leaving lane as avoidance maneuver, PV reverse into Ego path"
+Stijn,00428.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,123,188,96.95295746817392,92,111,108.43494882292202,False,False,False,True,False,False,False,False,
+Stijn,00429.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,80,132,39.80557109226519,54,82,0.0,False,False,False,True,False,False,False,False,
+Stijn,00430.mp4,accident,Driving in Lane,PV stopped,89,151,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00431.mp4,accident,Driving in Lane,PV braking / slower,83,154,90,85,70,90,False,True,False,True,False,False,False,False,
+Stijn,00433.mp4,accident,Straight at intersection,Other vehicle on the adjacent lane,91,151,90,108,91,133.87669728592456,False,True,False,False,False,False,False,False,
+Stijn,00434.mp4,accident,Straight at intersection,Other vehicle approaching from side,86,153,90,86,96,180.0,False,False,False,False,False,False,False,True,
+Stijn,00435.mp4,accident,Straight at intersection,Other vehicle approaching from side,93,154,90,133,95,181.46880071438582,False,False,False,False,False,False,False,True,
+Stijn,00437.mp4,accident,Driving in Lane,PV stopped,85,154,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00440.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,87,156,90,98,77,64.13364320590549,False,False,False,True,False,False,False,False,
+Stijn,00441.mp4,accident,Driving in Lane,PV stopped,86,166,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00443.mp4,accident,Leaving Lane,SV @ target lane,130,111,104.03624346792648,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00444.mp4,accident,Driving in Lane,PV stopped,87,158,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00447.mp4,accident,Turning at intersection,Other vehicle on the adjacent lane,105,166,109.5731258304102,117,105,126.43085812016236,False,False,False,False,False,False,False,True,
+Stijn,00449.mp4,accident,Turning at intersection,Other vehicle approaching from side,146,134,127.0730733173104,89,156,0.9548412538721887,False,False,False,False,False,False,False,True,
+stijn,00450.mp4,accident,Driving in Lane,PV stopped,86,150,90,85,70,90,False,False,False,True,True,False,False,False,
+Stijn,00452.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,102,163,78.17851165939275,139,93,55.885527054658745,False,False,False,True,False,False,False,False,
+Stijn,00453.mp4,accident,Driving in Lane,PV stopped,87,155,90,85,70,90,False,True,False,True,False,False,False,False,
+Stijn,00454.mp4,accident,Leaving Lane,PV @ target lane,85,156,90,85,70,90,False,False,True,True,False,False,False,False,
+Stijn,00455.mp4,accident,Driving in Lane,PV cut-in,107,155,90,89,77,76.6075022462489,False,True,True,True,False,False,False,False,
+Stijn,00456.mp4,accident,Driving in Lane,PV cut-in,122,139,90,85,96,70.5599651718238,False,False,False,False,False,False,False,True,
+Stijn,00457.mp4,accident,Turning at intersection,Other vehicle approaching from side,130,135,90,95,87,51.63251461513847,True,False,True,False,False,False,False,False,
+Stijn,00458.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,92,158,90,109,81,64.79887635452492,False,False,False,True,False,False,False,False,
+Stijn,00459.mp4,accident,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,Impossible to judge due to blurred area
+Stijn,00460.mp4,accident,Other,Add Comment,105,151,67.01128319791937,120,69,217.94215335011893,False,False,False,True,False,False,False,False,Accident at parking Ego exit and Oncoming vehicle parking entry
+Stijn,00461.mp4,accident,Driving in Lane,PV braking / slower,89,153,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00463.mp4,accident,Driving in Lane,Other,72,156,105.25511870305779,30,71,270.0,False,False,False,True,False,False,False,False,"Ego wandering, hitting parked car on opposite side of the road, hit and run"
+Stijn,00464.mp4,accident,Driving in Lane,PV cut-in,103,127,90,58,93,72.34987578006988,False,False,False,False,False,False,False,True,
+Stijn,00466.mp4,accident,Driving in Lane,PV cut-in,88,146,90,137,90,0.0,False,False,True,False,False,False,False,True,PV reversing inot road from driveway
+Stijn,00467.mp4,accident,Leaving Lane,SV @ target lane,134,144,123.02386755579664,79,151,90,True,False,False,False,True,False,False,False,Ego pull out of parking at side of road
+Stijn,00469.mp4,accident,Driving in Lane,PV cut-in,67,169,90,104,129,108.8860873697093,False,False,False,True,False,False,False,False,
+Stijn,00471.mp4,accident,Driving in Lane,PV braking / slower,89,158,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00472.mp4,near-miss,Straight at intersection,Other,165,120,90,85,70,90,False,True,True,True,True,False,False,False,SV Cut in
+Stijn,00473.mp4,accident,Driving in Lane,PV braking / slower,93,155,90,85,70,90,False,True,False,True,True,False,False,False,
+Stijn,00474.mp4,accident,Driving in Lane,PV cut-in,39,107,90,85,70,109.23067237566129,False,False,False,True,True,False,False,False,
+Stijn,00475.mp4,accident,Driving in Lane,PV cut-in,93,165,90,93,99,186.1701750950296,False,True,True,True,False,False,False,False,PV U-turn
+Stijn,00477.mp4,accident,Driving in Lane,PV cut-out,73,155,90,85,70,59.85861444792466,False,False,False,False,False,False,False,True,
+Stijn,00478.mp4,accident,Driving in Lane,Oncoming vehicle,113,168,90,79,92,320.4403320310055,False,True,True,False,True,False,False,False,Oncoming vehicle from side
+Stijn,00479.mp4,accident,Straight at intersection,Other vehicle approaching from side,124,142,90,76,94,0.0,False,False,False,False,False,False,False,True,
+Stijn,00480.mp4,accident,Driving in Lane,PV stopped,88,152,90,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00481.mp4,accident,Straight at intersection,Other vehicle approaching from side,89,156,90,152,106,177.27368900609375,False,False,False,False,False,False,False,True,
+Stijn,00483.mp4,accident,Driving in Lane,PV cut-in,85,158,90,77,84,62.65012421993013,False,False,False,True,False,False,False,False,
+Stijn,00485.mp4,accident,Leaving Lane,PV @ target lane,63,141,77.59258147259925,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00486.mp4,accident,Driving in Lane,PV stopped,84,152,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00487.mp4,accident,Straight at intersection,Other vehicle approaching from side,87,152,90,92,90,1.3971810272963765,False,False,False,True,False,False,False,False,
+Stijn,00488.mp4,accident,Other,Add Comment,111,160,90,85,95,165.67728002179646,False,False,False,True,False,False,False,False,"Gas station parking, PV stopped, ego hit PV 2 times on purpose"
+Stijn,00491.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,88,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00493.mp4,accident,Leaving Lane,PV @ target lane,105,144,104.82647997035568,85,70,90,False,True,False,False,False,False,False,False,
+Stijn,00494.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,82,153,65.69545073406329,113,84,39.17365797044423,False,False,False,True,False,False,False,False,
+Stijn,00495.mp4,accident,Driving in Lane,PV stopped,85,150,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00496.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,86,158,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00497.mp4,accident,Straight at intersection,Other vehicle approaching from side,86,151,90,116,97,111.37062226934319,False,False,True,True,False,False,False,False,SV Cut in
+Stijn,00498.mp4,accident,Turning at intersection,PV Slower / Braking / Stopped,98,165,81.52885536698517,118,86,60.25511870305778,False,False,False,True,False,False,False,False,
+Stijn,00500.mp4,accident,Driving in Lane,PV stopped,84,155,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00501.mp4,accident,Straight at intersection,PV Slower / Braking / Stopped,84,153,90,85,70,90,False,True,True,False,False,False,True,False,PV brake for pedestrian
+Stijn,00502.mp4,accident,Driving in Lane,PV stopped,83,154,90,85,70,90,False,False,False,True,False,False,False,False,
+Stijn,00503.mp4,accident,Driving in Lane,PV stopped,88,156,90,85,70,90,False,False,False,False,False,False,False,True,
+Stijn,00505.mp4,accident,Leaving Lane,SV @ target lane,136,88,113.86017519134235,85,70,90,True,False,False,False,False,False,False,False,
+Stijn,00506.mp4,accident,Straight at intersection,Other vehicle approaching from side,82,147,90,85,70,98.47114463301483,False,True,False,False,False,False,False,True,PV cut in
+Stijn,00510.mp4,accident,Leaving Lane,Other,85,161,107.19854122006586,110,95,133.26429541107163,False,False,False,False,True,False,False,False,SV Cut in
+Stijn,00512.mp4,accident,Driving in Lane,PV cut-in,128,134,90,90,83,59.03624346792648,False,False,False,False,False,False,False,True,
+Stijn,00515.mp4,accident,Straight at intersection,Other vehicle approaching from side,143,129,90,96,84,48.65222278030633,False,False,False,False,False,False,False,True,SV Cut in
+Stijn,00516.mp4,accident,Straight at intersection,Other,44,121,90,85,70,102.80426606528675,False,False,True,False,False,False,False,False,PV Cut in
+Stijn,00517.mp4,accident,Straight at intersection,Other vehicle approaching from side,135,145,90,88,87,0.0,False,True,False,False,False,False,False,False,
+Stijn,00519.mp4,accident,Leaving Lane,SV @ target lane,146,157,104.03624346792648,105,169,88.45184230102204,False,False,False,True,False,False,False,False,
+Stijn,00520.mp4,accident,Straight at intersection,Other vehicle approaching from side,138,137,90,85,70,344.8759926916894,True,True,False,False,False,False,False,False,

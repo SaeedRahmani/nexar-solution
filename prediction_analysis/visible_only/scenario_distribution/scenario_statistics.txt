@@ -1,0 +1,54 @@
+================================================================================
+SCENARIO DISTRIBUTION ANALYSIS - VISIBLE ONLY SUBSET
+(Excluding videos where 'Target not visible' is True)
+================================================================================
+
+OVERALL STATISTICS
+----------------------------------------
+Total videos analyzed: 624
+Correct predictions: 609 (97.60%)
+Wrong predictions: 15 (2.40%)
+
+PREDICTION OUTCOME BREAKDOWN
+----------------------------------------
+  TP: 609 (97.60%)
+  TN: 0 (0.00%)
+  FP: 0 (0.00%)
+  FN: 15 (2.40%)
+
+================================================================================
+LEVEL 1 SCENARIO STATISTICS
+================================================================================
+
+Scenario                          Total  Correct     Acc%     Err%     FN
+--------------------------------------------------------------------------------
+Other                                18       17    94.4%     5.6%      1
+Driving in Lane                     385      374    97.1%     2.9%     11
+Straight at intersection            117      114    97.4%     2.6%      3
+Leaving Lane                         34       34   100.0%     0.0%      0
+Turning at intersection              70       70   100.0%     0.0%      0
+
+================================================================================
+LEVEL 2 SCENARIO STATISTICS
+================================================================================
+
+Scenario                                    Total  Correct     Acc%     Err%     FN
+------------------------------------------------------------------------------------------
+Oncoming vehicle                                4        3    75.0%    25.0%      1
+Add Comment                                    18       17    94.4%     5.6%      1
+Other                                          18       17    94.4%     5.6%      1
+PV cut-in                                     198      189    95.5%     4.5%      9
+Other vehicle approaching from side            72       70    97.2%     2.8%      2
+PV braking / slower                            80       79    98.8%     1.2%      1
+Object                                          1        1   100.0%     0.0%      0
+Other vehicle approaching from front / o       30       30   100.0%     0.0%      0
+Other vehicle on the adjacent lane             38       38   100.0%     0.0%      0
+PV @ target lane                               18       18   100.0%     0.0%      0
+PV Slower / Braking / Stopped                  44       44   100.0%     0.0%      0
+PV cut-out                                      2        2   100.0%     0.0%      0
+PV stopped                                     88       88   100.0%     0.0%      0
+SV @ target lane                               13       13   100.0%     0.0%      0
+
+================================================================================
+END OF REPORT
+================================================================================

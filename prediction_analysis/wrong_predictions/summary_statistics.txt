@@ -1,0 +1,44 @@
+======================================================================
+WRONG PREDICTIONS ANALYSIS SUMMARY
+======================================================================
+
+Total wrong predictions: 200
+  - False Negatives: 24 (missed accidents - CRITICAL)
+  - False Positives: 176 (false alarms)
+
+----------------------------------------------------------------------
+FALSE NEGATIVES (Missed Accidents)
+----------------------------------------------------------------------
+
+By split:
+  - Training: 11
+  - Validation: 13
+
+Prediction confidence:
+  - Mean probability: 0.2446
+  - Std: 0.1644
+  - Min: 0.0010
+  - Max: 0.4902
+
+Time difference (event - alert) for 24 videos:
+  - Mean: 1.087s
+  - Std: 0.683s
+  - Min: 0.033s
+  - Max: 2.567s
+  - Median: 1.067s
+
+----------------------------------------------------------------------
+FALSE POSITIVES (False Alarms)
+----------------------------------------------------------------------
+
+By split:
+  - Training: 136
+  - Validation: 40
+
+Prediction confidence:
+  - Mean probability: 0.7983
+  - Std: 0.1544
+  - Min: 0.5018
+  - Max: 0.9972
+
+======================================================================

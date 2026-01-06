@@ -1,0 +1,15 @@
+======================================================================
+WRONG PREDICTIONS ANALYSIS - VISIBLE ONLY SUBSET
+(Excluding videos where 'Target not visible' is True)
+======================================================================
+
+Total wrong predictions: 22
+  False Negatives (FN): 22
+  False Positives (FP): 0
+
+Time Difference Statistics (FN only):
+  Mean: 1.166s
+  Median: 1.133s
+  Std: 0.657s
+  Min: 0.033s
+  Max: 2.567s

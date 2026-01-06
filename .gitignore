@@ -1,8 +1,13 @@
 dataset/*
 balanced_dataset_2s/*
 logs/*
+OneDrive_1_09-11-2025
+__pycache__
 
-# Output files
-aggregated_results/*
-scenario_labels/*
-scenario_analysis/*
+# Outputs of other models (focal and different window sizes)
+aggregated_results_ALL_focal/*
+aggregated_results_focal/*
+balanced_dataset_2s_focal/*
+balanced_dataset_3s/*
+best_videomaev2_large_focal.pth
+test_results_focal.json

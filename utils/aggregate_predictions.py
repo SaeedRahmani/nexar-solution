@@ -22,7 +22,7 @@ class PredictionAggregator:
     def __init__(self, 
                  metadata_path='balanced_dataset_2s/metadata.csv',
                  original_labels_path='dataset/train.csv',
-                 output_dir='aggregated_results'):
+                 output_dir='video_predictions'):
         """
         Initialize the aggregator.
         
@@ -278,14 +278,21 @@ class PredictionAggregator:
         if save_path is None:
             save_path = os.path.join(self.output_dir, 'confusion_matrix_original_videos.png')
         
+        # Create annotations with TN/FP/FN/TP labels
+        labels = [['TN', 'FP'], ['FN', 'TP']]
+        annot = [[f'{labels[i][j]}\n{cm[i,j]}' for j in range(2)] for i in range(2)]
+        
         plt.figure(figsize=(10, 8))
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                    xticklabels=['Negative (Safe)', 'Positive (Dangerous)'],
-                    yticklabels=['Negative (Safe)', 'Positive (Dangerous)'],
-                    cbar_kws={'label': 'Count'})
-        plt.title('Confusion Matrix - Original Video Level', fontsize=14, fontweight='bold')
-        plt.ylabel('True Label', fontsize=12)
-        plt.xlabel('Predicted Label', fontsize=12)
+        sns.heatmap(cm, annot=annot, fmt='', cmap='Blues', 
+                    xticklabels=['Normal', 'Incident'],
+                    yticklabels=['Normal', 'Incident'],
+                    cbar_kws={'label': 'Count'},
+                    annot_kws={'size': 16, 'fontweight': 'bold'})
+        plt.title('Confusion Matrix - Original Video Level', fontsize=16, fontweight='bold')
+        plt.ylabel('True Label', fontsize=14)
+        plt.xlabel('Predicted Label', fontsize=14)
+        plt.xticks(fontsize=12)
+        plt.yticks(fontsize=12)
         plt.tight_layout()
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
         print(f"\nConfusion matrix saved to: {save_path}")
@@ -394,7 +401,7 @@ def example_usage():
     aggregator = PredictionAggregator(
         metadata_path='balanced_dataset_2s/metadata.csv',
         original_labels_path='dataset/train.csv',
-        output_dir='aggregated_results'
+        output_dir='video_predictions'
     )
     
     # Example: Create dummy predictions (replace with your actual predictions)
@@ -443,7 +450,7 @@ def example_usage():
             aggregator.plot_comparison(agg_df)
     
     print("\n" + "="*70)
-    print("Done! Check the 'aggregated_results' directory for outputs.")
+    print("Done! Check the 'video_predictions' directory for outputs.")
     print("="*70)
 
 
