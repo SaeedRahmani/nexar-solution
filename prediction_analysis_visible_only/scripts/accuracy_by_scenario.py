@@ -80,46 +80,91 @@ def load_data(dataset='ALL'):
 
 
 def plot_accuracy_by_scenario(df, level_col, title_suffix, output_name, output_dir, dataset):
-    """Plot accuracy bar chart by scenario."""
+    """Create a Modern 'Dashboard-Style' Horizontal Bar Chart - matching original format.
     
-    # Calculate accuracy per scenario
+    Design Philosophy: "Clean & Informative"
+    - Layout: Linear list (easiest to read).
+    - Visuals: Minimalist bars with direct labeling.
+    - Clutter Reduction: No axes, no grids, no legends. Just data.
+    """
+    # Calculate accuracy per scenario from the VISIBLE ONLY data passed in
     accuracy_stats = df.groupby(level_col).agg({
         'is_correct': ['sum', 'count', 'mean']
     }).reset_index()
     accuracy_stats.columns = [level_col, 'correct', 'total', 'accuracy']
-    accuracy_stats['accuracy_pct'] = accuracy_stats['accuracy'] * 100
-    accuracy_stats = accuracy_stats.sort_values('accuracy_pct', ascending=True)
+    accuracy_stats['accuracy'] = accuracy_stats['accuracy'] * 100
+    accuracy_stats = accuracy_stats.sort_values('accuracy', ascending=True)
     
-    # Create figure
-    fig, ax = plt.subplots(figsize=(14, max(6, len(accuracy_stats) * 0.5)))
+    # Setup Figure
+    row_height = 0.5
+    header_height = 2
+    total_height = (len(accuracy_stats) * row_height) + header_height
+        
+    fig, ax = plt.subplots(figsize=(16, total_height), facecolor='white')
     
-    # Color bars by accuracy
-    colors = plt.cm.RdYlGn(accuracy_stats['accuracy'])
+    # Colors (Red -> Yellow -> Green)
+    cmap = plt.cm.RdYlGn
+    norm = plt.Normalize(vmin=50, vmax=105)
     
-    bars = ax.barh(range(len(accuracy_stats)), accuracy_stats['accuracy_pct'], 
-                   color=colors, edgecolor='white', linewidth=0.5)
+    # Plotting Loop
+    y_pos = 0
     
-    ax.set_yticks(range(len(accuracy_stats)))
-    ax.set_yticklabels(accuracy_stats[level_col], fontsize=10)
-    ax.set_xlabel('Accuracy (%)', fontsize=12, fontweight='bold')
-    ax.set_title(f'Accuracy by Scenario - {title_suffix}\n[VISIBLE ONLY - {dataset}]', 
-                 fontsize=14, fontweight='bold')
-    ax.set_xlim(0, 105)
-    ax.axvline(x=df['is_correct'].mean() * 100, color='black', linestyle='--', 
-               linewidth=2, label=f'Overall: {df["is_correct"].mean()*100:.1f}%')
-    ax.legend(loc='lower right')
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
+    for _, row in accuracy_stats.iterrows():
+        color = cmap(norm(row['accuracy']))
+        ax.barh(y_pos, row['accuracy'], height=0.6, color=color, alpha=0.9, align='center')
+        
+        ax.text(-1, y_pos, row[level_col], ha='right', va='center', fontsize=12, color='black', fontweight='medium')
+        
+        bar_text_color = 'black' if (60 <= row['accuracy'] <= 92) else 'white'
+        
+        if row['accuracy'] < 15:
+            ax.text(row['accuracy'] + 1, y_pos, f"{row['accuracy']:.1f}%", 
+                   ha='left', va='center', fontsize=11, fontweight='bold', color='black')
+            ax.text(row['accuracy'] + 12, y_pos, f"(n={int(row['total'])})", 
+                   ha='left', va='center', fontsize=11, color='black')
+        else:
+            ax.text(row['accuracy'] - 1, y_pos, f"{row['accuracy']:.1f}%", 
+                   ha='right', va='center', fontsize=11, fontweight='bold', color=bar_text_color)
+            ax.text(row['accuracy'] + 1, y_pos, f"(n={int(row['total'])})", 
+                   ha='left', va='center', fontsize=11, color='black')
+        
+        y_pos += 0.8
+
+    # Styling
+    ax.set_xlim(-40, 115)
+    ax.set_ylim(-2, y_pos)
+    ax.invert_yaxis()
+    ax.axis('off')
     
-    # Add labels
-    for i, (bar, acc, total) in enumerate(zip(bars, accuracy_stats['accuracy_pct'], accuracy_stats['total'])):
-        ax.text(acc + 1, i, f'{acc:.1f}% (n={total})', va='center', fontsize=9)
+    # Add Title with two parts: "Level X – " in black, subtitle in red
+    if 'Level 1' in title_suffix:
+        level_text = 'Level 1 – '
+    elif 'Level 2' in title_suffix:
+        level_text = 'Level 2 – '
+    else:
+        level_text = title_suffix + ' – '
     
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f'{output_name}.png'), 
-                dpi=150, bbox_inches='tight', facecolor='white')
-    plt.savefig(os.path.join(output_dir, f'{output_name}.pdf'), 
-                bbox_inches='tight', facecolor='white')
+    # Subtitle based on dataset
+    if dataset == 'VAL':
+        subtitle = 'Visible Only – Validation Dataset'
+    else:
+        subtitle = 'Visible Only – Full Dataset'
+    
+    # Draw level text in black, get its extent
+    txt1 = ax.text(0, -1.5, level_text, fontsize=20, fontweight='bold', color='black',
+                   transform=ax.transData)
+    
+    # Force a draw to get the text extent
+    fig.canvas.draw()
+    bbox = txt1.get_window_extent(renderer=fig.canvas.get_renderer())
+    bbox_data = bbox.transformed(ax.transData.inverted())
+    
+    # Draw subtitle right after level text
+    ax.text(bbox_data.x1, -1.5, subtitle, fontsize=20, fontweight='bold', color='#C41E3A')
+    ax.text(0, -0.8, "Accuracy % by Scenario (Bar Length & Color)", fontsize=12, color='#7f8c8d')
+
+    plt.savefig(os.path.join(output_dir, f'{output_name}.png'), dpi=200, bbox_inches='tight', facecolor='white')
+    plt.savefig(os.path.join(output_dir, f'{output_name}.pdf'), bbox_inches='tight', facecolor='white')
     plt.close()
     
     print(f"  ✅ Saved: {output_name}.png/pdf")
