@@ -27,7 +27,7 @@ nexar-solution/
 │   └── ensemble_predict-large.py      # Ensemble multiple models
 ├── prediction_analysis/
 │   └── scripts/                # Analysis scripts for all predictions
-├── prediction_analysis_visible_only/
+├── prediction_analysis/visible_only/
 │   └── scripts/                # Analysis excluding "target not visible" videos
 ├── accuracy_per_scenario_VAL/  # Scenario accuracy (validation only)
 ├── accuracy_per_scenario_ALL/  # Scenario accuracy (full dataset)
@@ -138,7 +138,7 @@ python prediction_analysis/scripts/run_all_analyses.py --dataset BOTH
 Excludes videos where target is not visible (more meaningful accuracy).
 
 ```bash
-python prediction_analysis_visible_only/scripts/run_all_analyses.py --dataset BOTH
+python prediction_analysis/visible_only/scripts/run_all_analyses.py --dataset BOTH
 ```
 
 **Filtering:**
@@ -146,8 +146,8 @@ python prediction_analysis_visible_only/scripts/run_all_analyses.py --dataset BO
 - 624 remaining videos with visible targets
 
 **Outputs:**
-- `prediction_analysis_visible_only/VAL/` - Validation (129 videos, ~94.6% accuracy)
-- `prediction_analysis_visible_only/ALL/` - Full dataset (624 videos, ~97.6% accuracy)
+- `prediction_analysis/visible_only/VAL/` - Validation (129 videos, ~94.6% accuracy)
+- `prediction_analysis/visible_only/ALL/` - Full dataset (624 videos, ~97.6% accuracy)
 
 ### 4.3 Accuracy Per Scenario
 
@@ -182,7 +182,7 @@ python prediction/predict_agg_from_train_val.py
 
 # 4. Run all analyses
 python prediction_analysis/scripts/run_all_analyses.py --dataset BOTH
-python prediction_analysis_visible_only/scripts/run_all_analyses.py --dataset BOTH
+python prediction_analysis/visible_only/scripts/run_all_analyses.py --dataset BOTH
 ```
 
 ### Key Output Files
