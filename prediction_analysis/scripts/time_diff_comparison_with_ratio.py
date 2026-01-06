@@ -304,7 +304,7 @@ def plot_side_by_side_histograms(false_negatives, true_positives, output_dir):
 
 
 def plot_combined_boxplot(false_negatives, true_positives, output_dir):
-    """Create combined box plot."""
+    """Create combined box plot with transparent data points."""
     
     fig, ax = plt.subplots(figsize=(8, 6))
     
@@ -314,11 +314,23 @@ def plot_combined_boxplot(false_negatives, true_positives, output_dir):
                     medianprops=dict(color=colors['dark'], linewidth=2),
                     whiskerprops=dict(color=colors['dark'], linewidth=1.5),
                     capprops=dict(color=colors['dark'], linewidth=1.5),
-                    flierprops=dict(marker='o', markersize=5, alpha=0.5))
+                    flierprops=dict(marker='', markersize=0))  # Hide outliers, we'll show all points
     
     # Color boxes
     bp['boxes'][0].set_facecolor(colors['wrong'])
     bp['boxes'][1].set_facecolor(colors['correct'])
+    
+    # Add transparent data points with jitter
+    np.random.seed(42)
+    x1_jitter = np.random.normal(1, 0.06, size=len(false_negatives))
+    ax.scatter(x1_jitter, false_negatives['time_difference'], 
+               c=colors['wrong'], s=40, alpha=0.4, edgecolors='black', linewidth=0.3, zorder=5)
+    
+    # Sample TP if too many points
+    tp_sample = true_positives if len(true_positives) <= 100 else true_positives.sample(100, random_state=42)
+    x2_jitter = np.random.normal(2, 0.06, size=len(tp_sample))
+    ax.scatter(x2_jitter, tp_sample['time_difference'], 
+               c=colors['correct'], s=40, alpha=0.4, edgecolors='black', linewidth=0.3, zorder=5)
     
     ax.set_ylabel('Time Difference (seconds)', fontsize=12, fontweight='bold')
     ax.set_title('Time Difference Distribution: Wrong vs Correct Predictions',

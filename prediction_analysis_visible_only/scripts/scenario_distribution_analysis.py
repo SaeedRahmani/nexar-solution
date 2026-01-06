@@ -250,12 +250,22 @@ def plot_error_rate_by_scenario(df, level_col, title_suffix, output_name, output
     ax2 = axes[1]
     scatter = ax2.scatter(error_stats['total_count'], error_stats['error_rate'],
                           c=error_stats['error_rate'], cmap='RdYlGn_r',
-                          s=100, alpha=0.8, edgecolors='black', linewidth=0.5)
+                          s=150, alpha=0.8, edgecolors='black', linewidth=0.5)
     
+    # Add all scenario labels with adjustText to prevent overlap
+    from adjustText import adjust_text
+    texts = []
     for _, row in error_stats.iterrows():
-        ax2.annotate(row[level_col][:15] + '...' if len(str(row[level_col])) > 15 else row[level_col],
-                     (row['total_count'], row['error_rate']),
-                     textcoords="offset points", xytext=(5, 5), fontsize=8, alpha=0.8)
+        label = row[level_col][:18] + '...' if len(str(row[level_col])) > 18 else row[level_col]
+        # Add small offset so text doesn't start on top of point
+        txt = ax2.text(row['total_count'] + 2, row['error_rate'] + 0.3, label, fontsize=12)
+        texts.append(txt)
+    
+    # Adjust text positions to avoid overlap, with connecting lines
+    adjust_text(texts, ax=ax2,
+                arrowprops=dict(arrowstyle='-', color='gray', lw=0.5, alpha=0.7),
+                expand_points=(1.5, 1.5),
+                force_text=(0.5, 0.5))
     
     ax2.set_xlabel('Sample Size', fontsize=12, fontweight='bold')
     ax2.set_ylabel('Error Rate (%)', fontsize=12, fontweight='bold')

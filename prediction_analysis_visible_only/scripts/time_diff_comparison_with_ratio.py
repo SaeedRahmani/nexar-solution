@@ -200,16 +200,35 @@ def main():
     fig, ax = plt.subplots(figsize=(10, 6))
     
     bp = ax.boxplot([wrong_time, correct_time], patch_artist=True, 
-                    labels=['Wrong (FN)', 'Correct (TP)'])
+                    labels=['Wrong (FN)', 'Correct (TP)'],
+                    flierprops=dict(marker='', markersize=0))  # Hide outliers, we'll show all points
     bp['boxes'][0].set_facecolor(COLORS['wrong'])
+    bp['boxes'][0].set_alpha(0.7)
     bp['boxes'][1].set_facecolor(COLORS['correct'])
+    bp['boxes'][1].set_alpha(0.7)
+    
+    # Add transparent data points with jitter
+    np.random.seed(42)
+    x1_jitter = np.random.normal(1, 0.06, size=len(wrong_time))
+    ax.scatter(x1_jitter, wrong_time, 
+               c=COLORS['wrong'], s=40, alpha=0.4, edgecolors='black', linewidth=0.3, zorder=5)
+    
+    # Sample TP if too many points
+    if len(correct_time) > 100:
+        sample_idx = np.random.choice(len(correct_time), 100, replace=False)
+        correct_sample = correct_time.iloc[sample_idx] if hasattr(correct_time, 'iloc') else correct_time[sample_idx]
+    else:
+        correct_sample = correct_time
+    x2_jitter = np.random.normal(2, 0.06, size=len(correct_sample))
+    ax.scatter(x2_jitter, correct_sample, 
+               c=COLORS['correct'], s=40, alpha=0.4, edgecolors='black', linewidth=0.3, zorder=5)
     
     ax.set_ylabel('Time Difference (seconds)', fontsize=12, fontweight='bold')
     ax.set_title('Time Difference Comparison\n[VISIBLE ONLY SUBSET]', fontsize=14, fontweight='bold')
     
     # Add mean markers
     means = [wrong_time.mean(), correct_time.mean()]
-    ax.scatter([1, 2], means, color='black', marker='D', s=50, zorder=5, label='Mean')
+    ax.scatter([1, 2], means, color='black', marker='D', s=50, zorder=10, label='Mean')
     ax.legend()
     
     plt.tight_layout()
