@@ -1,0 +1,23 @@
+scenario_level_1,scenario_level_2,total,correct,accuracy,avg_prob
+Driving in Lane,PV cut-in,220.0,209.0,95.0,0.9072260441768182
+Driving in Lane,PV stopped,89.0,89.0,100.0,0.9850571724719102
+Driving in Lane,PV braking / slower,86.0,83.0,96.51162790697674,0.962744392860465
+Straight at intersection,Other vehicle approaching from side,81.0,79.0,97.53086419753086,0.952908043580247
+Straight at intersection,Other vehicle on the adjacent lane,36.0,35.0,97.22222222222223,0.9467497455555554
+Turning at intersection,PV Slower / Braking / Stopped,34.0,34.0,100.0,0.9963930414705883
+Turning at intersection,Other vehicle on the adjacent lane,29.0,29.0,100.0,0.9371986627586208
+Leaving Lane,SV @ target lane,24.0,24.0,100.0,0.9297865562500002
+Leaving Lane,PV @ target lane,24.0,23.0,95.83333333333333,0.9595275254166667
+Driving in Lane,Other,23.0,21.0,91.30434782608695,0.9036159447826089
+Other,Add Comment,23.0,22.0,95.65217391304348,0.928232979043478
+Straight at intersection,Other vehicle approaching from front / opposite,21.0,20.0,95.23809523809524,0.9560409061904762
+Turning at intersection,Other vehicle approaching from front / opposite,15.0,15.0,100.0,0.9843317746666665
+Turning at intersection,Other vehicle approaching from side,14.0,14.0,100.0,0.9793994292857143
+Straight at intersection,PV Slower / Braking / Stopped,12.0,12.0,100.0,0.9928495066666668
+Driving in Lane,Oncoming vehicle,7.0,6.0,85.71428571428571,0.8620477328571429
+Driving in Lane,PV cut-out,4.0,4.0,100.0,0.9821326975
+Leaving Lane,RV @ target lane,2.0,2.0,100.0,0.983177485
+Leaving Lane,Other,2.0,2.0,100.0,0.98381175
+Turning at intersection,Other,2.0,2.0,100.0,0.9489375
+Straight at intersection,Other,1.0,0.0,0.0,0.39706847
+Leaving Lane,Object,1.0,1.0,100.0,0.9797753
