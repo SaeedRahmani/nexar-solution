@@ -25,7 +25,7 @@ import os
 import sys
 import subprocess
 
-PROJECT_ROOT = "/home/sra2157/git/nexar-solution"
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SCRIPTS_DIR = os.path.join(PROJECT_ROOT, "prediction_analysis/scripts")
 
 

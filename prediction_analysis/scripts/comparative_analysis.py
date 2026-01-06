@@ -27,7 +27,7 @@ import sys
 from scipy import stats
 
 # Add project root to path
-PROJECT_ROOT = "/home/sra2157/git/nexar-solution"
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, PROJECT_ROOT)
 
 # Paths
