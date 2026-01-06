@@ -1,0 +1,188 @@
+Annotator,Video Name,Category,Scenario Level 1,Scenario Level 2,Ego_X,Ego_Y,Ego_Angle,Other_X,Other_Y,Other_Angle,Target not visible,Ego Emergency Maneuver Required,Unexpected Maneuver,Night or Low Light,Rain/Snow/Fog,Cyclist/Scooter Involved,Pedestrian Involved,Nothing Special Observed,Comment
+Tom Roggeman,00771.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,146,135,110.2825590889166,85,70,140.71059313749967,False,True,False,False,False,False,False,False,
+Tom Roggeman,00773.mp4,near-miss,Driving in Lane,PV cut-in,165,120,164.20759647114272,85,70,194.74356283647072,False,True,True,True,False,False,False,False,
+Tom Roggeman,00774.mp4,near-miss,Turning at intersection,Other vehicle approaching from front / opposite,165,120,128.6598082540901,85,70,326.30993247402023,False,True,True,False,False,False,False,False,target illegal u-turn
+Tom Roggeman,00776.mp4,near-miss,Driving in Lane,PV cut-in,165,120,159.77514056883192,85,70,177.31622484053102,False,True,False,True,False,False,False,False,
+Tom Roggeman,00777.mp4,accident,Driving in Lane,PV braking / slower,165,120,90,85,70,90,False,True,False,True,False,False,False,False,Late brake from ego
+TOM ROGGEMAN,00780.mp4,near-miss,Driving in Lane,PV cut-in,79,142,90.0,99,58,112.01128319791937,False,False,True,True,False,False,False,False,Police acting strange
+TOM ROGGEMAN,00782.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,85,165,90,85,70,90,False,False,True,False,False,False,False,False,
+TOM ROGGEMAN,00783.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,87,125,90,106,42,352.05652818940956,False,True,True,False,False,False,False,False,"blinded by sun, still accelerating"
+TOM ROGGEMAN,00784.mp4,near-miss,Driving in Lane,PV braking / slower,165,120,90,85,70,90,False,True,False,False,False,False,False,False,ego driver distracted
+TOM ROGGEMAN,00785.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,83,141,104.93141717813755,71,66,358.89829388479365,False,True,False,False,False,False,False,False,ego ignoring stop
+TOM ROGGEMAN,00787.mp4,near-miss,Straight at intersection,PV Slower / Braking / Stopped,87,167,90,85,70,90,False,False,True,False,False,False,False,False,target left turn where not allowed
+TOM ROGGEMAN,00788.mp4,near-miss,Driving in Lane,Oncoming vehicle,114,160,90,66,91,354.4278021960362,False,False,True,False,False,False,False,False,"target crossing road, ego very slow reaction"
+TOM ROGGEMAN,00789.mp4,near-miss,Driving in Lane,Oncoming vehicle,122,143,90,85,70,352.14668669802177,False,False,True,False,False,False,False,False,"target crossing road, ego very slow reaction"
+TOM ROGGEMAN,00791.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,95,152,79.46081627137177,85,70,95.1944289077348,False,True,False,False,False,False,False,False,"target so slow light turns red, ego not paying attention"
+TOM ROGGEMAN,00792.mp4,near-miss,Driving in Lane,PV braking / slower,89,169,87.39743779750019,94,76,83.01894259317021,False,False,False,False,False,False,False,True,"ego not paying attention, late brake"
+TOM ROGGEMAN,00793.mp4,near-miss,Driving in Lane,PV stopped,80,151,92.48955292199916,85,70,90,False,True,False,False,False,False,False,False,"ego not paying attention, late brake"
+TOM ROGGEMAN,00794.mp4,near-miss,Other,Add Comment,140,171,90,104,108,81.67434966957316,False,False,False,False,False,False,False,True,"ego driving on shoulder, target also crossing in onto shoulder => road rage"
+tom roggeman,00798.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,89,153,90,108,82,155.6589100633075,False,True,False,True,True,False,False,False,"ego going straight on turning lane, target on the right turning left as required"
+tom roggeman,00802.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,129,111,68.36911316348207,113,43,182.86240522611175,False,True,False,True,False,False,False,False,late reaction from ego
+tom roggeman,00803.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,129,144,90,85,70,131.92254460057563,False,True,False,False,False,False,False,False,late reaction from ego
+tom roggeman,00804.mp4,near-miss,Driving in Lane,PV cut-in,122,134,90,85,70,71.56505117707799,False,True,True,True,False,False,False,False,
+tom roggeman,00805.mp4,near-miss,Driving in Lane,PV cut-out,112,152,81.15818543980832,85,70,112.71441235316725,False,True,False,True,False,False,False,False,No/late reaction ego
+tom roggeman,00809.mp4,near-miss,Driving in Lane,PV cut-in,86,154,90,85,70,81.2538377374448,False,False,False,True,False,False,False,False,target cut back in after cut out
+tom roggeman,00810.mp4,near-miss,Driving in Lane,PV cut-in,88,135,90,137,132,101.07020257793937,False,False,True,True,True,False,False,False,
+tom roggeman,00813.mp4,near-miss,Driving in Lane,PV cut-in,95,168,90,113,52,118.7059525434011,False,True,False,True,False,False,False,False,ego refuse to slow down => near miss
+tom roggeman,00816.mp4,near-miss,Driving in Lane,Oncoming vehicle,85,171,90,85,70,300.80144597613685,False,True,True,True,False,False,False,False,Target randomly cuts across double yellow almost head on
+tom roggeman,00817.mp4,near-miss,Driving in Lane,PV stopped,117,147,68.70264595096624,88,65,90,False,True,True,False,False,False,False,False,target has no brake lights (trailer)
+tom roggeman,00818.mp4,accident,Straight at intersection,Other vehicle approaching from side,125,144,90,92,98,72.03086025984298,False,False,False,True,False,False,False,False,Ego departs whilst being overtaken
+tom roggeman,00819.mp4,near-miss,Leaving Lane,PV @ target lane,110,162,107.28149837181665,85,70,90,False,True,False,False,False,False,False,False,"Ego not payoing attention, late brake"
+tom roggeman,00820.mp4,near-miss,Driving in Lane,PV braking / slower,87,170,90,85,70,90,False,True,False,False,False,False,False,False,"ego not paying attention, late brake"
+tom roggeman,00822.mp4,near-miss,Driving in Lane,PV stopped,85,151,90,85,70,90,False,False,False,False,False,False,False,True,ego tailgating to avoid cut in
+tom roggeman,00823.mp4,near-miss,Driving in Lane,Oncoming vehicle,62,154,90,85,70,349.1144729453413,False,False,False,True,False,False,False,False,"vehicle crossing, ego refuse to brake"
+tom roggeman,00824.mp4,near-miss,Driving in Lane,PV braking / slower,88,174,90,85,70,90,False,False,False,False,False,False,False,True,close folowing
+tom roggeman,00825.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,103,141,118.36904629327857,85,70,0.0,False,True,False,True,False,False,False,False,"ego late brake, target ignores stop"
+tom roggeman,00827.mp4,near-miss,Other,Add Comment,129,134,137.81555668421123,98,40,256.50426671920417,False,True,False,False,False,False,False,False,ego turning into parking spot ignoring oncoming vehicle
+tom roggeman,00828.mp4,near-miss,Driving in Lane,PV cut-in,135,163,90,93,114,77.47119229084849,False,True,False,False,False,False,False,False,
+tom roggeman,00830.mp4,near-miss,Driving in Lane,PV cut-in,88,131,90,131,101,108.79988515865266,False,True,False,False,False,False,False,False,truck on rh tries to ram ego
+tom roggeman,00831.mp4,near-miss,Driving in Lane,PV cut-in,109,142,90,85,70,51.927218126009166,False,True,False,False,False,False,False,False,
+tom roggeman,00832.mp4,near-miss,Driving in Lane,PV cut-in,86,148,90,103,63,120.06858282186246,False,True,False,False,False,False,False,False,
+tom roggeman,00833.mp4,near-miss,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,don't see anything
+tom roggeman,00834.mp4,near-miss,Driving in Lane,PV stopped,115,143,90,114,52,90,False,True,False,False,False,False,False,False,ego creeping forward (not looking at rioad)
+tom roggeman,00835.mp4,near-miss,Driving in Lane,Oncoming vehicle,112,163,84.8055710922652,79,85,332.87869659584135,False,True,True,True,False,False,False,False,oncoming car cut in over double yellow
+tom roggeman,00836.mp4,near-miss,Driving in Lane,PV cut-in,90,155,90,128,78,111.5713071912546,False,True,True,False,False,False,False,False,Target cut in lane to avoid obstacle
+tom roggeman,00838.mp4,near-miss,Driving in Lane,PV stopped,90,159,90,85,70,90,False,False,False,True,False,False,False,False,"ego late brake, not paying attention"
+tom roggeman,00839.mp4,near-miss,Leaving Lane,PV @ target lane,56,134,90,89,61,124.07719528013074,False,True,False,False,False,False,False,False,ego overtaking manoevring vehicle
+tom roggeman,00840.mp4,near-miss,Driving in Lane,PV cut-in,102,156,90,57,108,65.22485943116808,False,True,True,True,False,False,False,False,
+tom roggeman,00841.mp4,near-miss,Driving in Lane,PV cut-in,87,168,90,126,126,99.65989307844234,False,True,False,False,False,False,False,False,
+tom roggeman,00842.mp4,near-miss,Driving in Lane,PV cut-in,86,160,90,111,93,119.57783868126134,False,True,True,True,False,False,False,False,
+tom roggeman,00843.mp4,near-miss,Leaving Lane,PV @ target lane,130,140,124.77783136636387,85,70,90,False,True,False,False,False,False,False,False,ego not paying attention
+tom roggeman,00845.mp4,accident,Driving in Lane,PV cut-in,91,157,90,131,104,129.64417495714483,False,True,False,False,False,False,False,False,"Target cut ego off to turn, ego refuse to brake"
+tom roggeman,00846.mp4,near-miss,Driving in Lane,PV cut-in,111,145,130.3141001604973,100,79,149.2372804657611,False,True,True,False,False,False,False,False,
+tom roggeman,00847.mp4,near-miss,Driving in Lane,PV braking / slower,97,163,90,85,70,90,False,True,False,False,False,False,False,False,ego tailgating
+tom roggeman,00849.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,84,159,90,118,80,178.69804732742114,False,False,False,False,False,False,False,True,ego yielded late
+tom roggeman,00850.mp4,near-miss,Driving in Lane,Other,57,140,90,96,66,5.194428907734806,False,False,False,False,False,False,False,True,reversing vehicle out of parking spot
+tom roggeman,00851.mp4,near-miss,Driving in Lane,PV cut-in,90,160,90,130,110,117.21611155730749,False,True,True,False,False,False,False,False,"road rage, target cuts in from shoulder trying to brake check ego"
+tom roggeman,00854.mp4,near-miss,Driving in Lane,PV cut-in,133,146,90,89,80,81.46923439005187,False,False,False,False,False,False,False,True,
+tom roggeman,00856.mp4,near-miss,Driving in Lane,PV cut-in,88,156,90,123,99,124.07719528013074,False,False,False,False,False,False,False,True,
+tom roggeman,00857.mp4,near-miss,Driving in Lane,PV cut-in,102,146,110.2825590889166,123,86,157.75097634278765,False,False,False,False,False,False,False,True,"ego refuses to brake, late avoidance"
+tom roggeman,00858.mp4,near-miss,Driving in Lane,PV braking / slower,88,160,90,85,70,90,False,True,False,False,False,False,False,False,ego late brake
+tom roggeman,00859.mp4,near-miss,Driving in Lane,PV cut-in,68,149,90,85,70,128.8298249049704,False,False,True,False,False,False,False,False,
+tom roggeman,00860.mp4,near-miss,Leaving Lane,Other,108,144,58.781597235653635,85,70,90,False,True,False,True,False,False,False,False,ego not watching road
+tom roggeman,00861.mp4,near-miss,Driving in Lane,PV cut-in,96,111,90,132,43,146.30993247402023,False,False,True,False,False,False,False,False,
+tom roggeman,00863.mp4,near-miss,Driving in Lane,PV cut-in,156,86,89.3414568224364,85,70,41.32550047917034,False,False,True,False,False,False,False,False,
+tom roggeman,00864.mp4,near-miss,Leaving Lane,Other,124,115,107.10272896905236,160,42,187.48088617952368,False,False,False,False,False,False,False,True,"ego no brake, avoidance over double yellow"
+tom roggeman,00865.mp4,near-miss,Driving in Lane,PV cut-out,122,135,90,99,54,164.8459319496874,False,True,True,True,False,False,False,False,
+tom roggeman,00866.mp4,near-miss,Leaving Lane,Other,106,151,64.3231843181618,101,67,143.3438915840331,False,True,True,True,False,False,False,False,"ego and target both making illegal u-turn, ego almost hits target"
+tom roggeman,00867.mp4,near-miss,Driving in Lane,PV cut-in,130,107,90,85,70,83.01894259317021,False,False,False,False,False,False,False,True,
+tom roggeman,00868.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,117,153,90,85,70,332.10272896905235,False,True,False,True,False,False,False,False,target cuts off ego
+tom roggeman,00869.mp4,near-miss,Driving in Lane,Other,87,101,90,139,61,138.3664606634298,False,False,False,True,False,False,False,False,"taget leaving parking, ego refuse to wait, has to avoid"
+tom roggeman,00872.mp4,near-miss,Driving in Lane,PV cut-in,95,99,90,139,71,100.61965527615514,False,False,True,False,False,False,False,False,
+tom roggeman,00873.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,119,120,90,161,54,178.8542371618249,False,True,False,False,False,False,False,False,target yields late
+tom roggeman,00874.mp4,near-miss,Driving in Lane,PV stopped,86,149,90,85,70,90,False,True,False,False,False,False,False,False,ego almost creeps into target
+tom roggeman,00875.mp4,near-miss,Leaving Lane,Other,62,152,90,85,70,123.69006752597979,False,True,True,False,False,False,False,False,target turns whilst ego overtakes
+tom roggeman,00876.mp4,near-miss,Driving in Lane,PV cut-in,84,155,90,104,67,119.57783868126134,False,True,False,False,False,False,False,False,
+tom roggeman,00877.mp4,near-miss,Driving in Lane,PV cut-in,133,106,90,85,70,90,False,False,False,True,False,False,False,True,ego refuse to brake
+tom roggeman,00879.mp4,near-miss,Driving in Lane,PV cut-in,89,122,118.7059525434011,117,53,132.9299693469589,False,True,False,False,False,False,False,False,ego not paying attention
+tom roggeman,00880.mp4,near-miss,Driving in Lane,PV cut-in,116,129,90,85,70,55.53918372862823,False,True,True,False,False,False,False,False,
+tom roggeman,00881.mp4,near-miss,Driving in Lane,PV cut-in,137,70,90,94,64,86.49646835521554,True,True,False,True,False,False,False,False,
+tom roggeman,00882.mp4,near-miss,Driving in Lane,PV stopped,165,120,90,85,70,90,False,True,False,False,True,False,False,False,ego almost creep into target
+tom roggeman,00883.mp4,near-miss,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,don't see anything
+tom roggeman,00884.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,95,165,90,125,83,182.6025622024998,False,True,False,False,False,False,False,False,target not stopping at stop
+tom roggeman,00885.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,124,158,90,85,70,302.9052429229879,False,True,False,False,True,False,False,False,view obstructed by PV
+tom roggeman,00887.mp4,near-miss,Driving in Lane,PV cut-in,132,126,90,85,70,55.4914770123316,False,False,False,True,False,False,False,False,
+tom roggeman,00888.mp4,near-miss,Driving in Lane,PV cut-in,85,165,90,123,106,99.24611274556325,False,False,True,False,False,False,False,False,
+tom roggeman,00889.mp4,near-miss,Driving in Lane,Other,97,107,90,153,49,8.13010235415598,False,False,False,False,False,False,False,True,target backing up into street
+tom roggeman,00890.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,95,142,90,85,70,343.73979529168804,False,True,False,False,False,False,False,False,
+tom roggeman,00891.mp4,near-miss,Driving in Lane,PV cut-in,93,145,90,125,82,104.67639313745002,False,False,True,False,False,False,False,False,
+tom roggeman,00895.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,116,160,90,85,70,291.8014094863518,False,True,False,False,False,False,False,False,
+tom roggeman,00896.mp4,near-miss,Driving in Lane,Oncoming vehicle,91,139,90,146,60,195.36161631184865,False,True,False,False,False,False,False,False,target crossing parking
+tom roggeman,00897.mp4,near-miss,Driving in Lane,PV cut-in,116,135,90,85,70,70.76932762433871,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00898.mp4,near-miss,Driving in Lane,PV cut-in,133,76,100.08059798754232,85,70,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00900.mp4,near-miss,Driving in Lane,PV braking / slower,110,118,90,120,40,169.46081627137178,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00901.mp4,near-miss,Driving in Lane,PV cut-in,126,137,90,103,59,62.447188423282206,False,False,False,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00902.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,103,142,90,85,70,40.60129464500447,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00903.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,143,97,90,85,70,56.63363399894044,False,False,False,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00904.mp4,near-miss,Leaving Lane,SV @ target lane,140,118,97.59464336859145,88,89,73.68614757373945,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00905.mp4,near-miss,Other,Add Comment,145,123,90,85,70,358.45184230102205,False,False,True,False,False,False,False,False,Target coming from the right out of parking position
+Nicolás Cutcliffe Sánchez,00906.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,117,123,78.69006752597979,82,77,64.02560603756868,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00909.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,155,79,90,85,70,0.0,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00910.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,108,131,90,132,50,58.840695491655616,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00911.mp4,near-miss,Driving in Lane,PV cut-in,62,152,90,98,89,119.74488129694222,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00912.mp4,near-miss,Driving in Lane,PV stopped,84,150,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00913.mp4,near-miss,Driving in Lane,PV cut-in,88,119,90,128,73,115.3461759419467,False,False,False,False,False,False,False,True,Hard to judge the incident with the video
+Nicolás Cutcliffe Sánchez,00914.mp4,near-miss,Driving in Lane,PV stopped,84,153,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00915.mp4,near-miss,Driving in Lane,PV braking / slower,54,138,114.34108993669251,85,70,90,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00916.mp4,near-miss,Driving in Lane,PV cut-in,96,100,90,150,94,108.43494882292202,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00917.mp4,near-miss,Driving in Lane,PV braking / slower,121,143,90,117,53,108.0041616059134,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00918.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,83,109,74.74488129694222,132,90,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00921.mp4,near-miss,Other,Add Comment,104,140,53.615648184164115,122,58,270.52085637450193,False,False,True,False,False,False,False,False,Oncoming target on ego lane
+Nicolás Cutcliffe Sánchez,00923.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,138,96,117.07208023799276,56,73,0.0,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00926.mp4,near-miss,Driving in Lane,PV cut-in,124,129,90,79,104,78.95905981967627,False,False,True,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00927.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,68,101,95.71059313749964,118,94,103.17255342332689,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00928.mp4,near-miss,Driving in Lane,PV braking / slower,121,133,90,121,53,133.45184230102205,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00929.mp4,near-miss,Straight at intersection,Other vehicle approaching from front / opposite,100,156,90,85,70,307.77568430595466,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00930.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,126,57,75.32360686254998,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00931.mp4,near-miss,Driving in Lane,PV cut-in,123,133,90,90,60,81.34745820888527,False,False,False,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00932.mp4,near-miss,Leaving Lane,Oncoming vehicle,165,120,90,85,70,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00935.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,143,34,55.71312302279104,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00936.mp4,near-miss,Driving in Lane,PV braking / slower,85,150,90,85,70,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00937.mp4,near-miss,Driving in Lane,PV cut-in,139,88,96.48307369289724,99,120,90,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00938.mp4,near-miss,Other,Add Comment,165,120,136.0809241866607,103,132,90,False,False,False,False,False,False,False,True,Truck performing a U turn
+Nicolás Cutcliffe Sánchez,00940.mp4,near-miss,Driving in Lane,PV cut-in,129,103,90,85,70,72.47443162627712,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00942.mp4,near-miss,Driving in Lane,PV cut-in,100,129,90,145,85,105.01836063115067,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00943.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,147,126,90,97,68,15.524110996754258,True,False,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00944.mp4,near-miss,Driving in Lane,PV cut-in,84,118,90,122,57,92.33730585912382,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00945.mp4,near-miss,Driving in Lane,PV cut-in,82,114,90,127,118,96.20344790169185,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00947.mp4,near-miss,Driving in Lane,PV cut-in,87,129,90,126,87,116.56505117707799,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00948.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,131,118,90,85,70,39.98688624496419,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00949.mp4,near-miss,Driving in Lane,PV cut-in,120,122,90,85,70,60.832386620422206,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00952.mp4,near-miss,Driving in Lane,PV braking / slower,83,161,90,109,67,90,False,False,True,True,False,False,False,False,Driving between lanes slow
+Nicolás Cutcliffe Sánchez,00953.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,60,147,62.049030972109826,117,149,90,True,True,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00954.mp4,near-miss,Driving in Lane,PV stopped,84,151,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00955.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,116,134,90,126,52,199.1790080258107,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00957.mp4,near-miss,Driving in Lane,PV cut-in,93,154,90,131,100,103.09189306434685,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00958.mp4,near-miss,Driving in Lane,PV cut-in,118,98,90,171,80,113.49856567595211,False,False,True,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00959.mp4,near-miss,Driving in Lane,PV cut-in,158,133,90,128,70,61.606980578617005,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00960.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,115,147,90,85,70,130.6012946450045,False,False,False,False,False,False,True,False,
+Nicolás Cutcliffe Sánchez,00961.mp4,near-miss,Driving in Lane,PV cut-in,52,126,90,106,113,108.43494882292202,False,False,True,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00963.mp4,near-miss,Driving in Lane,PV cut-in,77,133,90,110,67,128.48019824834302,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00964.mp4,near-miss,Leaving Lane,Other,109,165,105.94539590092286,108,70,110.40988283380399,False,False,False,False,True,False,False,False,Leaving the lane then encountering traffic doing the same
+Nicolás Cutcliffe Sánchez,00965.mp4,near-miss,Leaving Lane,PV @ target lane,86,108,74.74488129694222,135,94,90,True,False,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00966.mp4,near-miss,Driving in Lane,PV cut-in,104,157,90,113,79,108.8531587644191,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00967.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,79,110,47.563770211465005,152,49,179.01223960036018,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00968.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,121,131,90,85,70,16.69924423399362,False,False,True,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,00970.mp4,near-miss,Leaving Lane,PV @ target lane,68,152,80.53767779197439,85,70,90,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00971.mp4,near-miss,Leaving Lane,PV @ target lane,94,135,98.84181456019168,114,58,114.34108993669251,False,False,True,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00972.mp4,near-miss,Driving in Lane,PV cut-in,85,113,90,126,73,100.53918372862823,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00973.mp4,near-miss,Other,Add Comment,165,120,90,85,70,90,False,False,False,False,False,False,False,True,Impossible to interpret the video
+Nicolás Cutcliffe Sánchez,00976.mp4,near-miss,Turning at intersection,Other vehicle on the adjacent lane,73,110,103.76078511179124,107,62,111.41296947487176,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00977.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00978.mp4,near-miss,Straight at intersection,Other vehicle on the adjacent lane,83,129,90,128,100,109.29004621918874,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00979.mp4,near-miss,Driving in Lane,PV braking / slower,79,148,90,95,62,70.3461759419467,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00980.mp4,near-miss,Driving in Lane,PV cut-in,132,119,90,85,70,58.626994859891546,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00981.mp4,near-miss,Driving in Lane,PV cut-in,81,150,90,136,124,123.3885135761115,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00982.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,115,85,51.54629078329403,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00983.mp4,near-miss,Driving in Lane,PV cut-in,79,93,100.17551084304321,117,64,103.3245312618908,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00985.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,86,141,90,85,70,359.09061955080085,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00986.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,93,94,90,156,47,169.26110289909454,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00988.mp4,near-miss,Driving in Lane,Other,136,121,90,85,70,214.59228868750995,False,False,False,False,False,False,False,True,"U turn of target vehicle, but difficult to make a proper estimation of what happened"
+Nicolás Cutcliffe Sánchez,00989.mp4,near-miss,Driving in Lane,PV cut-in,86,117,90,149,104,111.41296947487176,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00990.mp4,near-miss,Driving in Lane,PV cut-in,81,103,90,134,93,106.69924423399362,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00991.mp4,near-miss,Straight at intersection,Other vehicle approaching from side,142,134,90,79,119,0.0,False,False,False,True,False,False,False,True,
+Nicolás Cutcliffe Sánchez,00995.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,122,140,90,85,70,132.51044707800085,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00996.mp4,near-miss,Driving in Lane,PV cut-out,121,136,90,113,37,136.43209618416466,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00997.mp4,near-miss,Driving in Lane,PV cut-in,134,135,90,85,70,30.96375653207352,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,00998.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,127,71,71.22196677755446,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01000.mp4,near-miss,Turning at intersection,Other vehicle approaching from side,91,136,90,155,50,189.323591778138,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01002.mp4,near-miss,Driving in Lane,PV cut-in,123,163,90,143,79,112.24902365721238,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01003.mp4,near-miss,Driving in Lane,PV braking / slower,85,148,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01004.mp4,near-miss,Driving in Lane,PV stopped,89,144,90,96,54,78.69006752597979,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01008.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,128,63,87.27368900609373,False,False,True,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,01011.mp4,near-miss,Turning at intersection,PV Slower / Braking / Stopped,106,143,90,129,61,69.30454926593673,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01012.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,127,51,68.19859051364818,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01013.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,125,69,77.47119229084849,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01016.mp4,near-miss,Driving in Lane,PV cut-in,102,159,90,125,74,118.14160123226173,False,False,False,True,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01019.mp4,near-miss,Driving in Lane,PV cut-in,165,120,90,85,70,90,True,False,False,False,True,False,False,False,
+Nicolás Cutcliffe Sánchez,01020.mp4,near-miss,Driving in Lane,PV cut-in,124,113,90,85,70,82.8749836510982,False,False,False,True,False,False,False,False,Semi-cutin to make the corner radius shalower
+Nicolás Cutcliffe Sánchez,01022.mp4,near-miss,Driving in Lane,PV stopped,84,145,90,85,70,90,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01024.mp4,near-miss,Driving in Lane,PV cut-in,88,155,90,110,67,111.31791227546155,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01028.mp4,near-miss,Other,Add Comment,82,151,90,85,70,90,False,False,False,False,False,False,False,True,impossible to judge
+Nicolás Cutcliffe Sánchez,01031.mp4,near-miss,Leaving Lane,SV @ target lane,165,120,90,85,70,90,True,False,False,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01033.mp4,near-miss,Driving in Lane,PV cut-in,104,149,90,142,86,106.09081634885217,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01034.mp4,near-miss,Driving in Lane,PV cut-in,93,80,90,156,87,107.5924245621816,False,False,True,False,False,False,False,False,
+Nicolás Cutcliffe Sánchez,01035.mp4,near-miss,Driving in Lane,PV stopped,80,161,90,101,68,114.44395478041653,False,False,False,False,False,False,False,True,
+Nicolás Cutcliffe Sánchez,01036.mp4,near-miss,Driving in Lane,PV braking / slower,86,153,90,85,70,90,False,False,False,True,True,False,False,False,
+Nicolás Cutcliffe Sánchez,01037.mp4,near-miss,Other,Add Comment,120,148,90,96,68,127.74680538727468,False,False,True,True,True,False,False,False,Vehicle reversing from parking space
+Nicolás Cutcliffe Sánchez,01039.mp4,near-miss,Driving in Lane,PV cut-in,94,158,90,117,82,112.24902365721238,False,False,True,False,False,False,False,False,

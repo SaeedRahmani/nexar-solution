@@ -1,0 +1,277 @@
+Video Name,L1_R1,L1_R2,L1_Match,L2_R1,L2_R2,L2_Match
+00003.mp4,Driving in Lane,Straight at intersection,False,PV braking / slower,PV Slower / Braking / Stopped,False
+00005.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00006.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00013.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Oncoming vehicle,False
+00014.mp4,Turning at intersection,Leaving Lane,False,Other vehicle approaching from front / opposite,SV @ target lane,False
+00015.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00016.mp4,Other,Driving in Lane,False,Add Comment,Other,False
+00018.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Oncoming vehicle,False
+00019.mp4,Straight at intersection,Driving in Lane,False,Other vehicle approaching from side,Oncoming vehicle,False
+00023.mp4,Other,Turning at intersection,False,Add Comment,Other vehicle approaching from side,False
+00026.mp4,Other,Driving in Lane,False,Add Comment,Other,False
+00027.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00029.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,PV cut-out,False
+00036.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Oncoming vehicle,False
+00037.mp4,Straight at intersection,Driving in Lane,False,Other vehicle approaching from front / opposite,Oncoming vehicle,False
+00039.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00041.mp4,Driving in Lane,Driving in Lane,True,Other,Oncoming vehicle,False
+00042.mp4,Turning at intersection,Straight at intersection,False,Other,Other vehicle approaching from side,False
+00046.mp4,Driving in Lane,Driving in Lane,True,Other,PV stopped,False
+00047.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Oncoming vehicle,False
+00048.mp4,Leaving Lane,Leaving Lane,True,RV @ target lane,PV @ target lane,False
+00049.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,Object,False
+00054.mp4,Leaving Lane,Leaving Lane,True,Other,PV @ target lane,False
+00063.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00064.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00071.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00072.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00076.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00077.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,PV braking / slower,False
+00078.mp4,Driving in Lane,Straight at intersection,False,PV stopped,PV Slower / Braking / Stopped,False
+00081.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00083.mp4,Driving in Lane,Driving in Lane,True,Other,PV stopped,False
+00085.mp4,Turning at intersection,Straight at intersection,False,Other vehicle on the adjacent lane,Other vehicle approaching from side,False
+00090.mp4,Driving in Lane,Straight at intersection,False,Oncoming vehicle,Other vehicle approaching from side,False
+00093.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00095.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00097.mp4,Leaving Lane,Leaving Lane,True,RV @ target lane,SV @ target lane,False
+00098.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00099.mp4,Straight at intersection,Straight at intersection,True,Other vehicle approaching from side,Other vehicle on the adjacent lane,False
+00106.mp4,Other,Turning at intersection,False,Add Comment,Other vehicle approaching from front / opposite,False
+00108.mp4,Driving in Lane,Other,False,Oncoming vehicle,Add Comment,False
+00110.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV cut-in,False
+00111.mp4,Driving in Lane,Turning at intersection,False,PV stopped,PV Slower / Braking / Stopped,False
+00114.mp4,Straight at intersection,Straight at intersection,True,Other,PV Slower / Braking / Stopped,False
+00117.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,RV @ target lane,False
+00119.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00124.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV cut-out,False
+00133.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00135.mp4,Turning at intersection,Turning at intersection,True,Other,Other vehicle on the adjacent lane,False
+00138.mp4,Driving in Lane,Turning at intersection,False,PV cut-in,Other vehicle on the adjacent lane,False
+00141.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV cut-in,False
+00142.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,PV Slower / Braking / Stopped,False
+00147.mp4,Leaving Lane,Turning at intersection,False,PV @ target lane,Other vehicle on the adjacent lane,False
+00148.mp4,Straight at intersection,Turning at intersection,False,Other,Other,True
+00152.mp4,Turning at intersection,Driving in Lane,False,Other,PV cut-in,False
+00153.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00154.mp4,Turning at intersection,Turning at intersection,True,Other vehicle approaching from front / opposite,Other vehicle approaching from side,False
+00155.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00158.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00162.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV cut-in,False
+00164.mp4,Driving in Lane,Driving in Lane,True,PV stopped,Other,False
+00167.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00169.mp4,Turning at intersection,Straight at intersection,False,Other vehicle on the adjacent lane,Other vehicle on the adjacent lane,True
+00170.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00172.mp4,Straight at intersection,Straight at intersection,True,Other vehicle approaching from front / opposite,Other vehicle approaching from side,False
+00177.mp4,Turning at intersection,Straight at intersection,False,Other vehicle approaching from side,Other vehicle approaching from side,True
+00179.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00181.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00184.mp4,Leaving Lane,Driving in Lane,False,PV @ target lane,PV cut-in,False
+00187.mp4,Other,Leaving Lane,False,Add Comment,SV @ target lane,False
+00194.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00200.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle on the adjacent lane,False
+00201.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00205.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00209.mp4,Turning at intersection,Straight at intersection,False,Other vehicle on the adjacent lane,Other,False
+00225.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00228.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00235.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00239.mp4,Turning at intersection,Straight at intersection,False,Other,Other vehicle on the adjacent lane,False
+00240.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00250.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00253.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00256.mp4,Driving in Lane,Leaving Lane,False,PV stopped,PV @ target lane,False
+00260.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00262.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00263.mp4,Turning at intersection,Straight at intersection,False,Other vehicle approaching from side,Other vehicle on the adjacent lane,False
+00265.mp4,Leaving Lane,Driving in Lane,False,PV @ target lane,PV braking / slower,False
+00269.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00276.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00282.mp4,Driving in Lane,Turning at intersection,False,PV braking / slower,PV Slower / Braking / Stopped,False
+00283.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Other,False
+00287.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,Other,False
+00288.mp4,Driving in Lane,Driving in Lane,True,PV stopped,Other,False
+00289.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00290.mp4,Driving in Lane,Turning at intersection,False,PV stopped,PV Slower / Braking / Stopped,False
+00292.mp4,Turning at intersection,Turning at intersection,True,Other vehicle approaching from side,PV Slower / Braking / Stopped,False
+00296.mp4,Driving in Lane,Turning at intersection,False,PV cut-in,Other vehicle on the adjacent lane,False
+00302.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00308.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00309.mp4,Driving in Lane,Driving in Lane,True,PV stopped,Other,False
+00318.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Oncoming vehicle,False
+00326.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,RV @ target lane,False
+00284.mp4,Driving in Lane,Straight at intersection,False,Oncoming vehicle,Other vehicle approaching from front / opposite,False
+00336.mp4,Driving in Lane,Leaving Lane,False,PV cut-in,RV @ target lane,False
+00341.mp4,Turning at intersection,Turning at intersection,True,Other vehicle on the adjacent lane,PV Slower / Braking / Stopped,False
+00342.mp4,Driving in Lane,Driving in Lane,True,PV stopped,Other,False
+00343.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00344.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00349.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00351.mp4,Driving in Lane,Other,False,PV cut-in,Add Comment,False
+00353.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,RV @ target lane,False
+00361.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00362.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00363.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00370.mp4,Straight at intersection,Leaving Lane,False,Other vehicle on the adjacent lane,PV @ target lane,False
+00372.mp4,Straight at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV braking / slower,False
+00373.mp4,Straight at intersection,Turning at intersection,False,Other vehicle on the adjacent lane,Other vehicle on the adjacent lane,True
+00376.mp4,Other,Driving in Lane,False,Add Comment,PV cut-in,False
+00378.mp4,Straight at intersection,Other,False,Other vehicle on the adjacent lane,Add Comment,False
+00380.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,PV @ target lane,False
+00381.mp4,Driving in Lane,Driving in Lane,True,Other,PV cut-in,False
+00383.mp4,Other,Driving in Lane,False,Add Comment,PV cut-in,False
+00387.mp4,Turning at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00389.mp4,Driving in Lane,Other,False,PV cut-in,Add Comment,False
+00401.mp4,Turning at intersection,Turning at intersection,True,Other vehicle on the adjacent lane,Other,False
+00405.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00414.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00415.mp4,Driving in Lane,Straight at intersection,False,PV braking / slower,PV Slower / Braking / Stopped,False
+00420.mp4,Straight at intersection,Driving in Lane,False,Other vehicle approaching from side,PV cut-in,False
+00425.mp4,Driving in Lane,Other,False,PV cut-in,Add Comment,False
+00427.mp4,Other,Driving in Lane,False,Add Comment,PV cut-in,False
+00429.mp4,Turning at intersection,Turning at intersection,True,Other vehicle approaching from side,Other vehicle on the adjacent lane,False
+00430.mp4,Turning at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV stopped,False
+00431.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00433.mp4,Turning at intersection,Straight at intersection,False,Other vehicle on the adjacent lane,Other vehicle on the adjacent lane,True
+00443.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00453.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00457.mp4,Straight at intersection,Turning at intersection,False,Other vehicle approaching from side,Other vehicle approaching from side,True
+00459.mp4,Driving in Lane,Other,False,PV stopped,Add Comment,False
+00460.mp4,Turning at intersection,Other,False,Other vehicle approaching from front / opposite,Add Comment,False
+00463.mp4,Driving in Lane,Driving in Lane,True,PV stopped,Other,False
+00466.mp4,Driving in Lane,Driving in Lane,True,Other,PV cut-in,False
+00467.mp4,Other,Leaving Lane,False,Add Comment,SV @ target lane,False
+00472.mp4,Straight at intersection,Straight at intersection,True,Other vehicle on the adjacent lane,Other,False
+00475.mp4,Straight at intersection,Driving in Lane,False,Other vehicle approaching from side,PV cut-in,False
+00477.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV cut-out,False
+00478.mp4,Straight at intersection,Driving in Lane,False,Other vehicle approaching from side,Oncoming vehicle,False
+00483.mp4,Turning at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00491.mp4,Turning at intersection,Straight at intersection,False,PV Slower / Braking / Stopped,PV Slower / Braking / Stopped,True
+00497.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00502.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00505.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00510.mp4,Driving in Lane,Leaving Lane,False,PV cut-in,Other,False
+00515.mp4,Straight at intersection,Straight at intersection,True,Other vehicle on the adjacent lane,Other vehicle approaching from side,False
+00516.mp4,Straight at intersection,Straight at intersection,True,Other vehicle on the adjacent lane,Other,False
+00519.mp4,Turning at intersection,Leaving Lane,False,Other vehicle on the adjacent lane,SV @ target lane,False
+00529.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV cut-in,False
+00533.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,PV @ target lane,False
+00538.mp4,Driving in Lane,Driving in Lane,True,PV stopped,Other,False
+00539.mp4,Leaving Lane,Straight at intersection,False,PV @ target lane,Other vehicle on the adjacent lane,False
+00541.mp4,Turning at intersection,Turning at intersection,True,Other vehicle approaching from front / opposite,Other vehicle approaching from side,False
+00546.mp4,Other,Driving in Lane,False,Add Comment,Other,False
+00551.mp4,Leaving Lane,Turning at intersection,False,Other,Other vehicle approaching from front / opposite,False
+00554.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00558.mp4,Straight at intersection,Straight at intersection,True,Other vehicle on the adjacent lane,Other vehicle approaching from side,False
+00563.mp4,Other,Driving in Lane,False,Add Comment,Other,False
+00565.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV cut-in,False
+00566.mp4,Driving in Lane,Turning at intersection,False,PV cut-in,Other,False
+00568.mp4,Straight at intersection,Leaving Lane,False,Other vehicle on the adjacent lane,SV @ target lane,False
+00571.mp4,Turning at intersection,Leaving Lane,False,Other vehicle on the adjacent lane,PV @ target lane,False
+00581.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00584.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,PV @ target lane,False
+00589.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00591.mp4,Turning at intersection,Leaving Lane,False,Other vehicle approaching from side,PV @ target lane,False
+00592.mp4,Turning at intersection,Leaving Lane,False,Other vehicle on the adjacent lane,SV @ target lane,False
+00593.mp4,Straight at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV cut-out,False
+00594.mp4,Straight at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV stopped,False
+00597.mp4,Driving in Lane,Other,False,PV braking / slower,Add Comment,False
+00598.mp4,Leaving Lane,Leaving Lane,True,Other,SV @ target lane,False
+00604.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00606.mp4,Driving in Lane,Other,False,Other,Add Comment,False
+00609.mp4,Straight at intersection,Driving in Lane,False,Other vehicle approaching from side,Oncoming vehicle,False
+00611.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00614.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00621.mp4,Driving in Lane,Turning at intersection,False,PV stopped,Other,False
+00623.mp4,Turning at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,Other,False
+00626.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,Oncoming vehicle,False
+00627.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Other,False
+00630.mp4,Turning at intersection,Turning at intersection,True,Other vehicle on the adjacent lane,PV Slower / Braking / Stopped,False
+00635.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,RV @ target lane,False
+00636.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00638.mp4,Other,Straight at intersection,False,Add Comment,Other vehicle approaching from front / opposite,False
+00643.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00645.mp4,Driving in Lane,Driving in Lane,True,PV cut-out,PV braking / slower,False
+00648.mp4,Driving in Lane,Leaving Lane,False,PV cut-in,PV @ target lane,False
+00650.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00651.mp4,Driving in Lane,Straight at intersection,False,PV braking / slower,PV Slower / Braking / Stopped,False
+00652.mp4,Driving in Lane,Leaving Lane,False,PV cut-in,SV @ target lane,False
+00656.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00659.mp4,Driving in Lane,Straight at intersection,False,Oncoming vehicle,Other vehicle approaching from side,False
+00661.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00666.mp4,Driving in Lane,Leaving Lane,False,Other,Object,False
+00667.mp4,Driving in Lane,Leaving Lane,False,PV cut-in,SV @ target lane,False
+00670.mp4,Driving in Lane,Leaving Lane,False,PV cut-in,SV @ target lane,False
+00671.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00674.mp4,Other,Driving in Lane,False,Add Comment,PV braking / slower,False
+00678.mp4,Other,Driving in Lane,False,Add Comment,Other,False
+00682.mp4,Turning at intersection,Straight at intersection,False,Other vehicle on the adjacent lane,Other vehicle approaching from side,False
+00697.mp4,Leaving Lane,Leaving Lane,True,RV @ target lane,SV @ target lane,False
+00702.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00710.mp4,Driving in Lane,Straight at intersection,False,PV stopped,PV Slower / Braking / Stopped,False
+00715.mp4,Other,Straight at intersection,False,Add Comment,Other vehicle approaching from side,False
+00723.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00729.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00733.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV cut-in,False
+00734.mp4,Driving in Lane,Leaving Lane,False,PV braking / slower,PV @ target lane,False
+00742.mp4,Turning at intersection,Straight at intersection,False,Other vehicle approaching from front / opposite,Other vehicle approaching from front / opposite,True
+00769.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00783.mp4,Straight at intersection,Straight at intersection,True,Other vehicle approaching from front / opposite,Other vehicle approaching from side,False
+00788.mp4,Driving in Lane,Driving in Lane,True,Other,Oncoming vehicle,False
+00789.mp4,Driving in Lane,Driving in Lane,True,Other,Oncoming vehicle,False
+00794.mp4,Driving in Lane,Other,False,PV cut-in,Add Comment,False
+00798.mp4,Straight at intersection,Straight at intersection,True,Other vehicle on the adjacent lane,Other vehicle approaching from side,False
+00805.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV cut-out,False
+00817.mp4,Driving in Lane,Driving in Lane,True,PV braking / slower,PV stopped,False
+00818.mp4,Straight at intersection,Straight at intersection,True,Other vehicle on the adjacent lane,Other vehicle approaching from side,False
+00819.mp4,Driving in Lane,Leaving Lane,False,PV stopped,PV @ target lane,False
+00820.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00822.mp4,Straight at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV stopped,False
+00824.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00835.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Oncoming vehicle,False
+00839.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,PV @ target lane,False
+00843.mp4,Turning at intersection,Leaving Lane,False,Other vehicle on the adjacent lane,PV @ target lane,False
+00845.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00847.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00850.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Other,False
+00858.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00860.mp4,Driving in Lane,Leaving Lane,False,PV braking / slower,Other,False
+00864.mp4,Straight at intersection,Leaving Lane,False,Other vehicle approaching from side,Other,False
+00865.mp4,Driving in Lane,Driving in Lane,True,Other,PV cut-out,False
+00866.mp4,Driving in Lane,Leaving Lane,False,PV cut-in,Other,False
+00868.mp4,Straight at intersection,Straight at intersection,True,Other vehicle approaching from front / opposite,Other vehicle approaching from side,False
+00869.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Other,False
+00875.mp4,Straight at intersection,Leaving Lane,False,Other vehicle on the adjacent lane,Other,False
+00883.mp4,Driving in Lane,Other,False,PV braking / slower,Add Comment,False
+00889.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,Other,False
+00896.mp4,Other,Driving in Lane,False,Add Comment,Oncoming vehicle,False
+00897.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00900.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV braking / slower,False
+00904.mp4,Leaving Lane,Leaving Lane,True,PV @ target lane,SV @ target lane,False
+00911.mp4,Other,Driving in Lane,False,Add Comment,PV cut-in,False
+00913.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00917.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+00921.mp4,Turning at intersection,Other,False,Other vehicle approaching from side,Add Comment,False
+00930.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+00932.mp4,Straight at intersection,Leaving Lane,False,Other vehicle approaching from front / opposite,Oncoming vehicle,False
+00952.mp4,Driving in Lane,Driving in Lane,True,PV cut-in,PV braking / slower,False
+00953.mp4,Straight at intersection,Turning at intersection,False,Other vehicle approaching from side,Other vehicle on the adjacent lane,False
+00954.mp4,Straight at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV stopped,False
+00961.mp4,Turning at intersection,Driving in Lane,False,Other vehicle approaching from front / opposite,PV cut-in,False
+00964.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,Other,False
+00965.mp4,Turning at intersection,Leaving Lane,False,Other vehicle approaching from side,PV @ target lane,False
+00970.mp4,Leaving Lane,Leaving Lane,True,SV @ target lane,PV @ target lane,False
+00979.mp4,Turning at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV braking / slower,False
+00988.mp4,Driving in Lane,Driving in Lane,True,PV cut-out,Other,False
+00991.mp4,Driving in Lane,Straight at intersection,False,PV cut-in,Other vehicle approaching from side,False
+00998.mp4,Leaving Lane,Driving in Lane,False,PV @ target lane,PV cut-in,False
+01000.mp4,Straight at intersection,Turning at intersection,False,Other vehicle approaching from side,Other vehicle approaching from side,True
+01003.mp4,Driving in Lane,Driving in Lane,True,PV stopped,PV braking / slower,False
+01004.mp4,Straight at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV stopped,False
+01016.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+01020.mp4,Straight at intersection,Driving in Lane,False,Other vehicle on the adjacent lane,PV cut-in,False
+01031.mp4,Other,Leaving Lane,False,Add Comment,SV @ target lane,False
+01035.mp4,Leaving Lane,Driving in Lane,False,PV @ target lane,PV stopped,False
+01036.mp4,Straight at intersection,Driving in Lane,False,PV Slower / Braking / Stopped,PV braking / slower,False
+01037.mp4,Driving in Lane,Other,False,Oncoming vehicle,Add Comment,False
