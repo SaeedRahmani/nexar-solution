@@ -1,0 +1,15 @@
+======================================================================
+CORRECT PREDICTIONS ANALYSIS - VISIBLE ONLY SUBSET
+(Excluding videos where 'Target not visible' is True)
+======================================================================
+
+Total correct predictions: 688
+  True Positives (TP): 688
+  True Negatives (TN): 0
+
+Time Difference Statistics (TP only):
+  Mean: 1.666s
+  Median: 1.470s
+  Std: 0.852s
+  Min: 0.033s
+  Max: 4.466s

@@ -6,16 +6,19 @@ This script runs:
 2. analyze_wrong_predictions.py - Analyze false negatives and false positives
 3. analyze_correct_predictions.py - Analyze true positives and true negatives
 4. comparative_analysis.py - Compare wrong vs correct predictions
+5. time_diff_comparison_with_ratio.py - Time difference comparison with ratio line
+6. scenario_distribution_analysis.py - Scenario distribution and performance analysis
 
 Usage:
     python prediction_analysis/scripts/run_all_analyses.py
 
 Output structure:
     prediction_analysis/
-    ├── scripts/               - Analysis scripts
-    ├── wrong_predictions/     - Wrong prediction data and visualizations
-    ├── correct_predictions/   - Correct prediction data and visualizations
-    └── comparative_analysis/  - Comparative visualizations and statistics
+    ├── scripts/                   - Analysis scripts
+    ├── wrong_predictions/         - Wrong prediction data and visualizations
+    ├── correct_predictions/       - Correct prediction data and visualizations
+    ├── comparative_analysis/      - Comparative visualizations and statistics
+    └── scenario_distribution/     - Scenario distribution and performance analysis
 """
 
 import os
@@ -56,6 +59,7 @@ def main():
         ("analyze_correct_predictions.py", "Analyze correct predictions (TP, TN)"),
         ("comparative_analysis.py", "Compare wrong vs correct predictions"),
         ("time_diff_comparison_with_ratio.py", "Time difference comparison with ratio line"),
+        ("scenario_distribution_analysis.py", "Scenario distribution and performance analysis"),
     ]
     
     results = {}
@@ -119,6 +123,20 @@ prediction_analysis/
     ├── time_diff_comparison_violin.png/pdf
     ├── confidence_comparison.png/pdf
     └── statistical_comparison.txt
+└── scenario_distribution/
+    ├── dataset_distribution_level1.png/pdf      (scenario counts & pie chart)
+    ├── dataset_distribution_level2.png/pdf
+    ├── prediction_outcomes_level1.png/pdf       (TP/TN/FP/FN per scenario)
+    ├── prediction_outcomes_level2.png/pdf
+    ├── error_rate_level1.png/pdf                (error rate per scenario)
+    ├── error_rate_level2.png/pdf
+    ├── representation_comparison_level1.png/pdf (dataset vs errors)
+    ├── representation_comparison_level2.png/pdf
+    ├── scenario_heatmap_level1.png/pdf          (outcome × scenario matrix)
+    ├── scenario_heatmap_level2.png/pdf
+    ├── false_negatives_level1.png/pdf           (⚠️ missed accidents analysis)
+    ├── false_negatives_level2.png/pdf
+    └── scenario_statistics.txt
 """)
 
 

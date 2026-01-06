@@ -1,0 +1,60 @@
+================================================================================
+ACCURACY BY SCENARIO REPORT - VISIBLE ONLY - ALL
+(Excluding videos where 'Target not visible' is True in ANY round)
+================================================================================
+
+OVERALL METRICS
+----------------------------------------
+Total videos: 624
+Accuracy: 97.60%
+
+Confusion Matrix:
+  TN=0, FP=0
+  FN=15, TP=609
+
+Classification Report:
+              precision    recall  f1-score   support
+
+ No Accident       0.00      0.00      0.00         0
+    Accident       1.00      0.98      0.99       624
+
+    accuracy                           0.98       624
+   macro avg       0.50      0.49      0.49       624
+weighted avg       1.00      0.98      0.99       624
+
+================================================================================
+LEVEL 1 SCENARIO BREAKDOWN
+================================================================================
+
+Scenario                          Total     Acc%     TP     TN     FP     FN
+--------------------------------------------------------------------------------
+Leaving Lane                         34   100.0%     34      0      0      0
+Turning at intersection              70   100.0%     70      0      0      0
+Straight at intersection            117    97.4%    114      0      0      3
+Driving in Lane                     385    97.1%    374      0      0     11
+Other                                18    94.4%     17      0      0      1
+
+================================================================================
+LEVEL 2 SCENARIO BREAKDOWN
+================================================================================
+
+Scenario                                    Total     Acc%     TP     TN     FP     FN
+------------------------------------------------------------------------------------------
+Object                                          1   100.0%      1      0      0      0
+Other vehicle approaching from front / o       30   100.0%     30      0      0      0
+Other vehicle on the adjacent lane             38   100.0%     38      0      0      0
+PV @ target lane                               18   100.0%     18      0      0      0
+PV Slower / Braking / Stopped                  44   100.0%     44      0      0      0
+PV cut-out                                      2   100.0%      2      0      0      0
+PV stopped                                     88   100.0%     88      0      0      0
+SV @ target lane                               13   100.0%     13      0      0      0
+PV braking / slower                            80    98.8%     79      0      0      1
+Other vehicle approaching from side            72    97.2%     70      0      0      2
+PV cut-in                                     198    95.5%    189      0      0      9
+Add Comment                                    18    94.4%     17      0      0      1
+Other                                          18    94.4%     17      0      0      1
+Oncoming vehicle                                4    75.0%      3      0      0      1
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,27 @@
+======================================================================
+STATISTICAL COMPARISON - VISIBLE ONLY SUBSET
+(Excluding videos where 'Target not visible' is True)
+======================================================================
+
+TIME DIFFERENCE COMPARISON (Accidents only: FN vs TP)
+--------------------------------------------------
+
+Wrong Predictions (FN - Missed Accidents):
+  n = 22
+  Mean: 1.166s
+  Median: 1.133s
+  Std: 0.657s
+
+Correct Predictions (TP - Detected Accidents):
+  n = 688
+  Mean: 1.666s
+  Median: 1.470s
+  Std: 0.852s
+
+Statistical Test (Mann-Whitney U):
+  U-statistic: 5049.00
+  p-value: 0.0078
+  Significant (p < 0.05): Yes
+
+Effect Size (Cohen's d): -0.590
+  Interpretation: medium
