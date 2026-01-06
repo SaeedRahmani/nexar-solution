@@ -55,6 +55,7 @@ def main():
         ("analyze_wrong_predictions.py", "Analyze wrong predictions (FN, FP)"),
         ("analyze_correct_predictions.py", "Analyze correct predictions (TP, TN)"),
         ("comparative_analysis.py", "Compare wrong vs correct predictions"),
+        ("time_diff_comparison_with_ratio.py", "Time difference comparison with ratio line"),
     ]
     
     results = {}
@@ -89,7 +90,8 @@ prediction_analysis/
 │   ├── extract_predictions.py    
 │   ├── analyze_wrong_predictions.py
 │   ├── analyze_correct_predictions.py
-│   └── comparative_analysis.py
+│   ├── comparative_analysis.py
+│   └── time_diff_comparison_with_ratio.py  (with ratio line)
 ├── wrong_predictions/
 │   ├── false_negatives.csv       (⚠️ CRITICAL - missed accidents)
 │   ├── false_positives.csv       (false alarms)
@@ -105,6 +107,13 @@ prediction_analysis/
 │   ├── prediction_confidence_analysis.png/pdf
 │   └── summary_statistics.txt
 └── comparative_analysis/
+    ├── comparison_overlapping_histograms.png/pdf  (⭐ with ratio line)
+    ├── comparison_overlapping_histograms_normalized.png/pdf
+    ├── comparison_histograms.png/pdf
+    ├── comparison_combined_boxplot.png/pdf
+    ├── comparison_scatter_plots.png/pdf
+    ├── comparison_violin_plot.png/pdf
+    ├── correct_predictions_analysis.png/pdf
     ├── time_diff_comparison_histograms.png/pdf
     ├── time_diff_comparison_boxplots.png/pdf
     ├── time_diff_comparison_violin.png/pdf
