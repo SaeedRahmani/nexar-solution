@@ -21,3 +21,4 @@ balanced_dataset_2s_focal/*
 balanced_dataset_3s/*
 best_videomaev2_large_focal.pth
 test_results_focal.json
+wrong_predictions/comparison_analysis/*

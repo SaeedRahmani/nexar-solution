@@ -1,0 +1,53 @@
+======================================================================
+STATISTICAL COMPARISON ANALYSIS
+======================================================================
+
+----------------------------------------------------------------------
+TIME DIFFERENCE COMPARISON
+(False Negatives vs True Positives)
+----------------------------------------------------------------------
+
+False Negatives (Missed Accidents):
+  n = 24
+  Mean = 1.087s
+  Std = 0.683s
+  Median = 1.067s
+
+True Positives (Detected Accidents):
+  n = 726
+  Mean = 1.617s
+  Std = 0.867s
+  Median = 1.436s
+
+Mann-Whitney U Test (non-parametric):
+  U-statistic: 5662.0000
+  P-value: 0.003497
+  Significant (p<0.05): Yes
+
+Effect Size (Cohen's d): -0.6797
+  Interpretation: Medium
+
+----------------------------------------------------------------------
+INTERPRETATION
+----------------------------------------------------------------------
+
+Mean time difference:
+  Missed accidents: 1.087s
+  Detected accidents: 1.617s
+  Difference: 0.530s
+
+⚠️  SIGNIFICANT FINDING:
+    Missed accidents have SHORTER time gaps (event closer to alert).
+    This suggests the model struggles with last-moment events.
+
+----------------------------------------------------------------------
+CONFIDENCE COMPARISON
+----------------------------------------------------------------------
+
+Mean prediction probability by category:
+  False Negatives: 0.2446 (lower = more confident wrong)
+  False Positives: 0.7983 (higher = more confident wrong)
+  True Positives:  0.9664
+  True Negatives:  0.1112
+
+======================================================================

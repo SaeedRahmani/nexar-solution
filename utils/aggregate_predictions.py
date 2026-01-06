@@ -22,7 +22,7 @@ class PredictionAggregator:
     def __init__(self, 
                  metadata_path='balanced_dataset_2s/metadata.csv',
                  original_labels_path='dataset/train.csv',
-                 output_dir='aggregated_results'):
+                 output_dir='video_predictions'):
         """
         Initialize the aggregator.
         
@@ -394,7 +394,7 @@ def example_usage():
     aggregator = PredictionAggregator(
         metadata_path='balanced_dataset_2s/metadata.csv',
         original_labels_path='dataset/train.csv',
-        output_dir='aggregated_results'
+        output_dir='video_predictions'
     )
     
     # Example: Create dummy predictions (replace with your actual predictions)
@@ -443,7 +443,7 @@ def example_usage():
             aggregator.plot_comparison(agg_df)
     
     print("\n" + "="*70)
-    print("Done! Check the 'aggregated_results' directory for outputs.")
+    print("Done! Check the 'video_predictions' directory for outputs.")
     print("="*70)
 
 
